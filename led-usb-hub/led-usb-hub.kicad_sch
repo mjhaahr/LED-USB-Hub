@@ -2896,7 +2896,7 @@
     (property "Value" "SW_Push" (at 250.19 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085" (at 250.19 111.76 0)
+    (property "Footprint" "" (at 250.19 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.19 111.76 0)
