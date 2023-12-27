@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "TUSB2046")(type "KiCad")(uri "${KIPRJMOD}/Parts/TUSB2046.kicad_sym")(options "")(descr ""))
   (lib (name "TPS563257")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPS563257.kicad_sym")(options "")(descr ""))
-  (lib (name "ESB122")(type "KiCad")(uri "${KIPRJMOD}/Parts/ESB122.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDS312")(type "KiCad")(uri "${KIPRJMOD}/Parts/ESDS312.kicad_sym")(options "")(descr ""))
 )
