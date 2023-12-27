@@ -3034,14 +3034,6 @@
     (uuid ffea22d8-ac85-4be5-a35e-d61e8291c378)
   )
 
-  (text_box "TODO: BUSPWR Jumper (GND for Self PWR, 3.3V for BUS PWR)"
-    (at 204.47 82.55 0) (size 21.59 8.89)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 23a98519-4c9c-410b-bd8d-77bf87f4a62d)
-  )
-
   (text "USB 2" (at 64.77 83.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1eaa8cd2-feae-449a-88d1-b3dacfb2c307)
