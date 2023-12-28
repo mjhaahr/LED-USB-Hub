@@ -29,4 +29,6 @@ Features:
 - Inductors (**TODO**)
 - Crystals (**TODO**)
 
+## Part Sel (WeBench and Crystal Calc)
+
 ## CircuitPython Things
