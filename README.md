@@ -29,4 +29,8 @@ Features:
 - Inductors (**TODO**)
 - Crystals (**TODO**)
 
+## Part Sel (WeBench and Crystal Calc)
+
+[Thanks ST](https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf)
+
 ## CircuitPython Things
