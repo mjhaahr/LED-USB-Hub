@@ -14,7 +14,7 @@ Features:
 
 ## Full Parts List
 - 1x Raspberry Pi RP2040: [Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf), [HW Design Guide](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)
-- 1x FlashChip (**TODO**)
+- 1x Winbond W25Q16JVSNIQ TR: [Datasheet](https://www.mouser.com/datasheet/2/949/w25q16jv_spi_revg_03222018_plus-1489727.pdf)
 - 1x TI TUSB2046 USB Controller: [Datasheet](https://www.ti.com/lit/ds/symlink/tusb2046i.pdf)
 - 2x TI TPS2042 USB Power Switch: [Datasheet](https://www.ti.com/lit/ds/symlink/tps2042b.pdf)
 - 4x TI ESDS312 USB ESD/TVS Diodes: [Datasheet](https://www.ti.com/lit/ds/symlink/esds312.pdf)
