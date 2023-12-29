@@ -23,17 +23,18 @@ Features:
 - 3x Tensility 54-00266 RGB USB 2.0 Type A Port: [Datasheet](http://www.tensility.com/pdffiles/54-00266.pdf)
 - 1x GCT USB4085 USB 2.0 Type C Port:[Datasheet](https://gct.co/files/drawings/usb4085.pdf)
 - 3x C&K KSS221GLFS Push Buttons: [Datasheet](https://www.ckswitches.com/media/1463/kss.pdf)
-- LEDs:
-  - (**TODO**)
-- Assorted Capacitors:
-  - (**TODO**)
-- Assorted Resistors:
-  - (**TODO**)
-- Inductors:
-  - (**TODO**)
 - Crystals:
   - 1x Würth Elektronik 830016788 6MHz Crystal (USB Hub Controller): [Datasheet](https://www.we-online.com/components/products/datasheet/830016788.pdf)
   - 1x Würth Elektronik 830003210 12MHz Crystal (RP2040 External Osc): [Datasheet](https://www.we-online.com/components/products/datasheet/830003210.pdf)
+- LEDs:
+  - 1x LTST-S270KFKT Orange LED 2V: [Datasheet](https://optoelectronics.liteon.com/upload/download/DS22-2000-209/LTST-S270KFKT.pdf)
+  - 1x LTST-S270KGKT Green LED 2V: [Datasheet](https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf)
+- Capacitors:
+  - (**TODO**)
+- Resistors:
+  - (**TODO**)
+- Inductors:
+  - (**TODO**)
 
 ## Part Selection
 - Power Supply selected using TI Webench Power Designer:
