@@ -6460,7 +6460,7 @@
       (net 2 "Earth") (pinfunction "Pin_2") (pintype "passive") (tstamp e9a86f71-cc28-46ee-9984-de5df5a83450))
     (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 49 "Net-(J5-Pin_3)") (pinfunction "Pin_3") (pintype "passive") (tstamp 51e6b6f4-d91c-4e34-840b-83862df6ad09))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
