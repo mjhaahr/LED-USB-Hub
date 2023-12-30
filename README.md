@@ -13,7 +13,7 @@ Features:
   - V2 will switch to a more full-featured USB Hub Controller and more closely comply with the USB Spec
 - Possibly exposed connectors for more features externally or internally (i.e. leaving a cutout in the board with room for expansion)
 
-**TODO: Embed image of Schematic**
+![Schematic](images/schematic.svg)
 
 ## Full Bill of Materials
 - 1x Raspberry Pi RP2040: [Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf), [HW Design Guide](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)
@@ -63,8 +63,8 @@ Features:
 - Power Supply selected using TI Webench Power Designer:
   - DC-DC: 5V In, 3.3V @ 0.5A (min) Out
   - High-Efficiency
-  - [Design](https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=E20EF4E51E15D568)
-  - **TODO: Embed image**
+  ![Power Supply Design](images/power-supply.svg)
+  - [Webench Page](https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=E20EF4E51E15D568)
 - Crystals supporting passives selected following the calculations in [this guide](https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf) published by ST
   - `CL = 2 * (C_Load - C_Stray)`
   - `R_Ext = 1 / (2 * π * F * CL)`
