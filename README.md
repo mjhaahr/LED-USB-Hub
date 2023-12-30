@@ -38,7 +38,7 @@ Features:
   - 12x 22pF Ceramic
   - 2x 50pF Ceramic
   - 2x 56pF Ceramic
-  - 21x 0.1µF Ceramic
+  - 25x 0.1µF Ceramic
   - 4x 1µF Ceramic
   - 5x 10µF Ceramic
   - 2x 22µF Ceramic
