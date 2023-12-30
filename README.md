@@ -34,7 +34,6 @@ Features:
   - 1x LTST-S270KGKT Green LED 2V: [Datasheet](https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf)
 - Capacitors:
   - *All Packages are 0603 unless otherwise noted*
-  - **TODO: FIGURE OUT VOLTAGES**
   - 12x 22pF Ceramic
   - 2x 50pF Ceramic
   - 2x 56pF Ceramic
@@ -45,13 +44,13 @@ Features:
   - 3x 100µF Tantalum - *EIA-3528-21-AVX Package*
 - Resistors:
   - *All Packages are 0603 unless otherwise noted*
-  - **TODO: FIGURE OUT Power Ratings (likely will just be 1/4W, but will end up with a few 1/8)**
   - 6x 14Ω
   - 12x 27Ω
   - 5x 80Ω
   - 1x 530Ω
-  - 1x 600Ω
+  - 1x 604Ω
   - 1x 1kΩ
+  - 1x 1.5kΩ
   - 2x 5.1kΩ
   - 11x 10kΩ
   - 8x 15kΩ
