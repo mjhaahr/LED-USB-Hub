@@ -42,7 +42,7 @@ Features:
   - 4x 1µF Ceramic
   - 5x 10µF Ceramic
   - 2x 22µF Ceramic
-  - 3x 100µF Tantalum
+  - 3x 100µF Tantalum - *EIA-3528-21-AVX Package*
 - Resistors:
   - *All Packages are 0603 unless otherwise noted*
   - **TODO: FIGURE OUT Power Ratings (likely will just be 1/4W, but will end up with a few 1/8)**
@@ -58,7 +58,7 @@ Features:
   - 2x 32kΩ
   - 2x 45.3kΩ
   - 2x 100kΩ
-- 2x 2.2uH Inductor - **TODO: PACKAGE**
+- 2x 2.2uH Inductor - *1210 Package*
 
 ## Part Selection
 - Power Supply selected using TI Webench Power Designer:
