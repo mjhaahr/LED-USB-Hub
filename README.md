@@ -13,7 +13,7 @@ Features:
   - V2 will switch to a more full-featured USB Hub Controller and more closely comply with the USB Spec
 - Possibly exposed connectors for more features externally or internally (i.e. leaving a cutout in the board with room for expansion)
 
-![Schematic](images/schematic.svg)
+![Schematic](images/led-usb-hub.svg)
 
 ## Full Bill of Materials
 - 1x Raspberry Pi RP2040: [Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf), [HW Design Guide](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)
@@ -37,7 +37,7 @@ Features:
   - 12x 22pF Ceramic
   - 2x 50pF Ceramic
   - 2x 56pF Ceramic
-  - 21x 0.1µF Ceramic
+  - 25x 0.1µF Ceramic
   - 4x 1µF Ceramic
   - 5x 10µF Ceramic
   - 2x 22µF Ceramic
