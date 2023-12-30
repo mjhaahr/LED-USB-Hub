@@ -4661,7 +4661,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 320383a4-7207-4d68-b035-603e45a54f5a)
   )
-  (text "CL = 2 * (C_Load - C_Stray)\nCL = 2 * (16 - ~5)\nCL ~= 22pF\n\nR_Ext = 1 / (2*π*F*CL)\nR_Ext = 600 "
+  (text "CL = 2 * (C_Load - C_Stray)\nCL = 2 * (16 - ~5)\nCL ~= 22pF\n\nR_Ext = 1 / (2*π*F*CL)\nR_Ext = 604"
     (at 209.55 247.65 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 52845a8b-d4dd-4970-a50a-252ecdb5e3cc)
@@ -8567,7 +8567,7 @@
     (property "Reference" "R47" (at 238.76 243.84 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "600" (at 238.76 248.92 90)
+    (property "Value" "604" (at 238.76 248.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 239.014 245.364 90)
