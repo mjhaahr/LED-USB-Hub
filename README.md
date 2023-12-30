@@ -16,13 +16,14 @@ Features:
 ![Schematic](images/schematic.svg)
 
 ## Full Bill of Materials
+**[Digi-Key Cart with all components](https://www.digikey.com/short/4rfrj37h)**
 - 1x Raspberry Pi RP2040: [Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf), [HW Design Guide](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)
-- 1x Winbond W25Q16JVSNIQ QSPI Flash: [Datasheet](https://www.mouser.com/datasheet/2/949/w25q16jv_spi_revg_03222018_plus-1489727.pdf)
+- 1x Winbond W25Q16JVSNIQ QSPI Flash: [Datasheet](https://docs.rs-online.com/19e0/0900766b81622f8b.pdf)
 - 1x TI TUSB2046 USB Controller: [Datasheet](https://www.ti.com/lit/ds/symlink/tusb2046i.pdf)
 - 2x TI TPS2042 USB Power Switch: [Datasheet](https://www.ti.com/lit/ds/symlink/tps2042b.pdf)
 - 4x TI ESDS312 USB ESD/TVS Diodes: [Datasheet](https://www.ti.com/lit/ds/symlink/esds312.pdf)
 - 2x TI TPS56325 High-Efficiency Buck Converter: [Datasheet](https://www.ti.com/lit/ds/symlink/tps563252.pdf)
-- 1x Microchip TC54VN3002 3V Supervisor Circuit [Datasheet](https://www.mouser.com/datasheet/2/268/21434g-1180084.pdf)
+- 1x Microchip TC54VN3002 3V Supervisor Circuit [Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/20001434K.pdf)
 - 3x Tensility 54-00266 RGB USB 2.0 Type A Port: [Datasheet](http://www.tensility.com/pdffiles/54-00266.pdf)
 - 1x GCT USB4085 USB 2.0 Type C Port:[Datasheet](https://gct.co/files/drawings/usb4085.pdf)
 - 3x C&K KSS221GLFS Push Buttons: [Datasheet](https://www.ckswitches.com/media/1463/kss.pdf)
