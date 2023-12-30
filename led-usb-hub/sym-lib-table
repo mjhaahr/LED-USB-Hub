@@ -2,7 +2,7 @@
   (version 7)
   (lib (name "TUSB2046")(type "KiCad")(uri "${KIPRJMOD}/Parts/TUSB2046.kicad_sym")(options "")(descr ""))
   (lib (name "TPS563257")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPS563257.kicad_sym")(options "")(descr ""))
-  (lib (name "ESDS312")(type "KiCad")(uri "${KIPRJMOD}/Parts/ESDS312.kicad_sym")(options "")(descr ""))
   (lib (name "TC54VN")(type "KiCad")(uri "${KIPRJMOD}/Parts/TC54VN.kicad_sym")(options "")(descr ""))
   (lib (name "RGB_USB_PORT")(type "KiCad")(uri "${KIPRJMOD}/Parts/54-00266 RGB-USB Port/54-00266.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD2EUSB30DRTR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPD2EUSB30DRTR/TPD2EUSB30DRTR.kicad_sym")(options "")(descr ""))
 )
