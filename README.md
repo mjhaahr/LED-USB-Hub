@@ -1,16 +1,19 @@
 # 3-Port USB Hub with Integrated Microcontroller and RGB USB-A ports
 
-V1 uses the SL2.1a USB Hub
-V2 will switch to a more full-featured USB Hub Controller and more closely comply with the USB Spec
+**TODO: Embed image of PCB Design**
 
 Features:
-- 3x RGB LED USB (USB A, 2.0 Speed) ports
+- 3x RGB LED USB (USB A, Full Speed) ports
 - 1x USB C Port (downstream)
-- 1x RP 2040
+- 1x RP 2040 to control the LEDs
   - V1 used an Adafruit KB2040
   - V2 will switch to a standalone RP2040 implementation
+- USB Hub Controller:
+  - V1 uses the SL2.1a USB Hub
+  - V2 will switch to a more full-featured USB Hub Controller and more closely comply with the USB Spec
 - Possibly exposed connectors for more features externally or internally (i.e. leaving a cutout in the board with room for expansion)
 
+**TODO: Embed image of Schematic**
 
 ## Full Bill of Materials
 - 1x Raspberry Pi RP2040: [Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf), [HW Design Guide](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)
@@ -30,17 +33,39 @@ Features:
   - 1x LTST-S270KFKT Orange LED 2V: [Datasheet](https://optoelectronics.liteon.com/upload/download/DS22-2000-209/LTST-S270KFKT.pdf)
   - 1x LTST-S270KGKT Green LED 2V: [Datasheet](https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf)
 - Capacitors:
-  - (**TODO**)
+  - *All Packages are 0603 unless otherwise noted*
+  - **TODO: FIGURE OUT VOLTAGES**
+  - 12x 22pF Ceramic
+  - 2x 50pF Ceramic
+  - 2x 56pF Ceramic
+  - 21x 0.1µF Ceramic
+  - 4x 1µF Ceramic
+  - 5x 10µF Ceramic
+  - 2x 22µF Ceramic
+  - 3x 100µF Tantalum
 - Resistors:
-  - (**TODO**)
-- Inductors:
-  - (**TODO**)
+  - *All Packages are 0603 unless otherwise noted*
+  - **TODO: FIGURE OUT Power Ratings (likely will just be 1/4W, but will end up with a few 1/8)**
+  - 6x 14Ω
+  - 12x 27Ω
+  - 5x 80Ω
+  - 1x 530Ω
+  - 1x 600Ω
+  - 1x 1kΩ
+  - 2x 5.1kΩ
+  - 11x 10kΩ
+  - 8x 15kΩ
+  - 2x 32kΩ
+  - 2x 45.3kΩ
+  - 2x 100kΩ
+- 2x 2.2uH Inductor - **TODO: PACKAGE**
 
 ## Part Selection
 - Power Supply selected using TI Webench Power Designer:
   - DC-DC: 5V In, 3.3V @ 0.5A (min) Out
   - High-Efficiency
   - [Design](https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=E20EF4E51E15D568)
+  - **TODO: Embed image**
 - Crystals supporting passives selected following the calculations in [this guide](https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf) published by ST
   - `CL = 2 * (C_Load - C_Stray)`
   - `R_Ext = 1 / (2 * π * F * CL)`
