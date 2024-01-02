@@ -1,7 +1,7 @@
 # 3-Port USB Hub with Integrated Microcontroller and RGB USB-A ports
 
-**TODO: Embed image of PCB Design**
-
+![Full Board Design Render](images/render.png)
+ 
 Features:
 - 3x RGB LED USB (USB A, Full Speed) ports
 - 1x USB C Port (downstream)
