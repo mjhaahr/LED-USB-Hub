@@ -4639,14 +4639,6 @@
     (uuid ffd886ec-4c75-4c0e-b704-5c4532529e38)
   )
 
-  (text_box "TODO: add mounting holes"
-    (at 167.64 119.38 0) (size 13.97 7.62)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 0 194 194 0.42))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid f70e9e9d-bc6c-4d41-9b42-16a961a07d32)
-  )
-
   (text "USB 2\n" (at 92.71 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09b9bd33-a36c-4153-8fed-b68530a0b25d)
