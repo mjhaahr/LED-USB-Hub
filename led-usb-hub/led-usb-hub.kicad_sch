@@ -9808,9 +9808,9 @@
     (property "Datasheet" "TPD2EUSB30DRTR" (at 207.01 41.91 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "3" (uuid 6782e3da-0579-4592-812d-d7ab39b46ad6))
-    (pin "1" (uuid 2733b006-9d4b-4d07-8c6e-079ad83df1a7))
-    (pin "2" (uuid 2db22a34-a7e4-4907-8798-edda3e0bd5d1))
+    (pin "3" (uuid cbe78a5c-959b-46a8-b590-3a9e09892de9))
+    (pin "1" (uuid b753a77d-30a4-4955-b697-f3c89e23da75))
+    (pin "2" (uuid 221946b9-bd69-4286-9f93-a90ea62269ef))
     (instances
       (project "led-usb-hub"
         (path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
