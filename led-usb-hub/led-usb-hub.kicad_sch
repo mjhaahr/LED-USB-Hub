@@ -4639,6 +4639,14 @@
     (uuid ffd886ec-4c75-4c0e-b704-5c4532529e38)
   )
 
+  (text_box "TODO: check LED current values and resistors, probably make much larger"
+    (at 172.72 105.41 0) (size 19.05 13.97)
+    (stroke (width 0) (type default))
+    (fill (type color) (color 0 194 194 0.34))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 7c202fe6-0c0e-46a4-91a1-cebf3b5a453b)
+  )
+
   (text "USB 2\n" (at 92.71 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09b9bd33-a36c-4153-8fed-b68530a0b25d)
