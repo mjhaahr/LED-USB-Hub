@@ -3,15 +3,15 @@
 ![Full Board Design Render](images/render.png)
  
 Features:
-- 3x RGB LED USB (USB A, Full Speed) ports
-- 1x USB C Port (downstream)
-- 1x RP 2040 to control the LEDs
-  - V1 used an Adafruit KB2040
-  - V2 will switch to a standalone RP2040 implementation
+- USB C Port for Upstream
+- 3 USB 2.0 Downstream Ports
+  - USB A, Full Speed
+  - Using an RGB LED USB Port, the whole point of this project
+- RP 2040 to Control the LEDs
+  - Standalone RP2040 implementation
 - USB Hub Controller:
-  - V1 uses the SL2.1a USB Hub
-  - V2 will switch to a more full-featured USB Hub Controller and more closely comply with the USB Spec
-- Possibly exposed connectors for more features externally or internally (i.e. leaving a cutout in the board with room for expansion)
+  - Using a TI 4 Port USB Controller
+- Status LEDs for Power and USB Connection
 
 ![Schematic](images/led-usb-hub.svg)
 
@@ -71,5 +71,13 @@ Features:
   - `CL = 2 * (C_Load - C_Stray)`
   - `R_Ext = 1 / (2 * π * F * CL)`
 
+## Case Design
+*TODO: Add Render and Parts List* 
+
 ## CircuitPython Things
 - `LED_EN` button cycles between ports and status, just ports, and all off
+
+## Extra Notes
+- Version 1 Details:
+  - V1 used an Adafruit KB2040 Dev Board instead of a standalone implementation
+  - V1 used the SL2.1a USB Hub and was a poor attempt to get USB working
