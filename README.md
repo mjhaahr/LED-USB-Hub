@@ -45,9 +45,10 @@ Features:
   - 3x 100µF Tantalum - *EIA-3528-21-AVX Package*
 - Resistors:
   - *All Packages are 0603 unless otherwise noted*
-  - 6x 14Ω
-  - 12x 27Ω
-  - 5x 80Ω
+  - 6x 30Ω
+  - 12x 127Ω
+  - 3x 130Ω
+  - 2x 300Ω
   - 1x 530Ω
   - 1x 604Ω
   - 1x 1kΩ
