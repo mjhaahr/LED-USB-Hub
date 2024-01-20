@@ -53,17 +53,9 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.175,
-          "via_gap": 0.175,
-          "width": 0.239
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_issues|42266351|95403014|c8e1f945-0e82-4717-b4ba-82c7d0c35bcd|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|53949600|94892973|6bddb907-5c46-4394-ab36-b8affb695f5c|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -88,7 +80,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -182,18 +174,16 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
+        0.3,
         0.35,
         0.5,
-        0.75
+        0.7
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.2
         },
         {
           "diameter": 0.5,
@@ -441,9 +431,9 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.175,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.239,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -454,98 +444,202 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "1V1",
+        "pcb_color": "rgb(194, 194, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "3V3",
+        "pcb_color": "rgb(221, 133, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5V",
+        "pcb_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7,
+        "via_diameter": 1.0,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Digtal",
+        "pcb_color": "rgb(0, 194, 194)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LED",
+        "pcb_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.175,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.239,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgb(194, 0, 194)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.239,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+1V1": "rgb(132, 0, 0)",
-      "+3V3_L": "rgb(255, 255, 0)",
-      "+5V_1": "rgb(255, 153, 0)",
-      "+5V_2": "rgb(132, 0, 0)",
-      "+5V_3": "rgb(255, 153, 0)",
-      "/SWCLK": "rgb(0, 194, 0)",
-      "/SWDIO": "rgb(0, 194, 0)",
-      "/U0''+": "rgb(255, 0, 255)",
-      "/U0''-": "rgb(255, 0, 255)",
-      "/U0'+": "rgb(255, 0, 255)",
-      "/U0'-": "rgb(255, 0, 255)",
-      "/U1'+": "rgb(194, 0, 194)",
-      "/U1'-": "rgb(194, 0, 194)",
-      "/U2'+": "rgb(132, 0, 132)",
-      "/U2'-": "rgb(132, 0, 132)",
-      "/U3'+": "rgb(72, 0, 72)",
-      "/U3'-": "rgb(72, 0, 72)",
-      "/UD'+": "rgb(255, 255, 255)",
-      "/UD'-": "rgb(255, 255, 255)",
-      "BOOTSEL": "rgb(0, 194, 0)",
-      "Earth": "rgb(132, 132, 132)",
-      "L1_B": "rgb(0, 132, 0)",
-      "L1_G": "rgb(0, 132, 0)",
-      "L1_R": "rgb(0, 132, 0)",
-      "L2_B": "rgb(0, 132, 0)",
-      "L2_G": "rgb(0, 132, 0)",
-      "L2_R": "rgb(0, 132, 0)",
-      "L3_B": "rgb(0, 132, 0)",
-      "L3_G": "rgb(0, 132, 0)",
-      "L3_R": "rgb(0, 132, 0)",
-      "Net-(C48-Pad1)": "rgb(194, 194, 194)",
-      "Net-(C50-Pad1)": "rgb(194, 194, 194)",
-      "Net-(D1-A)": "rgb(0, 132, 0)",
-      "Net-(D2-A)": "rgb(0, 132, 0)",
-      "Net-(J1-CC1)": "rgb(0, 194, 0)",
-      "Net-(J1-CC2)": "rgb(0, 194, 0)",
-      "Net-(J2-PadB)": "rgb(0, 132, 0)",
-      "Net-(J2-PadG)": "rgb(0, 132, 0)",
-      "Net-(J2-PadR)": "rgb(0, 132, 0)",
-      "Net-(J3-PadB)": "rgb(0, 132, 0)",
-      "Net-(J3-PadG)": "rgb(0, 132, 0)",
-      "Net-(J3-PadR)": "rgb(0, 132, 0)",
-      "Net-(J4-PadB)": "rgb(0, 132, 0)",
-      "Net-(J4-PadG)": "rgb(0, 132, 0)",
-      "Net-(J4-PadR)": "rgb(0, 132, 0)",
-      "Net-(R50-Pad2)": "rgb(0, 194, 0)",
-      "Net-(U1-GPIO21)": "rgb(0, 194, 0)",
-      "Net-(U1-XIN)": "rgb(194, 194, 194)",
-      "Net-(U1-XOUT)": "rgb(194, 194, 194)",
-      "Net-(U4-EN)": "rgb(0, 194, 0)",
-      "Net-(U4-FB)": "rgb(0, 194, 0)",
-      "Net-(U4-PG)": "rgb(0, 194, 0)",
-      "Net-(U4-SW)": "rgb(0, 194, 0)",
-      "Net-(U5-EN)": "rgb(0, 194, 0)",
-      "Net-(U5-FB)": "rgb(0, 194, 0)",
-      "Net-(U5-PG)": "rgb(0, 194, 0)",
-      "Net-(U5-SW)": "rgb(0, 194, 0)",
-      "Net-(U6-XTAL1)": "rgb(194, 194, 194)",
-      "Net-(U6-XTAL2)": "rgb(194, 194, 194)",
-      "OC0": "rgb(0, 255, 255)",
-      "OC1": "rgb(0, 255, 255)",
-      "OC2": "rgb(0, 255, 255)",
-      "OC3": "rgb(0, 255, 255)",
-      "PWR_LED": "rgb(0, 132, 0)",
-      "PWR_ON": "rgb(0, 194, 0)",
-      "QSPI0": "rgb(0, 194, 0)",
-      "QSPI1": "rgb(0, 194, 0)",
-      "QSPI2": "rgb(0, 194, 0)",
-      "QSPI3": "rgb(0, 194, 0)",
-      "QSPI5": "rgb(0, 194, 0)",
-      "RESET": "rgb(0, 194, 0)",
-      "U0+": "rgb(255, 0, 255)",
-      "U0-": "rgb(255, 0, 255)",
-      "U1+": "rgb(194, 0, 194)",
-      "U1-": "rgb(194, 0, 194)",
-      "U2+": "rgb(132, 0, 132)",
-      "U2-": "rgb(132, 0, 132)",
-      "U3+": "rgb(72, 0, 72)",
-      "U3-": "rgb(72, 0, 72)",
-      "UD+": "rgb(255, 255, 255)",
-      "UD-": "rgb(255, 255, 255)",
-      "USB_LED": "rgb(0, 132, 0)",
-      "VUSB": "rgb(132, 0, 0)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "U*"
+      },
+      {
+        "netclass": "1V1",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/U*"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V*"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "L*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "OC*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "PWR*"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "LED*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "QSPI*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "BOOTSEL"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "Net-*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "Earth"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "VUSB"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "RESET"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "/SW*"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "/L*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
