@@ -638,6 +638,22 @@
       {
         "netclass": "LED",
         "pattern": "/L*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "/EN*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "*REG*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "*OSC*"
+      },
+      {
+        "netclass": "Digtal",
+        "pattern": "*CC*"
       }
     ]
   },
