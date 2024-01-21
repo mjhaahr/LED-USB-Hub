@@ -9563,7 +9563,7 @@
     (property "Reference" "TP2" (at 128.27 56.515 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3V3P" (at 128.27 59.055 90)
+    (property "Value" "3V3PI" (at 128.27 59.055 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm_Mod" (at 123.19 62.23 0)
