@@ -72,7 +72,12 @@ Features:
   - `R_Ext = 1 / (2 * π * F * CL)`
 
 ## Case Design
-*TODO: Add Render and Parts List* 
+![Case](images/case.png) 
+- 4x Low Profile Socket Head Cap Screw (6-32 1/4in Long) - (McMaster: 92220A141)
+- 4x Low Profile Socket Head Cap Screw (6-32 1/2in Long) - (McMaster: 92220A143)
+- 4x Unthreaded Spacer (For #6 Screws, 1/4in OD, 3/32in Long) - (McMaster: 92510A533)
+- 4x Female Thread Round Standoff (6-32, 1/4in OD, 3/8in Long) - (McMaster: 93330A443)
+- 2x Pieces of Laser Cut Acrylic (Nominal Thickness of 1/8in)
 
 ## CircuitPython Things
 - `LED_EN` button cycles between ports and status, just ports, and all off
@@ -81,3 +86,8 @@ Features:
 - Version 1 Details:
   - V1 used an Adafruit KB2040 Dev Board instead of a standalone implementation
   - V1 used the SL2.1a USB Hub and was a poor attempt to get USB working
+- Future Changes:
+  - Maybe replace 3.3V Regulators with ASM1117 (or something similarly simple but easy to solder)
+  - Replace the crystals with something in a smaller package
+  - Shrink more
+  - Add more RGB LEDs
