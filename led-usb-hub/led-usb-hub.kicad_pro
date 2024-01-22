@@ -491,26 +491,9 @@
         "name": "5V",
         "pcb_color": "rgb(255, 0, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
+        "track_width": 0.5,
         "via_diameter": 1.0,
         "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Digtal",
-        "pcb_color": "rgb(0, 194, 194)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -545,6 +528,40 @@
         "track_width": 0.25,
         "via_diameter": 0.7,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Logic",
+        "pcb_color": "rgb(0, 194, 194)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "NOT NET ASSIGNED",
+        "pcb_color": "rgb(255, 255, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -596,11 +613,11 @@
         "pattern": "L*"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "Logic",
         "pattern": "OC*"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "Logic",
         "pattern": "PWR*"
       },
       {
@@ -608,15 +625,15 @@
         "pattern": "LED*"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "Logic",
         "pattern": "QSPI*"
       },
       {
-        "netclass": "Digtal",
-        "pattern": "BOOTSEL"
+        "netclass": "Logic",
+        "pattern": "*BOOTSEL*"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "NOT NET ASSIGNED",
         "pattern": "Net-*"
       },
       {
@@ -628,11 +645,11 @@
         "pattern": "VUSB"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "Logic",
         "pattern": "RESET"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "Logic",
         "pattern": "/SW*"
       },
       {
@@ -640,20 +657,20 @@
         "pattern": "/L*"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "Logic",
         "pattern": "/EN*"
       },
       {
-        "netclass": "Digtal",
+        "netclass": "Logic",
         "pattern": "*REG*"
       },
       {
-        "netclass": "Digtal",
-        "pattern": "*OSC*"
+        "netclass": "Logic",
+        "pattern": "/OSC*"
       },
       {
-        "netclass": "Digtal",
-        "pattern": "*CC*"
+        "netclass": "Logic",
+        "pattern": "/CC*"
       }
     ]
   },
