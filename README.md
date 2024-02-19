@@ -55,7 +55,7 @@ Features:
   - 1x 2kΩ
   - 1x 2.4kΩ
   - 2x 5.1kΩ
-  - 11x 10kΩ
+  - 11x 10kΩ (One is Do Not Fit (DNF), might be necessary for Flash Chip)
   - 8x 15kΩ
   - 2x 32kΩ
   - 2x 45.3kΩ
