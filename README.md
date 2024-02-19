@@ -73,7 +73,7 @@ Features:
   - `R_Ext = 1 / (2 * π * F * CL)`
 - LED Resistors:
   - Indicators:
-    - Target Brightness of 2.5mcd
+    - Target Intensity of 2.5mcd
     - Orange:
       - Average 77mcd @ 20mA (curve compensated)
       - Forward Voltage of 1.3V
@@ -85,7 +85,7 @@ Features:
       - Target Current: ~0.55mA
       - Resistance: 2.4kΩ
   - USB:
-    - Target Brightness of 200mcd
+    - Target Intensity of 200mcd
     - Red:
       - Average 600mcd @ 20mA
       - Forward Voltage of 1.3V
