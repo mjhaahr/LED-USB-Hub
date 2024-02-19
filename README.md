@@ -80,7 +80,7 @@ Features:
       - Target Current: ~0.65mA
       - Resistance: 2kΩ
     - Green:
-      - 90mcd @ 20mA (curve compensated)
+      - 90mcd @ 20mA
       - Forward Voltage of 1.3V
       - Target Current: ~0.55mA
       - Resistance: 2.4kΩ
