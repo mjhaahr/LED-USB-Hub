@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.2-0"
     },
-    "CreationDate": "2024-02-19T10:57:34-08:00"
+    "CreationDate": "2024-02-19T15:31:33-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 50.9
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.6,
+    "BoardThickness": 1.6262,
     "Finish": "None",
     "ImpedanceControlled": true
   },
@@ -34,8 +34,8 @@
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
       "MinLineWidth": 0.5,
       "TrackToRegion": 0.5,
@@ -120,7 +120,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.11,
+      "Thickness": 0.2104,
       "Material": "FR4",
       "DielectricConstant": "4.5",
       "LossTangent": "0.02",
@@ -129,12 +129,12 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "In1.Cu (GND)"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.2,
+      "Thickness": 1.065,
       "Material": "FR4",
       "DielectricConstant": "4.5",
       "LossTangent": "0.02",
@@ -143,12 +143,12 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "In2.Cu (GND)"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.11,
+      "Thickness": 0.2104,
       "Material": "FR4",
       "DielectricConstant": "4.5",
       "LossTangent": "0.02",
