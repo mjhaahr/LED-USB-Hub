@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.2-0"
     },
-    "CreationDate": "2023-08-10T19:07:58-07:00"
+    "CreationDate": "2024-02-19T10:55:37-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,12 +14,13 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 123.544,
-      "Y": 44.804
+      "X": 127.1,
+      "Y": 50.9
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "None",
+    "ImpedanceControlled": true
   },
   "DesignRules": [
     {
@@ -28,19 +29,38 @@
       "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
       "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.5,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "led-usb-hub-F_Cu.gbr",
+      "Path": "led-usb-hub-F_Cu (Sig).gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "led-usb-hub-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
+      "Path": "led-usb-hub-In1_Cu (GND).gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "led-usb-hub-In2_Cu (GND).gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "led-usb-hub-B_Cu (Sig).gbr",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -90,29 +110,59 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
+      "Thickness": 0.02,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "F.Cu"
+      "Name": "F.Cu (Sig)"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
+      "Thickness": 0.11,
       "Material": "FR4",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "F.Cu (Sig)/In1.Cu (GND)",
+      "Notes": "Type: dielectric layer 1 (from F.Cu (Sig) to In1.Cu (GND))"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "B.Cu"
+      "Name": "In1.Cu (GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.2,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu (GND)/In2.Cu (GND)",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu (GND) to In2.Cu (GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu (GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.11,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu (GND)/B.Cu (Sig)",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu (GND) to B.Cu (Sig))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu (Sig)"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
+      "Thickness": 0.02,
       "Name": "Bottom Solder Mask"
     },
     {
