@@ -45,14 +45,15 @@ Features:
   - 3x 100µF Tantalum - *EIA-3528-21-AVX Package*
 - Resistors:
   - *All Packages are 0603 unless otherwise noted*
-  - 6x 30Ω
-  - 12x 127Ω
-  - 3x 130Ω
-  - 2x 300Ω
+  - 15x 27Ω
+  - 3x 62Ω
+  - 3x 200Ω
   - 1x 530Ω
   - 1x 604Ω
   - 1x 1kΩ
   - 1x 1.5kΩ
+  - 1x 2kΩ
+  - 1x 2.4kΩ
   - 2x 5.1kΩ
   - 11x 10kΩ
   - 8x 15kΩ
@@ -70,7 +71,37 @@ Features:
 - Crystals supporting passives selected following the calculations in [this guide](https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf) published by ST
   - `CL = 2 * (C_Load - C_Stray)`
   - `R_Ext = 1 / (2 * π * F * CL)`
-
+- LED Resistors:
+  - Indicators:
+    - Target Brightness of 2.5mcd
+    - Orange:
+      - Average 77mcd @ 20mA (curve compensated)
+      - Forward Voltage of 1.3V
+      - Target Current: ~0.65mA
+      - Resistance: 2kΩ
+    - Green:
+      - 90mcd @ 20mA (curve compensated)
+      - Forward Voltage of 1.3V
+      - Target Current: ~0.55mA
+      - Resistance: 2.4kΩ
+  - USB:
+    - Target Brightness of 200mcd
+    - Red:
+      - Average 600mcd @ 20mA
+      - Forward Voltage of 1.3V
+      - Target Current: ~6.5mA
+      - Resistance: 200Ω
+    - Green:
+      - Average 77mcd @ 20mA
+      - Forward Voltage of 0.3V
+      - Target Current: ~5mA
+      - Resistance: 62Ω
+    - Blue:
+      - Average 77mcd @ 20mA
+      - Forward Voltage of 0.3V
+      - Target Current: ~11.5mA
+      - Resistance: 27kΩ
+    
 ## Case Design
 ![Case](images/case.png) 
 - 4x Low Profile Socket Head Cap Screw (6-32 1/4in Long) - (McMaster: 92220A141)
