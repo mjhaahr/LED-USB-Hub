@@ -9163,7 +9163,7 @@
       (net 44 "BOOTSEL") (pintype "passive") (tstamp 3da119bf-f0e4-49bc-9b6f-92b0f15421a6))
     (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
       (net 87 "+3V3_PI") (pintype "passive") (tstamp c74840d2-05b7-415f-8fd3-0e5c54ea60c0))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
