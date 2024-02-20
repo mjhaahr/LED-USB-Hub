@@ -108,7 +108,7 @@ Features:
 - 4x Low Profile Socket Head Cap Screw (6-32 1/2in Long) - (McMaster: 92220A143)
 - 4x Unthreaded Spacer (For #6 Screws, 1/4in OD, 3/32in Long) - (McMaster: 92510A533)
 - 4x Female Thread Round Standoff (6-32, 1/4in OD, 3/8in Long) - (McMaster: 93330A443)
-- 2x Pieces of Laser Cut Acrylic (Nominal Thickness of 1/8in)
+- 2x Pieces of Laser Cut Acrylic (Nominal Thickness of 1/8in) - [File](case_cut.svg)
 
 ## CircuitPython Things
 - `LED_EN` button cycles between ports and status, just ports, and all off
