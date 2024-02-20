@@ -6,7 +6,7 @@ Features:
 - USB C Port for Upstream
 - 3 USB 2.0 Downstream Ports
   - USB A, Full Speed
-  - Using an RGB LED USB Port, the whole point of this project
+  - Using RGB LED USB Ports (the reason behind this whole project)
 - RP 2040 to Control the LEDs
   - Standalone RP2040 implementation
 - USB Hub Controller:
