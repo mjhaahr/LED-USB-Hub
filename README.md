@@ -111,6 +111,7 @@ Features:
 - 2x Pieces of Laser Cut Acrylic (Nominal Thickness of 1/8in) - [File](case/case_cut.svg)
 
 ## CircuitPython Things
+- The fork of CircuitPython for this device is located [here](https://github.com/mjhaahr/USB_Hub_CircuitPython) 
 - `LED_EN` button cycles between ports and status, just ports, and all off
 
 ## Extra Notes
