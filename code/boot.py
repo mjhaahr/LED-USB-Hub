@@ -2,6 +2,8 @@ import board
 import digitalio
 import time
 import storage
+import usb_hid
+import usb_midi
 
 pwrLED = digitalio.DigitalInOut(board.PWR_LED)
 pwrLED.direction = digitalio.Direction.OUTPUT
@@ -20,6 +22,8 @@ if not button.value:
 
 else:
     storage.disable_usb_drive()
+    usb_hid.disable()
+    usb_midi.disable()
     print("USB Hub Boot - No USB Drive")
 
 button.deinit()
