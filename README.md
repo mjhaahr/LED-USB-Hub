@@ -110,9 +110,19 @@ Features:
 - 4x Female Thread Round Standoff (6-32, 1/4in OD, 3/8in Long) - (McMaster: 93330A443)
 - 2x Pieces of Laser Cut Acrylic (Nominal Thickness of 1/8in) - [File](case/case_cut.svg)
 
-## CircuitPython Things
-- The fork of CircuitPython for this device is located [here](https://github.com/mjhaahr/USB_Hub_CircuitPython) 
-- `LED_EN` button cycles between ports and status, just ports, and all off
+## Code
+- The fork of CircuitPython for this device is located [here](https://github.com/mjhaahr/USB_Hub_CircuitPython)
+  - If you would like just the firmware, that is [here](code/CircuitPython/firmware.uf2)
+- `LED_EN` button cycles between the following states
+  - All LEDs on
+  - All LEDs on with dimmer Port LEDs
+  - Just Port LEDs
+  - Just Port LEDs but dimmer
+  - Just Status LEDs
+  - All Of
+- To prevent the device from showing up as a removable storage device when connected, that's disabled on boot
+  - To re-enable, hold the `LED_EN` button during boot, the Power LED should flash and the microcontroller will mount as removable storage (for things like firmware updates)
+- To view all the code, see it [here](code)
 
 ## Extra Notes
 - Version 1 Details:
