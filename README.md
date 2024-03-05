@@ -23,7 +23,7 @@ Features:
 - 2x TI TPS2042 USB Power Switch: [Datasheet](https://www.ti.com/lit/ds/symlink/tps2042b.pdf)
 - 5x TI TPD2EUSB30 USB ESD/TVS Diodes: [Datasheet](https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)
 - 2x TI TPS56325 High-Efficiency Buck Converter: [Datasheet](https://www.ti.com/lit/ds/symlink/tps563252.pdf)
-- 1x Microchip TC54VN3002 3V Supervisor Circuit [Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/20001434K.pdf)
+- 1x Maxim (ADI) MAX809TEUR 3.08V Supervisor Circuit [Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max803-max810z.pdf)
 - 3x Tensility 54-00266 RGB USB 2.0 Type A Port: [Datasheet](http://www.tensility.com/pdffiles/54-00266.pdf)
 - 1x GCT USB4085 USB 2.0 Type C Port: [Datasheet](https://gct.co/files/drawings/usb4085.pdf)
 - 3x C&K KSS221GLFS Push Buttons: [Datasheet](https://www.ckswitches.com/media/1463/kss.pdf)
