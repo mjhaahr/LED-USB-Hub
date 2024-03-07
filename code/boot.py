@@ -5,9 +5,13 @@ import storage
 import usb_hid
 import usb_midi
 
+# Init LEDs
 pwrLED = digitalio.DigitalInOut(board.PWR_LED)
 pwrLED.direction = digitalio.Direction.OUTPUT
 pwrLED.value = True
+
+usbLED = digitalio.DigitalInOut(board.USB_LED)
+usbLED.direction = digitalio.Direction.OUTPUT
 
 button = digitalio.DigitalInOut(board.LED_EN)
 button.direction = digitalio.Direction.INPUT
@@ -15,15 +19,12 @@ button.direction = digitalio.Direction.INPUT
 # if LED_EN button is held during startup, storage drive is active
 if not button.value:
     print("USB Hub Boot")
+    usbLED.value = True
     time.sleep(0.1)
-    pwrLED.value = False
-    time.sleep(0.1)
-    pwrLED.value = True
+    usbLED.value = False
 
 else:
     storage.disable_usb_drive()
     usb_hid.disable()
     usb_midi.disable()
     print("USB Hub Boot - No USB Drive")
-
-button.deinit()

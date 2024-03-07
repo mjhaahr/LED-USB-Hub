@@ -6,6 +6,10 @@ import adafruit_rgbled
 import keypad
 
 # Init LEDs
+L1 = adafruit_rgbled.RGBLED(board.L1R, board.L1G, board.L1B, True)
+L2 = adafruit_rgbled.RGBLED(board.L2R, board.L2G, board.L2B, True)
+L3 = adafruit_rgbled.RGBLED(board.L3R, board.L3G, board.L3B, True)
+
 pwrLED = digitalio.DigitalInOut(board.PWR_LED)
 pwrLED.direction = digitalio.Direction.OUTPUT
 pwrLED.value = True
@@ -13,18 +17,14 @@ pwrLED.value = True
 usbLED = digitalio.DigitalInOut(board.USB_LED)
 usbLED.direction = digitalio.Direction.OUTPUT
 
-L1 = adafruit_rgbled.RGBLED(board.L1R, board.L1G, board.L1B, True)
-L2 = adafruit_rgbled.RGBLED(board.L2R, board.L2G, board.L2B, True)
-L3 = adafruit_rgbled.RGBLED(board.L3R, board.L3G, board.L3B, True)
-
 leds = [L1, L2, L3]
 
-# Add Keypad
+# Add Keypad object for the button (enables debouncing)
 button = keypad.Keys((board.LED_EN,), value_when_pressed=False, pull=True)
-buttonEvent = button.events.get()
+button.events.get()
 # Get a first dangling event (from possibly holding down the button
 
-def wheel(pos):
+def colorWheel(pos):
     # Input a value 0 to 255 to get a color value.
     # The colours are a transition r - g - b - back to r.
     if pos < 0 or pos > 255:
@@ -55,9 +55,9 @@ while True:
 
     colors = []
     for i in range(len(leds)):
-        wheelLoc = (pos + (i * 20)) % 256
-        color = wheel(wheelLoc)
-        colors.append(color)
+        wheelPos = (pos + (i * 25)) % 256
+        newColor = colorWheel(wheelPos)
+        colors.append(newColor)
 
     pos = (pos + 1) % 256
 
