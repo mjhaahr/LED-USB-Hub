@@ -59,7 +59,7 @@ while True:
         newColor = colorWheel(wheelPos)
         colors.append(newColor)
 
-    pos = (pos + 1.1) % 256
+    pos = (pos + 1) % 256
 
     usbStatus = supervisor.runtime.usb_connected
 

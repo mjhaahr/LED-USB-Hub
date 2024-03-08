@@ -121,7 +121,7 @@ Features:
   - Just Status LEDs
   - All Of
 - To prevent the device from showing up as a removable storage device when connected, that's disabled on boot
-  - To re-enable, hold the `LED_EN` button during boot, the `USB_LED` should flash and the microcontroller will mount as removable storage (for things like firmware updates)
+  - To re-enable, hold the `LED_EN` button during boot, the `PWR_LED` should flash and the microcontroller will mount as removable storage (for things like firmware updates)
 - To view all the code, see it [here](code)
 
 ## Extra Notes
