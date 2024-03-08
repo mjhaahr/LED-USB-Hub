@@ -13,10 +13,17 @@ Features:
   - Using a TI 4 Port USB Controller
 - Status LEDs for Power and USB Connection
 
+## Table Of Contents
+- [Bill Of Materials](#bill-of-materials)
+- [Part Selection](#part-selection)
+- [Case Design](#case-design)
+- [Code](#code)
+- [Extra Notes](#extra-notes)
+
 ![Schematic](images/led-usb-hub.svg)
 
-## Full Bill of Materials
-**[Digi-Key Cart with all components](https://www.digikey.com/short/4rfrj37h)**
+## Bill of Materials
+**[Digi-Key Cart with all components](https://www.digikey.com/short/4rfrj37h)** TODO: Needs updating with some missing components
 - 1x Raspberry Pi RP2040: [Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf), [HW Design Guide](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)
 - 1x Winbond W25Q16JVSNIQ QSPI Flash: [Datasheet](https://docs.rs-online.com/19e0/0900766b81622f8b.pdf)
 - 1x TI TUSB2046 USB Controller: [Datasheet](https://www.ti.com/lit/ds/symlink/tusb2046i.pdf)
