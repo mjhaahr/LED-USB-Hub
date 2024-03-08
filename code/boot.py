@@ -5,6 +5,7 @@ import storage
 import usb_hid
 import usb_midi
 
+# Init LEDs
 pwrLED = digitalio.DigitalInOut(board.PWR_LED)
 pwrLED.direction = digitalio.Direction.OUTPUT
 pwrLED.value = True
@@ -25,5 +26,3 @@ else:
     usb_hid.disable()
     usb_midi.disable()
     print("USB Hub Boot - No USB Drive")
-
-button.deinit()
