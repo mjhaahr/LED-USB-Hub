@@ -1,5 +1,7 @@
 # 3-Port USB Hub with Integrated Microcontroller and RGB USB-A Ports
 
+![Assembled USB Hub](images/working-usb-hub.png)
+
 ![Full Board Design Render](images/render.png)
  
 Features:
