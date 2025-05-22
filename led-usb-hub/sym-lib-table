@@ -5,4 +5,5 @@
   (lib (name "TC54VN")(type "KiCad")(uri "${KIPRJMOD}/Parts/TC54VN.kicad_sym")(options "")(descr ""))
   (lib (name "RGB_USB_PORT")(type "KiCad")(uri "${KIPRJMOD}/Parts/54-00266 RGB-USB Port/54-00266.kicad_sym")(options "")(descr ""))
   (lib (name "TPD2EUSB30DRTR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPD2EUSB30DRTR/TPD2EUSB30DRTR.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2350A")(type "KiCad")(uri "${USER_LIB}/RP2350/rp2350a-qfn60.kicad_sym")(options "")(descr ""))
 )

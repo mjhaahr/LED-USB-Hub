@@ -3,4 +3,5 @@
   (lib (name "54-00266 RGB-USB Port")(type "KiCad")(uri "${KIPRJMOD}/Parts/54-00266 RGB-USB Port")(options "")(descr ""))
   (lib (name "KSS221GLFS")(type "KiCad")(uri "${KIPRJMOD}/Parts/KSS221GLFS")(options "")(descr ""))
   (lib (name "TPD2EUSB30DRTR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPD2EUSB30DRTR")(options "")(descr ""))
+  (lib (name "RP2350A")(type "KiCad")(uri "${USER_LIB}/RP2350")(options "")(descr ""))
 )
