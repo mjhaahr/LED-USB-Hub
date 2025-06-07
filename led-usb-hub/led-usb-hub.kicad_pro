@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|126308828|85301647|26abdccb-1d8e-4f57-9701-7c3e03adc564|92b89a58-bfee-4603-8564-822e98e55d50",
-          ""
-        ],
-        [
-          "courtyards_overlap|130257201|122655425|a4ee4c53-18d2-4647-a782-b1d16fa95d88|d6c12281-5cdd-457c-94c0-e7ff0402a9f0",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -133,8 +124,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.0,
+        "min_clearance": 0.2,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -146,7 +137,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
@@ -243,7 +234,7 @@
           "drill": 0.2
         },
         {
-          "diameter": 0.7,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
