@@ -714,7 +714,7 @@
       },
       {
         "netclass": "Logic",
-        "pattern": "/SW*"
+        "pattern": "SW*"
       },
       {
         "netclass": "LED",
@@ -735,6 +735,10 @@
       {
         "netclass": "Logic",
         "pattern": "/CC*"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "*X"
       }
     ]
   },
