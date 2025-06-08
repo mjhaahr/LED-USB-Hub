@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 1.9812,
+          "width": 2.794
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -505,24 +505,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.7,
-        "via_drill": 0.3,
-        "wire_width": 8
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "1V1",
-        "pcb_color": "rgb(194, 194, 0)",
-        "priority": 0,
-        "schematic_color": "rgb(194, 194, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.7,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 8
       },
@@ -539,7 +522,7 @@
         "priority": 1,
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.5,
-        "via_diameter": 0.7,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 8
       },
@@ -563,6 +546,19 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
+        "line_style": 0,
+        "name": "Analog",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 194, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 8
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -573,7 +569,7 @@
         "priority": 3,
         "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.35,
-        "via_diameter": 0.7,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 8
       },
@@ -590,7 +586,7 @@
         "priority": 4,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.25,
-        "via_diameter": 0.7,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 8
       },
@@ -607,8 +603,8 @@
         "priority": 5,
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 8
       },
       {
@@ -624,7 +620,7 @@
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.7,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 8
       },
@@ -641,8 +637,8 @@
         "priority": 7,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.239,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -657,7 +653,7 @@
         "pattern": "U*"
       },
       {
-        "netclass": "1V1",
+        "netclass": "Default",
         "pattern": "+1V1"
       },
       {
@@ -725,7 +721,7 @@
         "pattern": "/EN*"
       },
       {
-        "netclass": "Logic",
+        "netclass": "Analog",
         "pattern": "*REG*"
       },
       {

@@ -8,4 +8,5 @@
   (lib (name "RP2350A")(type "KiCad")(uri "${USER_LIB}/RP2350/rp2350a-qfn60.kicad_sym")(options "")(descr ""))
   (lib (name "KC2520Z8.00000C1KX00")(type "KiCad")(uri "${KIPRJMOD}/Parts/KC2520Z8_00000C1KX00/KC2520Z8.00000C1KX00.kicad_sym")(options "")(descr ""))
   (lib (name "KC2520Z6.00000C1GX00")(type "KiCad")(uri "${KIPRJMOD}/Parts/KC2520Z6.00000C1GX00/KC2520Z6.00000C1GX00.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV62569PDDCR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TLV62569PDDCR/TLV62569PDDCR.kicad_sym")(options "")(descr ""))
 )

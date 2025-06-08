@@ -6,4 +6,6 @@
   (lib (name "RP2350A")(type "KiCad")(uri "${USER_LIB}/RP2350")(options "")(descr ""))
   (lib (name "KC2520Z6.00000C1GX00")(type "KiCad")(uri "${KIPRJMOD}/Parts/KC2520Z6.00000C1GX00")(options "")(descr ""))
   (lib (name "KC2520Z8_00000C1KX00")(type "KiCad")(uri "${KIPRJMOD}/Parts/KC2520Z8_00000C1KX00")(options "")(descr ""))
+  (lib (name "TLV62569PDDCR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TLV62569PDDCR")(options "")(descr ""))
+  (lib (name "IHLP2020CZER2R2M11")(type "KiCad")(uri "${KIPRJMOD}/Parts/IHLP2020CZER2R2M11/footprints.pretty")(options "")(descr ""))
 )
