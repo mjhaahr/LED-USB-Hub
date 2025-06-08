@@ -4,4 +4,6 @@
   (lib (name "KSS221GLFS")(type "KiCad")(uri "${KIPRJMOD}/Parts/KSS221GLFS")(options "")(descr ""))
   (lib (name "TPD2EUSB30DRTR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPD2EUSB30DRTR")(options "")(descr ""))
   (lib (name "RP2350A")(type "KiCad")(uri "${USER_LIB}/RP2350")(options "")(descr ""))
+  (lib (name "KC2520Z6.00000C1GX00")(type "KiCad")(uri "${KIPRJMOD}/Parts/KC2520Z6.00000C1GX00")(options "")(descr ""))
+  (lib (name "KC2520Z8_00000C1KX00")(type "KiCad")(uri "${KIPRJMOD}/Parts/KC2520Z8_00000C1KX00")(options "")(descr ""))
 )

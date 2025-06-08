@@ -739,6 +739,14 @@
       {
         "netclass": "Logic",
         "pattern": "*X"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "OSC*"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "BOOT*"
       }
     ]
   },
