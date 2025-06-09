@@ -153,7 +153,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -505,63 +505,6 @@
 						)
 					)
 					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5417,7 +5360,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "D"
 				(at 0 15.24 0)
 				(effects
 					(font
@@ -7349,7 +7292,7 @@
 		)
 		(uuid "74fab527-ffa6-494b-99de-0a03c5db9d7b")
 	)
-	(text "TP2042-1:\nCH 1 Corresponds to 5V0: RP2040\nCH 2 Corresponds to 5V1: USB 1"
+	(text "TP2042-1:\nCH 1 Corresponds to 5V0: STM32\nCH 2 Corresponds to 5V1: USB 1"
 		(exclude_from_sim no)
 		(at 15.24 176.53 0)
 		(effects
@@ -7392,6 +7335,17 @@
 		)
 		(uuid "a0193967-b2a8-4a8e-aa64-7f3f5e9de97d")
 	)
+	(text "Programming\n"
+		(exclude_from_sim no)
+		(at 339.344 140.97 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7ee7253-20af-4c51-a62e-b4c13afb4b9d")
+	)
 	(text "USB 1"
 		(exclude_from_sim no)
 		(at 38.1 85.09 0)
@@ -7403,13 +7357,14 @@
 		)
 		(uuid "ae66e80e-c606-4e1f-8636-dca139feebed")
 	)
-	(text "10uF (C24) Near VBAT (1)\n1uF (C27) Near VDDA (9)"
+	(text "10uF (C6) Near VBAT (1)\n1uF (C7) Near VDDA (9)"
 		(exclude_from_sim no)
-		(at 322.58 166.37 0)
+		(at 275.844 262.636 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right top)
 		)
 		(uuid "bebccccf-2594-4e90-9c0f-257a223f49fb")
 	)
@@ -7426,12 +7381,12 @@
 	)
 	(text "Target is intensity of 2.5 mcd"
 		(exclude_from_sim no)
-		(at 361.188 252.476 0)
+		(at 338.328 252.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "cbe619b2-d40c-470a-b4c6-c9717d291a23")
 	)
@@ -7527,7 +7482,7 @@
 		(uuid "1230f358-a872-4b85-92c9-bce0fdf7052a")
 	)
 	(junction
-		(at 250.19 161.29)
+		(at 191.77 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "136f9ad7-bc77-4423-b2da-8110630d12c4")
@@ -7557,7 +7512,7 @@
 		(uuid "1869dccd-0783-42a1-b0a4-3006be7453a9")
 	)
 	(junction
-		(at 292.1 161.29)
+		(at 233.68 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "193de08d-9c71-4c47-9fc2-ee58c10492a2")
@@ -7659,13 +7614,13 @@
 		(uuid "32edf095-2b46-4f6c-8c97-c11ce072b1a4")
 	)
 	(junction
-		(at 306.07 148.59)
+		(at 247.65 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33948128-ea90-4a4b-89f6-14c9ec662960")
 	)
 	(junction
-		(at 233.68 265.43)
+		(at 300.99 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "359e27d0-caea-42ff-bf59-b2878e591caa")
@@ -7701,7 +7656,7 @@
 		(uuid "3e81d9aa-ae31-4858-91e6-ffaee3493e0c")
 	)
 	(junction
-		(at 320.04 161.29)
+		(at 261.62 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42616795-ba88-4782-8ae9-15dbb9e898d8")
@@ -7767,13 +7722,13 @@
 		(uuid "502d9190-258c-427b-8878-ffcf4a97abaa")
 	)
 	(junction
-		(at 299.72 231.14)
+		(at 364.49 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5047d9c8-7af2-40c8-ac6d-fd74bd8c49bf")
 	)
 	(junction
-		(at 264.16 148.59)
+		(at 205.74 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "505d56f4-8e4f-4d56-a02b-97d289caa5ec")
@@ -7809,7 +7764,7 @@
 		(uuid "5a31340c-543b-4781-97b0-a70a5a0919ba")
 	)
 	(junction
-		(at 278.13 161.29)
+		(at 219.71 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64f683d3-a251-4851-b72e-b170fbb2e4f4")
@@ -7821,7 +7776,7 @@
 		(uuid "651b514e-4453-4474-8cb8-8fc8068e6b95")
 	)
 	(junction
-		(at 233.68 252.73)
+		(at 300.99 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67327089-09c7-4ccf-8b2f-7827891ced26")
@@ -7917,6 +7872,12 @@
 		(uuid "7bd8d540-5bc5-4a6d-a417-23d455ce4670")
 	)
 	(junction
+		(at 377.19 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cea8c60-ef9b-4737-b4ee-ecd123ca30b1")
+	)
+	(junction
 		(at 99.06 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7935,7 +7896,7 @@
 		(uuid "81dae555-d823-4f7f-9033-d08b3ef86931")
 	)
 	(junction
-		(at 302.26 203.2)
+		(at 364.49 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8567c645-60e8-4246-bee3-4588dbfd7a2a")
@@ -7983,7 +7944,7 @@
 		(uuid "9c002c56-2cf3-45db-b491-29cbd5d4c39d")
 	)
 	(junction
-		(at 250.19 148.59)
+		(at 191.77 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c410b82-6c5c-4c5c-bce2-7c5b325089ab")
@@ -8007,7 +7968,7 @@
 		(uuid "a13e710c-1449-4e03-95d6-7de69be22083")
 	)
 	(junction
-		(at 306.07 161.29)
+		(at 247.65 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a16ac9c9-5e5b-4fcc-80cc-74f92add6658")
@@ -8073,7 +8034,7 @@
 		(uuid "bb8df8d9-5b7b-423f-9f19-7b1cab06e845")
 	)
 	(junction
-		(at 278.13 148.59)
+		(at 219.71 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc69fa60-e954-47fe-aa3b-96097545e805")
@@ -8091,7 +8052,7 @@
 		(uuid "bc99fc11-a62c-41eb-9428-ea267c1849eb")
 	)
 	(junction
-		(at 292.1 148.59)
+		(at 233.68 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be02a4bf-4690-4d0e-a97c-c04e713699c4")
@@ -8107,12 +8068,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c709adf2-309f-441d-b1d4-479c6c0d01c4")
-	)
-	(junction
-		(at 180.34 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbd2f160-8772-4d0f-be31-0175f4a4eb18")
 	)
 	(junction
 		(at 140.97 270.51)
@@ -8175,7 +8130,7 @@
 		(uuid "e4eae822-b3b1-449d-9716-b454eda19730")
 	)
 	(junction
-		(at 320.04 148.59)
+		(at 261.62 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5c3c771-6fc1-4ea2-bfb5-2ebd40170623")
@@ -8193,7 +8148,7 @@
 		(uuid "f13572c1-fba1-4d76-8b0e-29811f91a6d5")
 	)
 	(junction
-		(at 287.02 209.55)
+		(at 349.25 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2c372aa-269e-46dc-a224-b9a912b44b5d")
@@ -8223,7 +8178,7 @@
 		(uuid "fa0c2635-90e9-4468-83b2-c6e8e0d2ef39")
 	)
 	(junction
-		(at 264.16 161.29)
+		(at 205.74 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc24a9a4-5bfa-46ee-a420-f1ee1085b2f8")
@@ -8265,7 +8220,7 @@
 		(uuid "44ea385b-f47d-42fd-be27-781da073c106")
 	)
 	(no_connect
-		(at 205.74 257.81)
+		(at 273.05 165.1)
 		(uuid "4b70a896-ea4a-4f56-990e-f30eb02365a1")
 	)
 	(no_connect
@@ -8335,6 +8290,16 @@
 			(type default)
 		)
 		(uuid "043383ed-fecf-4243-8b86-c0408d3eb4c2")
+	)
+	(polyline
+		(pts
+			(xy 337.82 252.73) (xy 337.82 227.965)
+		)
+		(stroke
+			(width 0.25)
+			(type dash)
+		)
+		(uuid "04471598-73d1-4358-ae82-25ef26c67d9e")
 	)
 	(wire
 		(pts
@@ -8508,7 +8473,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 260.35) (xy 205.74 260.35)
+			(xy 270.51 167.64) (xy 273.05 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8628,7 +8593,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 203.2) (xy 287.02 203.2)
+			(xy 351.79 154.94) (xy 349.25 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8748,7 +8713,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 207.01) (xy 336.55 210.82)
+			(xy 358.14 209.55) (xy 358.14 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8768,7 +8733,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 146.05) (xy 250.19 148.59)
+			(xy 191.77 245.11) (xy 191.77 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8778,7 +8743,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 209.55) (xy 290.83 209.55)
+			(xy 349.25 161.29) (xy 353.06 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8818,7 +8783,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 231.14) (xy 312.42 231.14)
+			(xy 379.73 182.88) (xy 377.19 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8858,23 +8823,13 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 158.75) (xy 278.13 161.29)
+			(xy 219.71 257.81) (xy 219.71 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f74b85d-a865-4a71-88c9-9a073999dc55")
-	)
-	(wire
-		(pts
-			(xy 177.8 66.04) (xy 180.34 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f786a14-1f56-47e5-9753-910a0f4e6685")
 	)
 	(wire
 		(pts
@@ -8908,7 +8863,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 158.75) (xy 250.19 161.29)
+			(xy 191.77 257.81) (xy 191.77 260.35)
 		)
 		(stroke
 			(width 0)
@@ -8928,7 +8883,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 161.29) (xy 292.1 161.29)
+			(xy 219.71 260.35) (xy 233.68 260.35)
 		)
 		(stroke
 			(width 0)
@@ -8948,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 255.27) (xy 233.68 252.73)
+			(xy 300.99 162.56) (xy 300.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8998,7 +8953,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 158.75) (xy 292.1 161.29)
+			(xy 233.68 257.81) (xy 233.68 260.35)
 		)
 		(stroke
 			(width 0)
@@ -9025,16 +8980,6 @@
 			(type default)
 		)
 		(uuid "27924fdd-54a3-40f4-a671-39e3a8e04faa")
-	)
-	(wire
-		(pts
-			(xy 297.18 231.14) (xy 299.72 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2931098e-116a-4c36-b763-76f7ecd3e1c4")
 	)
 	(wire
 		(pts
@@ -9128,7 +9073,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 151.13) (xy 334.01 148.59)
+			(xy 275.59 250.19) (xy 275.59 247.65)
 		)
 		(stroke
 			(width 0)
@@ -9188,7 +9133,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 199.39) (xy 340.36 199.39)
+			(xy 359.41 201.93) (xy 361.95 201.93)
 		)
 		(stroke
 			(width 0)
@@ -9208,7 +9153,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 257.81) (xy 226.06 257.81)
+			(xy 295.91 165.1) (xy 293.37 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9258,7 +9203,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 231.14) (xy 302.26 231.14)
+			(xy 364.49 182.88) (xy 367.03 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9328,7 +9273,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 231.14) (xy 287.02 233.68)
+			(xy 349.25 182.88) (xy 349.25 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9448,7 +9393,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 161.29) (xy 306.07 161.29)
+			(xy 233.68 260.35) (xy 247.65 260.35)
 		)
 		(stroke
 			(width 0)
@@ -9478,7 +9423,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 161.29) (xy 334.01 161.29)
+			(xy 261.62 260.35) (xy 275.59 260.35)
 		)
 		(stroke
 			(width 0)
@@ -9728,7 +9673,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 207.01) (xy 336.55 207.01)
+			(xy 361.95 209.55) (xy 358.14 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9868,16 +9813,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 203.2) (xy 312.42 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d98a69-85a2-4a80-937f-d9beb5b4d69e")
-	)
-	(wire
-		(pts
 			(xy 22.86 160.02) (xy 39.37 160.02)
 		)
 		(stroke
@@ -9968,7 +9903,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 260.35) (xy 226.06 260.35)
+			(xy 295.91 167.64) (xy 293.37 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9998,7 +9933,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 148.59) (xy 334.01 148.59)
+			(xy 261.62 247.65) (xy 275.59 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10038,7 +9973,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 161.29) (xy 264.16 161.29)
+			(xy 191.77 260.35) (xy 205.74 260.35)
 		)
 		(stroke
 			(width 0)
@@ -10138,7 +10073,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 231.14) (xy 287.02 231.14)
+			(xy 353.06 182.88) (xy 349.25 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10168,6 +10103,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 182.88) (xy 364.49 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62804437-4e29-4f14-a15c-b2ff9b5c46cb")
+	)
+	(wire
+		(pts
 			(xy 355.6 55.88) (xy 363.22 55.88)
 		)
 		(stroke
@@ -10178,7 +10123,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 209.55) (xy 298.45 209.55)
+			(xy 364.49 161.29) (xy 360.68 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10248,7 +10193,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 252.73) (xy 228.6 257.81)
+			(xy 295.91 160.02) (xy 295.91 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10258,7 +10203,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 151.13) (xy 250.19 148.59)
+			(xy 191.77 250.19) (xy 191.77 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10328,7 +10273,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 158.75) (xy 264.16 161.29)
+			(xy 205.74 257.81) (xy 205.74 260.35)
 		)
 		(stroke
 			(width 0)
@@ -10548,7 +10493,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 148.59) (xy 320.04 148.59)
+			(xy 247.65 247.65) (xy 261.62 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10628,7 +10573,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 203.2) (xy 287.02 209.55)
+			(xy 349.25 154.94) (xy 349.25 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10748,7 +10693,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 161.29) (xy 320.04 161.29)
+			(xy 247.65 260.35) (xy 261.62 260.35)
 		)
 		(stroke
 			(width 0)
@@ -10768,7 +10713,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 265.43) (xy 233.68 262.89)
+			(xy 300.99 172.72) (xy 300.99 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10828,7 +10773,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 260.35) (xy 228.6 265.43)
+			(xy 295.91 167.64) (xy 295.91 172.72)
 		)
 		(stroke
 			(width 0)
@@ -10928,7 +10873,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 148.59) (xy 306.07 148.59)
+			(xy 233.68 247.65) (xy 247.65 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10938,7 +10883,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 158.75) (xy 320.04 161.29)
+			(xy 261.62 257.81) (xy 261.62 260.35)
 		)
 		(stroke
 			(width 0)
@@ -11118,7 +11063,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 201.93) (xy 337.82 201.93)
+			(xy 361.95 204.47) (xy 359.41 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11298,7 +11243,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 151.13) (xy 264.16 148.59)
+			(xy 205.74 250.19) (xy 205.74 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11318,7 +11263,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 200.66) (xy 314.96 203.2)
+			(xy 379.73 152.4) (xy 379.73 154.94)
 		)
 		(stroke
 			(width 0)
@@ -11348,7 +11293,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 203.2) (xy 302.26 203.2)
+			(xy 361.95 154.94) (xy 364.49 154.94)
 		)
 		(stroke
 			(width 0)
@@ -11378,7 +11323,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 203.2) (xy 302.26 200.66)
+			(xy 364.49 154.94) (xy 364.49 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11408,7 +11353,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 148.59) (xy 278.13 148.59)
+			(xy 205.74 247.65) (xy 219.71 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11626,6 +11571,16 @@
 		)
 		(uuid "a7da4bc0-a4c6-48c7-a52c-2c43dc090d9b")
 	)
+	(polyline
+		(pts
+			(xy 337.82 227.965) (xy 337.82 137.16)
+		)
+		(stroke
+			(width 0.25)
+			(type dash)
+		)
+		(uuid "a7ebc5d2-9371-4342-a030-e0a28d33319b")
+	)
 	(wire
 		(pts
 			(xy 104.14 119.38) (xy 100.33 119.38)
@@ -11668,7 +11623,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 151.13) (xy 306.07 148.59)
+			(xy 247.65 250.19) (xy 247.65 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11728,7 +11683,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 151.13) (xy 320.04 148.59)
+			(xy 261.62 250.19) (xy 261.62 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11748,7 +11703,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 265.43) (xy 233.68 265.43)
+			(xy 295.91 172.72) (xy 300.99 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11818,7 +11773,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 158.75) (xy 334.01 161.29)
+			(xy 275.59 257.81) (xy 275.59 260.35)
 		)
 		(stroke
 			(width 0)
@@ -11868,7 +11823,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 252.73) (xy 228.6 252.73)
+			(xy 300.99 160.02) (xy 295.91 160.02)
 		)
 		(stroke
 			(width 0)
@@ -11898,7 +11853,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 148.59) (xy 264.16 148.59)
+			(xy 191.77 247.65) (xy 205.74 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11918,7 +11873,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 161.29) (xy 278.13 161.29)
+			(xy 205.74 260.35) (xy 219.71 260.35)
 		)
 		(stroke
 			(width 0)
@@ -12118,7 +12073,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 148.59) (xy 292.1 148.59)
+			(xy 219.71 247.65) (xy 233.68 247.65)
 		)
 		(stroke
 			(width 0)
@@ -12368,7 +12323,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 161.29) (xy 250.19 163.83)
+			(xy 191.77 260.35) (xy 191.77 262.89)
 		)
 		(stroke
 			(width 0)
@@ -12448,7 +12403,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 265.43) (xy 233.68 267.97)
+			(xy 300.99 172.72) (xy 300.99 175.26)
 		)
 		(stroke
 			(width 0)
@@ -12458,7 +12413,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 203.2) (xy 302.26 203.2)
+			(xy 368.3 154.94) (xy 364.49 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12578,6 +12533,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 154.94) (xy 379.73 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec5d588-4c17-46f1-b396-9a7d83b8a826")
+	)
+	(wire
+		(pts
 			(xy 116.84 91.44) (xy 116.84 88.9)
 		)
 		(stroke
@@ -12588,7 +12553,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 158.75) (xy 306.07 161.29)
+			(xy 247.65 257.81) (xy 247.65 260.35)
 		)
 		(stroke
 			(width 0)
@@ -12628,7 +12593,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 204.47) (xy 337.82 204.47)
+			(xy 361.95 207.01) (xy 359.41 207.01)
 		)
 		(stroke
 			(width 0)
@@ -13018,7 +12983,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 250.19) (xy 233.68 252.73)
+			(xy 300.99 157.48) (xy 300.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13108,7 +13073,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 151.13) (xy 292.1 148.59)
+			(xy 233.68 250.19) (xy 233.68 247.65)
 		)
 		(stroke
 			(width 0)
@@ -13125,6 +13090,16 @@
 			(type default)
 		)
 		(uuid "eab35338-6a53-4fb8-9679-25eca3936956")
+	)
+	(wire
+		(pts
+			(xy 374.65 182.88) (xy 377.19 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb263e69-6a30-4b7d-9e12-4850173b0bb3")
 	)
 	(wire
 		(pts
@@ -13208,7 +13183,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 203.2) (xy 302.26 209.55)
+			(xy 364.49 154.94) (xy 364.49 161.29)
 		)
 		(stroke
 			(width 0)
@@ -13248,7 +13223,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 226.06) (xy 317.5 231.14)
+			(xy 379.73 177.8) (xy 379.73 182.88)
 		)
 		(stroke
 			(width 0)
@@ -13318,7 +13293,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 151.13) (xy 278.13 148.59)
+			(xy 219.71 250.19) (xy 219.71 247.65)
 		)
 		(stroke
 			(width 0)
@@ -13408,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 228.6) (xy 299.72 231.14)
+			(xy 364.49 180.34) (xy 364.49 182.88)
 		)
 		(stroke
 			(width 0)
@@ -13528,7 +13503,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 209.55) (xy 287.02 212.09)
+			(xy 349.25 161.29) (xy 349.25 163.83)
 		)
 		(stroke
 			(width 0)
@@ -13619,10 +13594,10 @@
 		(uuid "09399255-9111-4335-a69e-79d32bf77d2f")
 	)
 	(label "REG_MCU_SW"
-		(at 125.73 255.27 90)
+		(at 121.92 255.27 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 				(color 255 0 0 0)
 			)
 			(justify left bottom)
@@ -13641,13 +13616,13 @@
 		(uuid "124b21b2-e0ae-43c1-8dcc-34dce2af828e")
 	)
 	(label "REG_L_FB"
-		(at 54.61 218.44 0)
+		(at 59.69 218.44 270)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 				(color 255 0 0 0)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "20501cd6-bc9e-4d54-b3d2-9e3470fa3769")
 	)
@@ -13666,7 +13641,7 @@
 		(at 127 257.81 270)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 				(color 255 0 0 0)
 			)
 			(justify right bottom)
@@ -13729,10 +13704,10 @@
 		(uuid "444bce70-aa17-41a7-ad55-25579766e995")
 	)
 	(label "REG_L_SW"
-		(at 57.15 215.9 90)
+		(at 54.61 215.9 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 				(color 255 0 0 0)
 			)
 			(justify left bottom)
@@ -13961,7 +13936,7 @@
 	)
 	(global_label "OSC_8MHz"
 		(shape output)
-		(at 203.2 260.35 180)
+		(at 270.51 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13971,7 +13946,7 @@
 		)
 		(uuid "1871fd7e-3b07-4347-bebf-d575e3ac861f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4177 260.35 0)
+			(at 257.7277 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14115,7 +14090,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 302.26 200.66 90)
+		(at 364.49 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14125,7 +14100,7 @@
 		)
 		(uuid "305c57d7-4b8b-41e6-8c33-a1dd211de70b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.26 191.9297 90)
+			(at 364.49 143.6697 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14137,7 +14112,7 @@
 	)
 	(global_label "BOOT"
 		(shape input)
-		(at 299.72 228.6 90)
+		(at 364.49 180.34 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14147,7 +14122,7 @@
 		)
 		(uuid "308fc999-b5c3-4302-98cf-15be174ce5b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.72 220.7162 90)
+			(at 364.49 172.4562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14181,7 +14156,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 337.82 201.93 180)
+		(at 359.41 204.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14191,7 +14166,7 @@
 		)
 		(uuid "346bc98f-3171-45ea-be48-6be3190cc4f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.6058 201.93 0)
+			(at 350.1958 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14819,7 +14794,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 337.82 204.47 180)
+		(at 359.41 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14829,7 +14804,7 @@
 		)
 		(uuid "88841129-6fe1-4448-95a3-d410c7c65050")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.8573 204.47 0)
+			(at 349.4473 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14863,7 +14838,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 337.82 199.39 180)
+		(at 359.41 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14873,7 +14848,7 @@
 		)
 		(uuid "8d92cf1e-cf13-4b8e-bff4-8befd449bbb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 329.0897 199.39 0)
+			(at 350.6797 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15662,7 +15637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "001a03b2-5759-4d30-838d-5ce68d665c22")
-		(property "Reference" "C12"
+		(property "Reference" "C29"
 			(at 102.87 220.9799 0)
 			(effects
 				(font
@@ -15716,7 +15691,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C12")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -15731,7 +15706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00a6c948-66e5-48b4-821b-a4529dacd91f")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 73.66 118.11 90)
 			(effects
 				(font
@@ -15785,7 +15760,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15800,7 +15775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "015bf69f-332d-43e1-8345-c3b09e96c0fb")
-		(property "Reference" "C40"
+		(property "Reference" "C19"
 			(at 362.585 64.77 0)
 			(effects
 				(font
@@ -15854,7 +15829,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C40")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15875,7 +15850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01cc195b-0c75-40bb-bfda-5fa3f2515493")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 176.53 68.58 90)
 			(effects
 				(font
@@ -15927,7 +15902,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -16013,7 +15988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0368c154-180e-4301-85dd-a83f865a37b5")
-		(property "Reference" "R25"
+		(property "Reference" "R43"
 			(at 130.81 260.858 90)
 			(effects
 				(font
@@ -16065,7 +16040,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R25")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -16279,7 +16254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087c6229-5563-4a0b-83ce-8f6fb2250828")
-		(property "Reference" "C5"
+		(property "Reference" "C27"
 			(at 77.47 220.9799 0)
 			(effects
 				(font
@@ -16333,7 +16308,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C5")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -16763,15 +16738,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 293.37 231.14 270)
+		(at 356.87 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0afc886c-452f-400e-9095-bf16cbbfbf9a")
-		(property "Reference" "R22"
-			(at 291.465 225.4249 90)
+		(property "Reference" "R11"
+			(at 354.965 177.1649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16780,7 +16755,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 291.465 227.9649 90)
+			(at 354.965 179.7049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16789,7 +16764,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 293.116 232.156 90)
+			(at 356.616 183.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16798,7 +16773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 293.37 231.14 0)
+			(at 356.87 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16807,7 +16782,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 293.37 231.14 0)
+			(at 356.87 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16824,7 +16799,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R22")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17053,7 +17028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ffcd953-51de-4a8c-9ac0-c45b2edbb5cb")
-		(property "Reference" "R16"
+		(property "Reference" "R39"
 			(at 147.955 152.4 0)
 			(effects
 				(font
@@ -17107,7 +17082,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R16")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -17421,7 +17396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "154debd8-fbe3-44ca-9a61-07b5e7092b34")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 44.45 205.74 0)
 			(effects
 				(font
@@ -17486,7 +17461,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17643,7 +17618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "196602a9-0675-4610-b76a-1e831cd974eb")
-		(property "Reference" "R32"
+		(property "Reference" "R21"
 			(at 343.535 50.8 0)
 			(effects
 				(font
@@ -17697,7 +17672,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R32")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -17719,8 +17694,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a1eeda7-5843-4848-a331-1dcaff43f9dd")
-		(property "Reference" "U10"
-			(at 345.44 120.65 0)
+		(property "Reference" "D8"
+			(at 346.71 118.872 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17728,7 +17703,7 @@
 			)
 		)
 		(property "Value" "TPD2EUSB30"
-			(at 346.71 118.11 0)
+			(at 345.44 121.412 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17776,7 +17751,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -17867,7 +17842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cefe40e-cd10-44db-95ce-ed00a3e9af30")
-		(property "Reference" "C39"
+		(property "Reference" "C18"
 			(at 354.965 64.77 0)
 			(effects
 				(font
@@ -17921,7 +17896,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C39")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -17943,7 +17918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d12c466-075e-40fb-9c12-3c8da7965051")
-		(property "Reference" "C28"
+		(property "Reference" "C12"
 			(at 280.035 40.64 0)
 			(effects
 				(font
@@ -17997,7 +17972,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C28")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -18011,15 +17986,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 278.13 154.94 0)
+		(at 219.71 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1f72b242-fbd8-4803-8338-3054b8db43ea")
-		(property "Reference" "C17"
-			(at 281.94 153.6699 0)
+		(property "Reference" "C3"
+			(at 223.52 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18028,7 +18003,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 281.94 156.2099 0)
+			(at 223.52 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,7 +18012,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 279.0952 158.75 0)
+			(at 220.6752 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18046,7 +18021,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18055,7 +18030,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18064,7 +18039,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18073,7 +18048,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18082,7 +18057,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18091,7 +18066,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18100,7 +18075,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18109,7 +18084,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,7 +18093,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 278.13 154.94 0)
+			(at 219.71 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18135,7 +18110,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C17")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18214,7 +18189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "217abeb8-904b-45c1-876f-c7e212ef39b8")
-		(property "Reference" "R44"
+		(property "Reference" "R29"
 			(at 394.335 86.36 0)
 			(effects
 				(font
@@ -18268,7 +18243,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R44")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -18282,7 +18257,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3_PI")
-		(at 314.96 200.66 0)
+		(at 379.73 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18290,7 +18265,7 @@
 		(dnp no)
 		(uuid "22206531-c9a1-435d-b678-14f1fe31e887")
 		(property "Reference" "#PWR028"
-			(at 314.96 204.47 0)
+			(at 379.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18274,7 @@
 			)
 		)
 		(property "Value" "+3V3_MCU"
-			(at 314.96 196.088 0)
+			(at 379.73 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18307,7 +18282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 200.66 0)
+			(at 379.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18316,7 +18291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 200.66 0)
+			(at 379.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18325,7 +18300,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 200.66 0)
+			(at 379.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18347,15 +18322,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 250.19 154.94 0)
+		(at 191.77 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "22a557b6-75b2-4ae5-ac50-9a0600d13df9")
-		(property "Reference" "C15"
-			(at 254 153.6699 0)
+		(property "Reference" "C1"
+			(at 195.58 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18364,7 +18339,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 254 156.2099 0)
+			(at 195.58 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18373,7 +18348,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 251.1552 158.75 0)
+			(at 192.7352 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18382,7 +18357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18391,7 +18366,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18400,7 +18375,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18409,7 +18384,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18418,7 +18393,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18427,7 +18402,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18436,7 +18411,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18445,7 +18420,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18454,7 +18429,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 250.19 154.94 0)
+			(at 191.77 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18471,7 +18446,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C15")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -18760,10 +18735,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "255a0f8f-a72a-4d07-b912-7af6c935ccc8")
-		(property "Reference" "R39"
-			(at 375.92 73.66 90)
+		(property "Reference" "R26"
+			(at 375.92 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18771,7 +18745,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 375.92 76.2 90)
+			(at 375.92 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18814,7 +18788,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R39")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -18836,7 +18810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "255b63ef-bfab-4b04-bacf-04be0d10af3a")
-		(property "Reference" "C33"
+		(property "Reference" "C22"
 			(at 315.595 92.71 0)
 			(effects
 				(font
@@ -18890,7 +18864,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C33")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -18904,7 +18878,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 287.02 233.68 0)
+		(at 349.25 185.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18914,7 +18888,7 @@
 		(fields_autoplaced yes)
 		(uuid "265808fc-9d86-40f5-8c79-3a610cc0949d")
 		(property "Reference" "#PWR046"
-			(at 287.02 240.03 0)
+			(at 349.25 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18923,7 +18897,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 287.02 238.76 0)
+			(at 349.25 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18931,7 +18905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 233.68 0)
+			(at 349.25 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18940,7 +18914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 233.68 0)
+			(at 349.25 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18949,7 +18923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 287.02 233.68 0)
+			(at 349.25 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18971,15 +18945,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 306.07 154.94 0)
+		(at 247.65 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "28746065-12c1-40c8-9397-fb2508dc59a3")
-		(property "Reference" "C22"
-			(at 309.88 153.6699 0)
+		(property "Reference" "C5"
+			(at 251.46 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18988,7 +18962,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 309.88 156.2099 0)
+			(at 251.46 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18997,7 +18971,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 307.0352 158.75 0)
+			(at 248.6152 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19006,7 +18980,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19015,7 +18989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19024,7 +18998,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19033,7 +19007,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19042,7 +19016,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19051,7 +19025,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19060,7 +19034,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19069,7 +19043,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19078,7 +19052,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 306.07 154.94 0)
+			(at 247.65 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19095,7 +19069,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C22")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -19103,16 +19077,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 345.44 201.93 0)
+		(at 367.03 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29db534a-f26a-4427-89bd-3e438d0e1bee")
 		(property "Reference" "J5"
-			(at 347.98 201.9299 0)
+			(at 369.57 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19121,7 +19095,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 347.98 204.4699 0)
+			(at 369.57 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19130,7 +19104,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 345.44 201.93 0)
+			(at 367.03 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19139,7 +19113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 345.44 201.93 0)
+			(at 367.03 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19148,7 +19122,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 345.44 201.93 0)
+			(at 367.03 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19186,7 +19160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29fe5bd5-23d9-428c-a74a-d96b578ea7d5")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 187.325 55.88 0)
 			(effects
 				(font
@@ -19240,7 +19214,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -19262,7 +19236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a941ca7-5fe6-473d-a2c0-7d27e11b933b")
-		(property "Reference" "C3"
+		(property "Reference" "C26"
 			(at 27.94 217.1699 0)
 			(effects
 				(font
@@ -19316,7 +19290,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C3")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -19324,7 +19298,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 307.34 231.14 0)
+		(at 372.11 182.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19333,7 +19307,7 @@
 		(dnp no)
 		(uuid "2c4f6d17-f614-46ce-9e46-0cce0f0a6954")
 		(property "Reference" "SW2"
-			(at 307.594 223.266 0)
+			(at 372.364 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19341,7 +19315,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 307.594 225.806 0)
+			(at 372.364 177.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19349,7 +19323,7 @@
 			)
 		)
 		(property "Footprint" "EVQ_P7L01P:SW_EVQ-P7L01P"
-			(at 307.34 226.06 0)
+			(at 372.11 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19358,7 +19332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 307.34 226.06 0)
+			(at 372.11 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19367,7 +19341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 307.34 231.14 0)
+			(at 372.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19400,7 +19374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d4ce4e9-1f6a-4c12-9d57-cae0994694b4")
-		(property "Reference" "C21"
+		(property "Reference" "C14"
 			(at 229.235 60.96 0)
 			(effects
 				(font
@@ -19454,7 +19428,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C21")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -19549,7 +19523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33e585f7-f869-4e01-9989-39ace024e642")
-		(property "Reference" "C42"
+		(property "Reference" "C21"
 			(at 370.205 82.55 0)
 			(effects
 				(font
@@ -19603,7 +19577,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C42")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -19625,8 +19599,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36ba3cd8-b538-4d60-9a15-2cbec7d5dc67")
-		(property "Reference" "R18"
-			(at 176.53 58.42 90)
+		(property "Reference" "R15"
+			(at 176.53 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19634,7 +19608,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 176.53 60.96 90)
+			(at 176.53 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19677,7 +19651,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R18")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -19766,7 +19740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3764b8b9-3a89-4856-84cc-6a3198ef6e80")
-		(property "Reference" "C41"
+		(property "Reference" "C20"
 			(at 362.585 82.55 0)
 			(effects
 				(font
@@ -19820,7 +19794,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C41")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -19908,7 +19882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a453800-f845-4d2c-be3b-d3a432ef5787")
-		(property "Reference" "R42"
+		(property "Reference" "R25"
 			(at 386.715 60.96 0)
 			(effects
 				(font
@@ -19962,7 +19936,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R42")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -19984,7 +19958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a781de5-8727-4237-bb08-10532f656b4c")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 215.5033 229.87 0)
 			(effects
 				(font
@@ -20177,7 +20151,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -20192,7 +20166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c70e5c8-7384-4471-9306-47553c45ec62")
-		(property "Reference" "R43"
+		(property "Reference" "R28"
 			(at 387.985 86.36 0)
 			(effects
 				(font
@@ -20246,7 +20220,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R43")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -20341,7 +20315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f619c9f-6d54-47f4-8af6-57f4b7928069")
-		(property "Reference" "R45"
+		(property "Reference" "R12"
 			(at 252.095 189.23 0)
 			(effects
 				(font
@@ -20395,7 +20369,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R45")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -20411,7 +20385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fd2b9df-78da-4b59-8ce3-06d57085c1ed")
-		(property "Reference" "R41"
+		(property "Reference" "R24"
 			(at 380.365 60.96 0)
 			(effects
 				(font
@@ -20465,7 +20439,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R41")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -20486,7 +20460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42df2f2e-c313-4ef3-9937-e66a859e16f4")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 123.19 118.11 90)
 			(effects
 				(font
@@ -20540,7 +20514,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -20556,7 +20530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42ff62ef-e802-45da-a61f-ee6ad1592bcf")
-		(property "Reference" "C6"
+		(property "Reference" "C38"
 			(at 76.2 81.28 90)
 			(effects
 				(font
@@ -20609,7 +20583,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C6")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -20624,10 +20598,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4392650a-f2a5-4c58-8e6f-cc818f7290f0")
-		(property "Reference" "R27"
-			(at 325.12 53.34 90)
+		(property "Reference" "R18"
+			(at 325.12 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20635,7 +20608,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 325.12 55.88 90)
+			(at 325.12 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20678,7 +20651,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R27")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -20767,8 +20740,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4541e72e-9ad2-4e00-868c-d3fff9a1f847")
-		(property "Reference" "U12"
-			(at 392.43 110.49 0)
+		(property "Reference" "D7"
+			(at 393.7 108.966 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20776,7 +20749,7 @@
 			)
 		)
 		(property "Value" "TPD2EUSB30"
-			(at 393.7 107.95 0)
+			(at 392.43 111.506 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20824,7 +20797,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U12")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -20839,7 +20812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45bbcd2d-27b7-413b-9f3a-6b6bb4714c38")
-		(property "Reference" "R21"
+		(property "Reference" "R40"
 			(at 59.69 201.9299 0)
 			(effects
 				(font
@@ -20893,7 +20866,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R21")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -20909,7 +20882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a8ff34b-6ae4-452b-bcae-e94966addc40")
-		(property "Reference" "R11"
+		(property "Reference" "R36"
 			(at 81.915 152.4 0)
 			(effects
 				(font
@@ -20963,7 +20936,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R11")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -20979,7 +20952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ca34861-bb91-40e2-a2b5-7015afbccef1")
-		(property "Reference" "R17"
+		(property "Reference" "R38"
 			(at 160.655 152.4 0)
 			(effects
 				(font
@@ -21033,7 +21006,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R17")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -21114,7 +21087,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 336.55 210.82 0)
+		(at 358.14 213.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21124,7 +21097,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d5f3cd5-22f2-4cc9-b43a-89e95e75cee5")
 		(property "Reference" "#PWR056"
-			(at 336.55 217.17 0)
+			(at 358.14 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21133,7 +21106,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 336.55 214.63 0)
+			(at 358.14 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21142,7 +21115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 210.82 0)
+			(at 358.14 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21151,7 +21124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 210.82 0)
+			(at 358.14 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21160,7 +21133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 210.82 0)
+			(at 358.14 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21461,7 +21434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "540dc3eb-ac26-43b5-8528-530503a23710")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 123.19 115.57 90)
 			(effects
 				(font
@@ -21515,7 +21488,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -21523,15 +21496,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 294.64 209.55 270)
+		(at 356.87 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "54d44936-69a5-4a66-aef4-3db454831adf")
-		(property "Reference" "C37"
-			(at 291.465 215.2649 90)
+		(property "Reference" "C9"
+			(at 355.854 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21540,7 +21513,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 291.465 217.8049 90)
+			(at 355.854 169.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21549,7 +21522,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 290.83 210.5152 0)
+			(at 353.06 162.2552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21558,7 +21531,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21567,7 +21540,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21576,7 +21549,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21585,7 +21558,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21594,7 +21567,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21603,7 +21576,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21612,7 +21585,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21621,7 +21594,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21630,7 +21603,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 294.64 209.55 0)
+			(at 356.87 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21647,7 +21620,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C37")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -21663,7 +21636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "556324ce-5249-4797-b67a-2620da9444c9")
-		(property "Reference" "R6"
+		(property "Reference" "R37"
 			(at 69.215 152.4 0)
 			(effects
 				(font
@@ -21717,7 +21690,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R6")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -21988,7 +21961,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 294.64 203.2 0)
+		(at 356.87 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21997,7 +21970,7 @@
 		(dnp no)
 		(uuid "5eef8b00-d4b6-438d-b6ec-72b912aa50b4")
 		(property "Reference" "SW1"
-			(at 294.386 198.374 0)
+			(at 356.616 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22005,7 +21978,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 294.386 195.834 0)
+			(at 356.616 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22013,7 +21986,7 @@
 			)
 		)
 		(property "Footprint" "EVQ_P7L01P:SW_EVQ-P7L01P"
-			(at 294.64 198.12 0)
+			(at 356.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22022,7 +21995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 198.12 0)
+			(at 356.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22031,7 +22004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 294.64 203.2 0)
+			(at 356.87 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22064,7 +22037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fab9dee-340c-49d3-87cb-c52cc9400ff1")
-		(property "Reference" "C7"
+		(property "Reference" "C39"
 			(at 76.2 87.63 90)
 			(effects
 				(font
@@ -22118,7 +22091,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C7")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -22427,7 +22400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63b2b6dc-3d82-4e40-9380-53dd21e97692")
-		(property "Reference" "C9"
+		(property "Reference" "C28"
 			(at 90.17 220.9799 0)
 			(effects
 				(font
@@ -22481,7 +22454,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C9")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -22868,7 +22841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6977aa71-d212-480a-aca9-79ade9bfcdd0")
-		(property "Reference" "Y1"
+		(property "Reference" "Y2"
 			(at 212.09 78.232 0)
 			(effects
 				(font
@@ -23037,7 +23010,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -23053,7 +23026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69b3e99b-7ff6-402c-bf68-96079a0a9a13")
-		(property "Reference" "R37"
+		(property "Reference" "R13"
 			(at 369.57 232.41 90)
 			(effects
 				(font
@@ -23105,7 +23078,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R37")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -23188,7 +23161,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 250.19 163.83 0)
+		(at 191.77 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23197,7 +23170,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c52d1f5-73b5-4bad-b792-848bf67f4341")
 		(property "Reference" "#PWR047"
-			(at 250.19 170.18 0)
+			(at 191.77 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23206,7 +23179,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 250.19 167.64 0)
+			(at 191.77 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23215,7 +23188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 163.83 0)
+			(at 191.77 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23224,7 +23197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 163.83 0)
+			(at 191.77 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23233,7 +23206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 163.83 0)
+			(at 191.77 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23263,7 +23236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d4d35c9-24a0-4f9b-ac9d-b77e921f5057")
-		(property "Reference" "R28"
+		(property "Reference" "R19"
 			(at 325.12 63.5 90)
 			(effects
 				(font
@@ -23315,7 +23288,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R28")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -23336,7 +23309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6de9fa6e-ad1e-4ea7-a13e-69f06d98eca2")
-		(property "Reference" "R7"
+		(property "Reference" "R35"
 			(at 70.485 39.37 0)
 			(effects
 				(font
@@ -23390,7 +23363,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R7")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -23411,7 +23384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eeb9e41-f34b-43fe-9718-f54bcaf7f2db")
-		(property "Reference" "C32"
+		(property "Reference" "C16"
 			(at 311.785 54.61 0)
 			(effects
 				(font
@@ -23465,7 +23438,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C32")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -23487,7 +23460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "743d025f-cf61-43d0-95d1-ced10a0ad3b0")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 95.25 256.5399 0)
 			(effects
 				(font
@@ -23541,7 +23514,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -23651,15 +23624,6 @@
 		(pin "S1"
 			(uuid "c5efc8e6-034d-494d-b9cb-fd80f73e1864")
 		)
-		(pin "S2"
-			(uuid "e8106695-4a4f-424e-a989-8d2363b75cba")
-		)
-		(pin "S3"
-			(uuid "eff97025-f267-44d9-b13a-df61b4ec0233")
-		)
-		(pin "S4"
-			(uuid "3b9e2c1d-61c0-4fc7-85bc-d4ef113555b1")
-		)
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
@@ -23671,7 +23635,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3_PI")
-		(at 317.5 226.06 0)
+		(at 379.73 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23679,7 +23643,7 @@
 		(dnp no)
 		(uuid "76a1fd83-e0fa-407d-870b-0cc62753df03")
 		(property "Reference" "#PWR037"
-			(at 317.5 229.87 0)
+			(at 379.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23688,7 +23652,7 @@
 			)
 		)
 		(property "Value" "+3V3_MCU"
-			(at 317.5 221.488 0)
+			(at 379.73 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23696,7 +23660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 226.06 0)
+			(at 379.73 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23705,7 +23669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 226.06 0)
+			(at 379.73 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23714,7 +23678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 226.06 0)
+			(at 379.73 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23866,7 +23830,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3_PI")
-		(at 250.19 146.05 0)
+		(at 191.77 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23874,7 +23838,7 @@
 		(dnp no)
 		(uuid "7a9a3b18-91f0-4fd6-bdde-3ec43b4e1337")
 		(property "Reference" "#PWR044"
-			(at 250.19 149.86 0)
+			(at 191.77 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23883,7 +23847,7 @@
 			)
 		)
 		(property "Value" "+3V3_MCU"
-			(at 250.19 141.478 0)
+			(at 191.77 240.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23891,7 +23855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 146.05 0)
+			(at 191.77 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23900,7 +23864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 146.05 0)
+			(at 191.77 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23909,7 +23873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 146.05 0)
+			(at 191.77 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23939,7 +23903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b90c011-5f8b-4978-89cc-45bfdbdfd31c")
-		(property "Reference" "C13"
+		(property "Reference" "C40"
 			(at 125.73 81.28 90)
 			(effects
 				(font
@@ -23992,7 +23956,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C13")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -24075,7 +24039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c65d0c9-db98-40d9-a669-6a70b5486843")
-		(property "Reference" "R31"
+		(property "Reference" "R20"
 			(at 337.185 50.8 0)
 			(effects
 				(font
@@ -24129,7 +24093,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R31")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -24150,7 +24114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e956474-3e8b-419f-8677-a7535814a922")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 144.78 260.3499 0)
 			(effects
 				(font
@@ -24204,7 +24168,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -24220,8 +24184,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81b7b5df-40f9-4a28-9151-f691889475c4")
-		(property "Reference" "U11"
-			(at 386.08 43.18 0)
+		(property "Reference" "D6"
+			(at 386.08 42.418 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24229,7 +24193,7 @@
 			)
 		)
 		(property "Value" "TPD2EUSB30"
-			(at 388.62 45.72 0)
+			(at 388.62 44.958 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24277,7 +24241,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U11")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -24293,7 +24257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84c3c8ef-99b2-4819-9df2-f90bdae707f3")
-		(property "Reference" "R36"
+		(property "Reference" "R23"
 			(at 368.3 73.66 90)
 			(effects
 				(font
@@ -24345,7 +24309,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R36")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -24499,7 +24463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b374fae-dab4-410e-94e6-26686b3cc850")
-		(property "Reference" "C35"
+		(property "Reference" "C33"
 			(at 170.18 260.3499 0)
 			(effects
 				(font
@@ -24553,7 +24517,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C35")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -24625,15 +24589,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 334.01 154.94 0)
+		(at 275.59 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8c2285f5-dc74-4f0d-9bcf-c8c88c6bf810")
-		(property "Reference" "C27"
-			(at 337.82 153.6699 0)
+		(property "Reference" "C7"
+			(at 279.4 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24642,7 +24606,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 337.82 156.2099 0)
+			(at 279.4 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24651,7 +24615,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 334.9752 158.75 0)
+			(at 276.5552 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24660,7 +24624,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24669,7 +24633,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24678,7 +24642,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24687,7 +24651,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24696,7 +24660,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24705,7 +24669,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24714,7 +24678,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24723,7 +24687,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24732,7 +24696,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 334.01 154.94 0)
+			(at 275.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24749,7 +24713,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C27")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -24765,7 +24729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c4c5eb6-8bc7-40f3-ae9a-83ae6920e099")
-		(property "Reference" "C14"
+		(property "Reference" "C41"
 			(at 125.73 87.63 90)
 			(effects
 				(font
@@ -24819,7 +24783,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C14")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -24907,7 +24871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99d317af-e76d-463d-bc52-54fb78b450c5")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 111.76 245.11 0)
 			(effects
 				(font
@@ -24972,7 +24936,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -25048,15 +25012,15 @@
 	)
 	(symbol
 		(lib_id "KC2520Z8.00000C1KX00:KC2520Z8.00000C1KX00")
-		(at 215.9 259.08 0)
+		(at 283.21 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9aecf169-a9d6-465b-a8aa-3d91dcc8ee67")
-		(property "Reference" "Y2"
-			(at 215.9 263.652 0)
+		(property "Reference" "Y1"
+			(at 283.21 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25064,7 +25028,7 @@
 			)
 		)
 		(property "Value" "KC2520Z8.00000C1KX00"
-			(at 211.328 266.954 0)
+			(at 278.638 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25072,7 +25036,7 @@
 			)
 		)
 		(property "Footprint" "KC2520Z8_00000C1KX00:OSC_KC2520Z8.00000C1KX00"
-			(at 215.9 259.08 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25082,7 +25046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 259.08 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25091,7 +25055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 259.08 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25100,7 +25064,7 @@
 			)
 		)
 		(property "PARTREV" "October 16, 2023"
-			(at 215.9 259.08 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25110,7 +25074,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Kyocera"
-			(at 215.9 259.08 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25120,7 +25084,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
-			(at 215.9 259.08 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25130,7 +25094,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 215.9 259.08 0)
+			(at 283.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25154,7 +25118,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -25169,7 +25133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b23db4c-98fd-42d8-85af-81a313cf512b")
-		(property "Reference" "U8"
+		(property "Reference" "U2"
 			(at 274.32 52.07 0)
 			(effects
 				(font
@@ -25313,7 +25277,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -25394,7 +25358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bad5d30-4e82-4ad6-9fce-b68322a9a12f")
-		(property "Reference" "C10"
+		(property "Reference" "C25"
 			(at 92.075 39.37 0)
 			(effects
 				(font
@@ -25448,7 +25412,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C10")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -25600,7 +25564,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3_PI")
-		(at 233.68 250.19 0)
+		(at 300.99 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25608,7 +25572,7 @@
 		(dnp no)
 		(uuid "9e405029-409b-4aa4-a9eb-1a09427a056d")
 		(property "Reference" "#PWR049"
-			(at 233.68 254 0)
+			(at 300.99 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25617,7 +25581,7 @@
 			)
 		)
 		(property "Value" "+3V3_MCU"
-			(at 233.68 245.618 0)
+			(at 300.99 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25625,7 +25589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 250.19 0)
+			(at 300.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25634,7 +25598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 250.19 0)
+			(at 300.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25643,7 +25607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 250.19 0)
+			(at 300.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25738,7 +25702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3da5232-51bd-4c98-98dc-6af3d07b9540")
-		(property "Reference" "R5"
+		(property "Reference" "R34"
 			(at 61.595 39.37 0)
 			(effects
 				(font
@@ -25792,7 +25756,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R5")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -25882,7 +25846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5fe921c-7664-47db-bc4e-02662c631fd2")
-		(property "Reference" "C23"
+		(property "Reference" "C15"
 			(at 236.855 60.96 0)
 			(effects
 				(font
@@ -25936,7 +25900,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C23")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -26024,7 +25988,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 233.68 267.97 0)
+		(at 300.99 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26033,7 +25997,7 @@
 		(fields_autoplaced yes)
 		(uuid "a76c1ec0-29cd-4b73-8485-8bcc57f0c27b")
 		(property "Reference" "#PWR048"
-			(at 233.68 274.32 0)
+			(at 300.99 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26042,7 +26006,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 233.68 271.78 0)
+			(at 300.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26051,7 +26015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 267.97 0)
+			(at 300.99 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26060,7 +26024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 267.97 0)
+			(at 300.99 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26069,7 +26033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 267.97 0)
+			(at 300.99 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26166,7 +26130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9f785a5-6387-4ad7-bdd8-15fc63a0b3d1")
-		(property "Reference" "R38"
+		(property "Reference" "R14"
 			(at 369.57 247.015 90)
 			(effects
 				(font
@@ -26218,7 +26182,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R38")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -26239,7 +26203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa311139-2a5d-4f2e-9b1d-d9272dd973aa")
-		(property "Reference" "R15"
+		(property "Reference" "R9"
 			(at 123.19 120.65 90)
 			(effects
 				(font
@@ -26293,7 +26257,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R15")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -26374,7 +26338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae1a3132-bbf0-4221-a5bc-55ce9f2e8323")
-		(property "Reference" "C11"
+		(property "Reference" "C35"
 			(at 118.745 147.32 0)
 			(effects
 				(font
@@ -26428,7 +26392,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C11")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -26667,7 +26631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b215d539-2cec-4bec-b4d0-29eb6c599c6d")
-		(property "Reference" "C36"
+		(property "Reference" "C23"
 			(at 323.215 92.71 0)
 			(effects
 				(font
@@ -26721,7 +26685,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C36")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -26742,7 +26706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b22115e9-e27f-4ff8-9960-2e9c346b7e41")
-		(property "Reference" "C4"
+		(property "Reference" "C34"
 			(at 40.005 147.32 0)
 			(effects
 				(font
@@ -26796,7 +26760,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C4")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -26875,7 +26839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2ad03d6-7497-4818-8b49-961a6c92e9a9")
-		(property "Reference" "C25"
+		(property "Reference" "C10"
 			(at 255.905 40.64 0)
 			(effects
 				(font
@@ -26927,7 +26891,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -27022,7 +26986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3819e90-6c2d-46e9-a84b-1774f37287ca")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 130.81 148.59 0)
 			(effects
 				(font
@@ -27092,7 +27056,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -27175,7 +27139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b41d1553-fab9-4521-8d19-e71fe44b0c5e")
-		(property "Reference" "C8"
+		(property "Reference" "C24"
 			(at 81.915 39.37 0)
 			(effects
 				(font
@@ -27229,7 +27193,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C8")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -27327,7 +27291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5b88c58-5261-4535-8924-e67b472fb365")
-		(property "Reference" "C26"
+		(property "Reference" "C11"
 			(at 267.335 40.64 0)
 			(effects
 				(font
@@ -27381,7 +27345,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C26")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -27403,8 +27367,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b601f8f5-9ac7-42c6-ab49-191cd0603032")
-		(property "Reference" "U9"
-			(at 342.9 33.02 0)
+		(property "Reference" "D5"
+			(at 342.138 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27412,7 +27376,7 @@
 			)
 		)
 		(property "Value" "TPD2EUSB30"
-			(at 345.44 35.56 0)
+			(at 344.678 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27460,7 +27424,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -27543,7 +27507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6eb3921-a4dd-4791-b900-58bb647eb4ba")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 73.66 115.57 90)
 			(effects
 				(font
@@ -27597,7 +27561,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -27742,8 +27706,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c28b61c3-a6b2-4521-be20-333bae51fbe9")
-		(property "Reference" "U6"
-			(at 207.01 48.26 0)
+		(property "Reference" "D4"
+			(at 207.01 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27751,7 +27715,7 @@
 			)
 		)
 		(property "Value" "TPD2EUSB30"
-			(at 204.47 50.8 0)
+			(at 204.47 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27799,7 +27763,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -27814,10 +27778,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2caecfa-781f-4b18-9978-9522eabcdd59")
-		(property "Reference" "R29"
-			(at 328.93 83.82 90)
+		(property "Reference" "R30"
+			(at 328.93 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27825,7 +27788,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 328.93 86.36 90)
+			(at 328.93 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27868,7 +27831,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -27956,8 +27919,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7b00451-2c4e-4d7d-b152-b073b6ec9e33")
-		(property "Reference" "U1"
-			(at 52.07 148.59 0)
+		(property "Reference" "U5"
+			(at 52.07 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27965,7 +27928,7 @@
 			)
 		)
 		(property "Value" "TPS2042D"
-			(at 52.07 151.13 0)
+			(at 52.07 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28026,7 +27989,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -28042,7 +28005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c80b5f40-6c09-4b88-8c08-27dc74c97917")
-		(property "Reference" "R40"
+		(property "Reference" "R27"
 			(at 375.92 83.82 90)
 			(effects
 				(font
@@ -28094,7 +28057,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R40")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -28260,7 +28223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad9e92a-62f8-4eb0-9b4a-c83139367f35")
-		(property "Reference" "R12"
+		(property "Reference" "R42"
 			(at 54.61 223.5199 0)
 			(effects
 				(font
@@ -28314,7 +28277,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R12")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -28462,10 +28425,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d00a8f18-636e-4c2f-85fb-3f52fe3d4c9e")
-		(property "Reference" "R35"
-			(at 368.3 63.5 90)
+		(property "Reference" "R22"
+			(at 368.3 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28473,7 +28435,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 368.3 66.04 90)
+			(at 368.3 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28516,7 +28478,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R35")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -28530,15 +28492,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 233.68 259.08 0)
+		(at 300.99 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d01dc70c-8512-4a07-9b68-3fc851ab9207")
-		(property "Reference" "C18"
-			(at 237.49 257.8099 0)
+		(property "Reference" "C8"
+			(at 304.8 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28547,7 +28509,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 237.49 260.3499 0)
+			(at 304.8 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28556,7 +28518,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 234.6452 262.89 0)
+			(at 301.9552 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28565,7 +28527,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28574,7 +28536,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28583,7 +28545,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28592,7 +28554,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28601,7 +28563,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28610,7 +28572,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28619,7 +28581,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28628,7 +28590,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28637,7 +28599,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 233.68 259.08 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28654,7 +28616,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C18")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -29161,7 +29123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8ec1e76-fdf7-4cfc-a84f-7506fe377d45")
-		(property "Reference" "R33"
+		(property "Reference" "R32"
 			(at 340.995 96.52 0)
 			(effects
 				(font
@@ -29215,7 +29177,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -29384,7 +29346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db369465-3c5b-42c7-954a-86c1707be33b")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 328.93 93.98 90)
 			(effects
 				(font
@@ -29436,7 +29398,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -29523,7 +29485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd8a92de-38f4-4d97-8153-5678f4497caf")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 347.345 96.52 0)
 			(effects
 				(font
@@ -29577,7 +29539,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -29591,7 +29553,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 287.02 212.09 0)
+		(at 349.25 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29601,7 +29563,7 @@
 		(fields_autoplaced yes)
 		(uuid "de52cdcd-696d-4f1f-ad0f-af3060cb02ee")
 		(property "Reference" "#PWR058"
-			(at 287.02 218.44 0)
+			(at 349.25 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29610,7 +29572,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 287.02 217.17 0)
+			(at 349.25 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29618,7 +29580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 212.09 0)
+			(at 349.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29627,7 +29589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 212.09 0)
+			(at 349.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29636,7 +29598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 287.02 212.09 0)
+			(at 349.25 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29658,15 +29620,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 320.04 154.94 0)
+		(at 261.62 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa8a969-19a6-4b15-b62d-d4fe814f6714")
-		(property "Reference" "C24"
-			(at 323.85 153.6699 0)
+		(property "Reference" "C6"
+			(at 265.43 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29675,7 +29637,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 323.85 156.2099 0)
+			(at 265.43 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29684,7 +29646,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 321.0052 158.75 0)
+			(at 262.5852 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29693,7 +29655,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29702,7 +29664,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29711,7 +29673,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29720,7 +29682,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29729,7 +29691,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29738,7 +29700,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29747,7 +29709,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29756,7 +29718,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29765,7 +29727,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 320.04 154.94 0)
+			(at 261.62 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29782,7 +29744,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C24")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -29799,7 +29761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc64b80-3ebf-4cee-a45c-e6c23b55f358")
-		(property "Reference" "R24"
+		(property "Reference" "R44"
 			(at 121.92 262.8899 0)
 			(effects
 				(font
@@ -29853,7 +29815,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R24")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -30067,15 +30029,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 292.1 154.94 0)
+		(at 233.68 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e34aa9b6-706e-4ab2-b875-8181d7e45bd7")
-		(property "Reference" "C20"
-			(at 295.91 153.6699 0)
+		(property "Reference" "C4"
+			(at 237.49 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30084,7 +30046,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 295.91 156.2099 0)
+			(at 237.49 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30093,7 +30055,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 293.0652 158.75 0)
+			(at 234.6452 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30102,7 +30064,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30111,7 +30073,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30120,7 +30082,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30129,7 +30091,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30138,7 +30100,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30147,7 +30109,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30156,7 +30118,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30165,7 +30127,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30174,7 +30136,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 292.1 154.94 0)
+			(at 233.68 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30191,7 +30153,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C20")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -30206,7 +30168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e410b00b-8d71-4d84-bbec-2c52e6401a26")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 73.66 120.65 90)
 			(effects
 				(font
@@ -30260,7 +30222,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -30344,7 +30306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4ff85cb-a664-402c-a217-8068790a5d49")
-		(property "Reference" "C19"
+		(property "Reference" "C13"
 			(at 187.96 72.3899 0)
 			(effects
 				(font
@@ -30461,7 +30423,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C19")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -30804,15 +30766,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 308.61 203.2 90)
+		(at 372.11 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f0000843-ff73-45ae-9ca3-ca1db8f276d8")
-		(property "Reference" "R23"
-			(at 306.705 206.3749 90)
+		(property "Reference" "R10"
+			(at 370.205 158.1149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30821,7 +30783,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 306.705 208.9149 90)
+			(at 370.205 160.6549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30830,7 +30792,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 308.864 202.184 90)
+			(at 372.364 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30839,7 +30801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 308.61 203.2 0)
+			(at 372.11 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30848,7 +30810,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 308.61 203.2 0)
+			(at 372.11 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30865,7 +30827,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R23")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -30880,7 +30842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f364dc65-17d9-4bd3-81cc-521c56bd09d2")
-		(property "Reference" "R4"
+		(property "Reference" "R41"
 			(at 63.5 221.488 90)
 			(effects
 				(font
@@ -30932,7 +30894,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "R4")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -31017,8 +30979,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f856d02d-19c3-4f0f-9dd7-da9cb0a8dcc6")
-		(property "Reference" "C2"
-			(at 29.21 87.63 90)
+		(property "Reference" "C37"
+			(at 29.718 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31070,7 +31032,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C2")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -31092,8 +31054,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fae78993-f107-4e18-a53b-ff125c256992")
-		(property "Reference" "C1"
-			(at 29.21 81.28 90)
+		(property "Reference" "C36"
+			(at 29.718 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31144,7 +31106,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C1")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -31227,7 +31189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd0a2407-378f-4b63-b482-31145f2800f9")
-		(property "Reference" "C34"
+		(property "Reference" "C17"
 			(at 319.405 54.61 0)
 			(effects
 				(font
@@ -31281,7 +31243,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C34")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -31295,15 +31257,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 264.16 154.94 0)
+		(at 205.74 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fd0ec2fa-0660-45c9-9b93-ee298417eec3")
-		(property "Reference" "C16"
-			(at 267.97 153.6699 0)
+		(property "Reference" "C2"
+			(at 209.55 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31312,7 +31274,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 267.97 156.2099 0)
+			(at 209.55 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31321,7 +31283,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 265.1252 158.75 0)
+			(at 206.7052 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31330,7 +31292,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC0402R5106M100NTEJ_C7472949.pdf"
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31339,7 +31301,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31348,7 +31310,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31357,7 +31319,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31366,7 +31328,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31375,7 +31337,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31384,7 +31346,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31393,7 +31355,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31402,7 +31364,7 @@
 			)
 		)
 		(property "LCSC Part" "C7472949"
-			(at 264.16 154.94 0)
+			(at 205.74 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31419,7 +31381,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C16")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -31434,7 +31396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd4469ec-3347-4666-8e8e-a8a80adde916")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 157.48 260.3499 0)
 			(effects
 				(font
@@ -31488,7 +31450,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)

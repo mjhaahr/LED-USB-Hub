@@ -135,6 +135,11 @@ Features:
 - Version 1 Details:
   - V1 used an Adafruit KB2040 Dev Board instead of a standalone implementation
   - V1 used the SL2.1a USB Hub and was a poor attempt to get USB working
+- Version 3 Changes:
+  - Switch to STM32 (STM32L552)
+  - Shrink
+  - Switch to Oscillators from Crystals
+  - 3V3 Regulators using a large package
 - Future Changes:
   - Maybe replace 3.3V Regulators with ASM1117 (or something similarly simple but easy to solder)
   - Replace the crystals with something in a smaller package
