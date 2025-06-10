@@ -204,7 +204,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 0,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.15,
           "single_sided": false,
           "spacing": 1.0
         },
@@ -212,7 +212,7 @@
           "corner_radius_percentage": 50,
           "corner_style": 0,
           "max_amplitude": 0.6,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.15,
           "single_sided": false,
           "spacing": 0.6
         },
@@ -220,7 +220,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 0,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.15,
           "single_sided": false,
           "spacing": 0.6
         }
@@ -729,7 +729,7 @@
         "pattern": "/OSC*"
       },
       {
-        "netclass": "Logic",
+        "netclass": "Analog",
         "pattern": "/CC*"
       },
       {
