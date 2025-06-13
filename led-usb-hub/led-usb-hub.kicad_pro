@@ -751,10 +751,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Case/led-usb-hub.step",
+      "step": "../case/led-usb-hub.step",
       "svg": "",
       "vrml": ""
     },
