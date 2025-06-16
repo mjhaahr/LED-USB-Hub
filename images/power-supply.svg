@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg:svg
    version="1.1"
-   width="100%"
-   height="100%"
-   viewBox="0 0 1510.0 500.0"
-   preserveAspectRatio="xMidYMid meet"
-   id="svg510"
+   width="751"
+   height="318"
+   viewBox="0 0 751 318"
+   preserveAspectRatio="xMidYMid"
+   id="svg132"
    sodipodi:docname="power-supply.svg"
-   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview512"
+     id="namedview132"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -21,18 +21,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.65517367"
-     inkscape:cx="667.76188"
-     inkscape:cy="429.65707"
-     inkscape:window-width="1674"
-     inkscape:window-height="1051"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg510" />
+     inkscape:zoom="1.4057805"
+     inkscape:cx="385.19526"
+     inkscape:cy="182.46091"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1728"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg132" />
   <svg:defs
-     id="defs321">
+     id="defs87">
     <svg:g
        id="WB_CONTINUATION">
       <circle
@@ -45,22 +44,42 @@
          r="14" />
       <svg:line
          fill="none"
-         stroke="#CC0000"
+         stroke="#cc0000"
          stroke-width="2"
          x1="0"
          y1="10"
          x2="0"
          y2="-10"
-         id="line132" />
+         id="line1" />
       <svg:line
          fill="none"
-         stroke="#CC0000"
+         stroke="#cc0000"
          stroke-width="2"
          x1="-10"
          y1="-10"
          x2="10"
          y2="-10"
-         id="line134" />
+         id="line2" />
+    </svg:g>
+    <svg:g
+       id="WB_ZERO_VOLT_SOURCE">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:line
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         x1="-5"
+         y1="0"
+         x2="5"
+         y2="0"
+         id="line3" />
     </svg:g>
     <svg:g
        id="WB_BLOCK_IO">
@@ -73,14 +92,423 @@
          cy="0"
          r="14" />
       <svg:line
-         stroke="#CC0000"
+         stroke="#cc0000"
          fill="none"
          stroke-width="2"
          x1="-5"
          y1="0"
          x2="5"
          y2="0"
-         id="line137" />
+         id="line4" />
+    </svg:g>
+    <svg:g
+       id="WB_PWL_VOLTAGE_SOURCE">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:circle
+         fill-opacity="0.01"
+         fill="#cc0000"
+         stroke="#cc0000"
+         stroke-width="2"
+         cx="0"
+         cy="0"
+         r="14"
+         id="circle4" />
+      <svg:line
+         y1="0"
+         x2="-20"
+         stroke="#cc0000"
+         x1="-30"
+         fill="none"
+         stroke-width="2"
+         y2="0"
+         id="line5" />
+      <svg:line
+         y1="0"
+         x2="20"
+         stroke="#cc0000"
+         x1="30"
+         fill="none"
+         stroke-width="2"
+         y2="0"
+         id="line6" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-7,6 4,8  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline6" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-7,-6 4,-8  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline7" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-20,0 -15,0  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline8" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="20,0 15,0  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline9" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-7,-6 -7,6  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline10" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="4,-8 4,-11  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline11" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="4,8 4,11  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline12" />
+      <svg:line
+         x1="23"
+         y1="-13"
+         x2="23"
+         y2="-7"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line12" />
+      <svg:line
+         x1="-23"
+         y1="-13"
+         x2="-23"
+         y2="-7"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line13" />
+      <svg:line
+         x1="-26"
+         y1="-10"
+         x2="-20"
+         y2="-10"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line14" />
+    </svg:g>
+    <svg:g
+       id="WB_SOURCE_RESISTOR">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:polyline
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         points="30,0 20,0 15,-6 7.5,6 0,-6 -7.5,6 -15,-6 -20,0 -30,0"
+         id="polyline14" />
+    </svg:g>
+    <svg:g
+       id="WB_PRIM_PWL_VOLTAGE_SOURCE">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:circle
+         fill-opacity="0.01"
+         fill="#cc0000"
+         stroke="#cc0000"
+         stroke-width="2"
+         cx="0"
+         cy="0"
+         r="14"
+         id="circle14" />
+      <svg:line
+         x1="-30"
+         y1="0"
+         x2="-15"
+         y2="0"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         id="line15" />
+      <svg:line
+         x1="30"
+         y1="0"
+         x2="15"
+         y2="0"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         id="line16" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="0,13 0,8 -7,6 -7,0 7,-4 0,-8 0,-13"
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline16" />
+      <svg:line
+         x1="23"
+         y1="-13"
+         x2="23"
+         y2="-7"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line17" />
+      <svg:line
+         x1="-23"
+         y1="-13"
+         x2="-23"
+         y2="-7"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line18" />
+      <svg:line
+         x1="-26"
+         y1="-10"
+         x2="-20"
+         y2="-10"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line19" />
+    </svg:g>
+    <svg:g
+       id="WB_CURRENT_PROBE">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:line
+         stroke="#cc0000"
+         stroke-width="2"
+         stroke-linecap="square"
+         stroke-linejoin="round"
+         x1="-16"
+         y1="0"
+         x2="-10"
+         y2="0"
+         id="line20" />
+      <svg:polyline
+         stroke="#cc0000"
+         stroke-width="2"
+         stroke-linecap="square"
+         stroke-linejoin="round"
+         points="6,0 3,-3.5 3,3.5 6,0 -6,0 "
+         id="polyline20" />
+      <svg:line
+         stroke="#cc0000"
+         stroke-width="2"
+         stroke-linecap="square"
+         stroke-linejoin="round"
+         x1="10"
+         y1="0"
+         x2="16"
+         y2="0"
+         id="line21" />
+      <svg:rect
+         stroke-width="1"
+         x="-9.5"
+         y="-7"
+         fill="none"
+         stroke="#cc0000"
+         width="19"
+         height="14"
+         id="rect21" />
+    </svg:g>
+    <svg:g
+       id="WB_LOAD_RESISTOR">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:polyline
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         points="30,0 20,0 15,-6 7.5,6 0,-6 -7.5,6 -15,-6 -20,0 -30,0"
+         id="polyline21" />
+    </svg:g>
+    <svg:g
+       id="WB_PWL_CURRENT_LOAD">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:circle
+         fill-opacity="0.01"
+         fill="#cc0000"
+         stroke="#cc0000"
+         stroke-width="2"
+         cx="0"
+         cy="0"
+         r="14"
+         id="circle21" />
+      <svg:line
+         y1="0"
+         x2="-20"
+         stroke="#cc0000"
+         x1="-30"
+         fill="none"
+         stroke-width="2"
+         y2="0"
+         id="line22" />
+      <svg:line
+         y1="0"
+         x2="20"
+         stroke="#cc0000"
+         x1="30"
+         fill="none"
+         stroke-width="2"
+         y2="0"
+         id="line23" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-7,6 4,8  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline23" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-7,-6 4,-8  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline24" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-20,0 -15,0  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline25" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="20,0 15,0  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline26" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="-7,-6 -7,6  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline27" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="4,-8 4,-11  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline28" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="4,8 4,11  "
+         stroke-linejoin="round"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline29" />
+      <svg:line
+         x1="23"
+         y1="-13"
+         x2="23"
+         y2="-7"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line29" />
+      <svg:line
+         x1="-23"
+         y1="-13"
+         x2="-23"
+         y2="-7"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line30" />
+      <svg:line
+         x1="-26"
+         y1="-10"
+         x2="-20"
+         y2="-10"
+         stroke="#cc0000"
+         fill="none"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line31" />
     </svg:g>
     <svg:g
        id="WB_RESISTOR">
@@ -99,10 +527,10 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          points="30,0 20,0 15,-6 7.5,6 0,-6 -7.5,6 -15,-6 -20,0 -30,0"
-         id="polyline140" />
+         id="polyline31" />
     </svg:g>
     <svg:g
-       id="WB_PRIM_DC_VOLTAGE_SOURCE">
+       id="WB_PRIM_STARTUP_VOLTAGE_SOURCE">
       <circle
          opacity="0.01"
          fill="#ffffff"
@@ -111,108 +539,69 @@
          cx="0"
          cy="0"
          r="14" />
+      <svg:circle
+         fill-opacity="0.01"
+         fill="#cc0000"
+         stroke="#cc0000"
+         stroke-width="2"
+         cx="0"
+         cy="0"
+         r="14"
+         id="circle31" />
+      <svg:polyline
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         points="-6,-11 -6,7 5,9 5,12 "
+         id="polyline32" />
       <svg:line
          fill="none"
-         stroke="#CC0000"
+         stroke="#cc0000"
          stroke-width="2"
-         x1="-8"
+         x1="16"
+         y1="-12"
+         x2="16"
+         y2="-18"
+         id="line32" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-17"
+         y1="-12"
+         x2="-17"
+         y2="-18"
+         id="line33" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-14"
+         y1="-15"
+         x2="-20"
+         y2="-15"
+         id="line34" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-15"
          y1="0"
          x2="-30"
          y2="0"
-         id="line143" />
+         id="line35" />
       <svg:line
          fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-7"
-         y1="12"
-         x2="-7"
-         y2="-12"
-         id="line145" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="4"
-         y1="12"
-         x2="4"
-         y2="-12"
-         id="line147" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
+         stroke="#cc0000"
          stroke-width="2"
          x1="30"
          y1="0"
-         x2="11"
+         x2="15"
          y2="0"
-         id="line149" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-2"
-         y1="5"
-         x2="-2"
-         y2="-5"
-         id="line151" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-1"
-         y1="5"
-         x2="-1"
-         y2="-5"
-         id="line153" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-14"
-         y1="-9"
-         x2="-14"
-         y2="-15"
-         id="line155" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-11"
-         y1="-12"
-         x2="-17"
-         y2="-12"
-         id="line157" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="13"
-         y1="-10"
-         x2="13"
-         y2="-15"
-         id="line159" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="10"
-         y1="5"
-         x2="10"
-         y2="-5"
-         id="line161" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="9"
-         y1="5"
-         x2="9"
-         y2="-5"
-         id="line163" />
+         id="line36" />
     </svg:g>
     <svg:g
-       id="WB_ZERO_VOLT_SOURCE">
+       id="WB_STARTUP_VOLTAGE_SOURCE">
       <circle
          opacity="0.01"
          fill="#ffffff"
@@ -221,15 +610,66 @@
          cx="0"
          cy="0"
          r="14" />
-      <svg:line
-         stroke="#CC0000"
-         fill="none"
+      <svg:circle
+         fill-opacity="0.01"
+         fill="#cc0000"
+         stroke="#cc0000"
          stroke-width="2"
-         x1="-5"
+         cx="0"
+         cy="0"
+         r="14"
+         id="circle36" />
+      <svg:polyline
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         points="-6,-11 -6,7 5,9 5,12 "
+         id="polyline36" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="16"
+         y1="-12"
+         x2="16"
+         y2="-18"
+         id="line37" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-17"
+         y1="-12"
+         x2="-17"
+         y2="-18"
+         id="line38" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-14"
+         y1="-15"
+         x2="-20"
+         y2="-15"
+         id="line39" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-15"
          y1="0"
-         x2="5"
+         x2="-30"
          y2="0"
-         id="line166" />
+         id="line40" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="30"
+         y1="0"
+         x2="15"
+         y2="0"
+         id="line41" />
     </svg:g>
     <svg:g
        id="WB_CAPACITOR">
@@ -249,7 +689,7 @@
          fill="none"
          stroke-width="2"
          y2="0"
-         id="line169" />
+         id="line42" />
       <svg:line
          y1="0"
          x2="-20"
@@ -258,7 +698,7 @@
          fill="none"
          stroke-width="2"
          y2="0"
-         id="line171" />
+         id="line43" />
       <svg:polyline
          stroke="#115566"
          points="3,12 3,-12  "
@@ -266,7 +706,7 @@
          fill="none"
          stroke-width="2"
          stroke-linecap="round"
-         id="polyline173" />
+         id="polyline43" />
       <svg:polyline
          stroke="#115566"
          points="-20,0 -3,0  "
@@ -274,7 +714,7 @@
          fill="none"
          stroke-width="2"
          stroke-linecap="round"
-         id="polyline175" />
+         id="polyline44" />
       <svg:polyline
          stroke="#115566"
          points="3,0 20,0  "
@@ -282,7 +722,7 @@
          fill="none"
          stroke-width="2"
          stroke-linecap="round"
-         id="polyline177" />
+         id="polyline45" />
       <svg:polyline
          stroke="#115566"
          points="-3,12 -3,-12  "
@@ -290,10 +730,10 @@
          fill="none"
          stroke-width="2"
          stroke-linecap="round"
-         id="polyline179" />
+         id="polyline46" />
     </svg:g>
     <svg:g
-       id="WB_SOURCE_RESISTOR">
+       id="WB_VOLTAGE_PROBE">
       <circle
          opacity="0.01"
          fill="#ffffff"
@@ -302,389 +742,33 @@
          cx="0"
          cy="0"
          r="14" />
-      <svg:polyline
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         points="30,0 20,0 15,-6 7.5,6 0,-6 -7.5,6 -15,-6 -20,0 -30,0"
-         id="polyline182" />
-    </svg:g>
-    <svg:g
-       id="WB_PRIMITIVE_BATTERY">
-      <circle
-         opacity="0.01"
-         fill="#ffffff"
-         stroke="#000000"
-         stroke-width="0"
-         cx="0"
-         cy="0"
-         r="14" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-8"
-         y1="0"
-         x2="-30"
-         y2="0"
-         id="line185" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-7"
-         y1="12"
-         x2="-7"
-         y2="-12"
-         id="line187" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="4"
-         y1="12"
-         x2="4"
-         y2="-12"
-         id="line189" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="30"
-         y1="0"
-         x2="11"
-         y2="0"
-         id="line191" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-2"
-         y1="5"
-         x2="-2"
-         y2="-5"
-         id="line193" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-1"
-         y1="5"
-         x2="-1"
-         y2="-5"
-         id="line195" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-14"
-         y1="-9"
-         x2="-14"
-         y2="-15"
-         id="line197" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-11"
-         y1="-12"
-         x2="-17"
-         y2="-12"
-         id="line199" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="13"
-         y1="-10"
-         x2="13"
-         y2="-15"
-         id="line201" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="10"
-         y1="5"
-         x2="10"
-         y2="-5"
-         id="line203" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="9"
-         y1="5"
-         x2="9"
-         y2="-5"
-         id="line205" />
-    </svg:g>
-    <svg:g
-       id="WB_CURRENT_LOAD">
-      <circle
-         opacity="0.01"
-         fill="#ffffff"
-         stroke="#000000"
-         stroke-width="0"
-         cx="0"
-         cy="0"
-         r="14" />
-      <svg:path
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         d="M-15,0c 0.1, 4.2, 1.6, 7.7, 4.4, 10.6c 2.8, 2.8, 6.4, 4.3, 10.6, 4.4c 4.3-0.1, 7.8-1.6, 10.6 -4.4c 2.9-2.9, 4.3-6.4, 4.4-10.6"
-         id="path208" />
-      <svg:path
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         d="M15,0c -0.1,-4.2,-1.6,-7.7,-4.4,-10.6c-2.8,-2.8,-6.4,-4.3,-10.6,-4.4c-4.3,0.1 -7.8,1.6 -10.6,4.4c-2.9,2.9 -4.3,6.4 -4.4,10.6"
-         id="path210" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="30"
-         y1="0"
-         x2="15"
-         y2="0"
-         id="line212" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-15"
-         y1="0"
-         x2="-30"
-         y2="0"
-         id="line214" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         x1="3"
-         y1="7"
-         x2="12"
-         y2="0"
-         id="line216" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         x1="3"
-         y1="-7"
-         x2="12"
-         y2="0"
-         id="line218" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         x1="12"
-         y1="0"
-         x2="-12"
-         y2="0"
-         id="line220" />
-    </svg:g>
-    <svg:g
-       id="WB_ZENER">
-      <circle
-         opacity="0.01"
-         fill="#ffffff"
-         stroke="#000000"
-         stroke-width="0"
-         cx="0"
-         cy="0"
-         r="14" />
-      <svg:path
-         fill="#CC0000"
-         d="M-11,0L10,-12,10,12 -11,0"
-         id="path223" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="30"
-         y1="0"
-         x2="-30"
-         y2="0"
-         id="line225" />
-      <svg:polyline
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         points="-8,-12 -10,-10 -10,10 -12,12"
-         id="polyline227" />
-    </svg:g>
-    <svg:g
-       id="WB_BATTERY">
-      <circle
-         opacity="0.01"
-         fill="#ffffff"
-         stroke="#000000"
-         stroke-width="0"
-         cx="0"
-         cy="0"
-         r="14" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-8"
-         y1="0"
-         x2="-30"
-         y2="0"
-         id="line230" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-7"
-         y1="12"
-         x2="-7"
-         y2="-12"
-         id="line232" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="4"
-         y1="12"
-         x2="4"
-         y2="-12"
-         id="line234" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="30"
-         y1="0"
-         x2="11"
-         y2="0"
-         id="line236" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-2"
-         y1="5"
-         x2="-2"
-         y2="-5"
-         id="line238" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-1"
-         y1="5"
-         x2="-1"
-         y2="-5"
-         id="line240" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-14"
-         y1="-9"
-         x2="-14"
-         y2="-15"
-         id="line242" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="-11"
-         y1="-12"
-         x2="-17"
-         y2="-12"
-         id="line244" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="13"
-         y1="-10"
-         x2="13"
-         y2="-15"
-         id="line246" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="10"
-         y1="5"
-         x2="10"
-         y2="-5"
-         id="line248" />
-      <svg:line
-         fill="none"
-         stroke="#CC0000"
-         stroke-width="2"
-         x1="9"
-         y1="5"
-         x2="9"
-         y2="-5"
-         id="line250" />
-    </svg:g>
-    <svg:g
-       id="WB_CURRENT_PROBE">
-      <circle
-         opacity="0.01"
-         fill="#ffffff"
-         stroke="#000000"
-         stroke-width="0"
-         cx="0"
-         cy="0"
-         r="14" />
-      <svg:line
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="square"
-         stroke-linejoin="round"
-         x1="-16"
-         y1="0"
-         x2="-10"
-         y2="0"
-         id="line253" />
-      <svg:polyline
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="square"
-         stroke-linejoin="round"
-         points="6,0 3,-3.5 3,3.5 6,0 -6,0 "
-         id="polyline255" />
-      <svg:line
-         stroke="#CC0000"
-         stroke-width="2"
-         stroke-linecap="square"
-         stroke-linejoin="round"
-         x1="10"
-         y1="0"
-         x2="16"
-         y2="0"
-         id="line257" />
       <svg:rect
          stroke-width="1"
-         x="-9.5"
-         y="-7"
+         width="20"
+         stroke="#cc0000"
+         x="-10"
+         height="19.5"
+         y="-30"
+         fill="#cc0000"
+         fill-opacity="0.01"
+         id="rect46" />
+      <svg:polyline
+         stroke="#cc0000"
+         points="7,-27 4,-22 3,-26 0,-18 -1,-22 -5,-14  "
+         stroke-linejoin="round"
          fill="none"
-         stroke="#CC0000"
-         width="19"
-         height="14"
-         id="rect259" />
+         stroke-width="2"
+         stroke-linecap="round"
+         id="polyline47" />
+      <svg:line
+         y1="0"
+         x2="0"
+         stroke="#cc0000"
+         x1="0"
+         fill="none"
+         stroke-width="2"
+         y2="-10"
+         id="line47" />
     </svg:g>
     <svg:g
        id="WB_INDUCTOR">
@@ -702,59 +786,59 @@
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         d="M-10,0c0-0.6-0.2-1.8-0.6-3.3c-0.5-2.4-2-3.7-4.4-4c-2.4,0.3-3.8,1.6-4.3,4c-0.6,2.3-0.8,3.6-0.7,3M-20,0H-30"
-         id="path262" />
+         d="m -10,0 c 0,-0.6 -0.2,-1.8 -0.6,-3.3 -0.5,-2.4 -2,-3.7 -4.4,-4 -2.4,0.3 -3.8,1.6 -4.3,4 -0.6,2.3 -0.8,3.6 -0.7,3 m 0,0.3 h -10"
+         id="path47" />
       <svg:path
          fill="none"
          stroke="#115566"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         d="M0,0c0-0.6-0.2-1.8-0.6-3.3c-0.5-2.4-2-3.7-4.4-4c-2.4,0.3-3.8,1.6-4.3,4c-0.6,2.3-0.8,3.6-0.7,4"
-         id="path264" />
+         d="m 0,0 c 0,-0.6 -0.2,-1.8 -0.6,-3.3 -0.5,-2.4 -2,-3.7 -4.4,-4 -2.4,0.3 -3.8,1.6 -4.3,4 -0.6,2.3 -0.8,3.6 -0.7,4"
+         id="path48" />
       <svg:path
          fill="none"
          stroke="#115566"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         d="M10,0c0-0.6-0.2-1.8-0.6-3.3c-0.5-2.4-2-3.7-4.4-4c-2.4,0.3-3.8,1.6-4.3,4c-0.6,2.3-0.8,3.6-0.7,4"
-         id="path266" />
+         d="M 10,0 C 10,-0.6 9.8,-1.8 9.4,-3.3 8.9,-5.7 7.4,-7 5,-7.3 2.6,-7 1.2,-5.7 0.7,-3.3 0.1,-1 -0.1,0.3 0,0.7"
+         id="path49" />
       <svg:path
          fill="none"
          stroke="#115566"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         d="M30,0H20c0-0.6-0.2-1.8-0.6-3.3c-0.5-2.4-2-3.7-4.4-4c-2.4,0.3-3.8,1.6-4.3,4c-0.6,2.3-0.8,3.6-0.7,4"
-         id="path268" />
+         d="M 30,0 H 20 c 0,-0.6 -0.2,-1.8 -0.6,-3.3 -0.5,-2.4 -2,-3.7 -4.4,-4 -2.4,0.3 -3.8,1.6 -4.3,4 -0.6,2.3 -0.8,3.6 -0.7,4"
+         id="path50" />
       <svg:path
          fill="none"
          stroke="#115566"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         d=" M10,0 c0.1,0.4,0.1,0.6,0,0.7"
-         id="path270" />
+         d="m 10,0 c 0.1,0.4 0.1,0.6 0,0.7"
+         id="path51" />
       <svg:path
          fill="none"
          stroke="#115566"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         d=" M0,0  c0.1,0.4,0.1,0.6,0,0.7"
-         id="path272" />
+         d="M 0,0 C 0.1,0.4 0.1,0.6 0,0.7"
+         id="path52" />
       <svg:path
          fill="none"
          stroke="#115566"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         d=" M-10,0c0.1,0.4,0.1,0.6,0,0.7"
-         id="path274" />
+         d="m -10,0 c 0.1,0.4 0.1,0.6 0,0.7"
+         id="path53" />
     </svg:g>
     <svg:g
-       id="WB_TPS563252DRL">
+       id="WB_TLV62569DBV">
       <circle
          opacity="0.01"
          fill="#ffffff"
@@ -769,189 +853,129 @@
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="20"
-         y1="70"
-         x2="120"
-         y2="70"
-         id="line277" />
+         x1="-60"
+         y1="50"
+         x2="60"
+         y2="50"
+         id="line53" />
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="120"
-         y1="70"
-         x2="120"
-         y2="-20"
-         id="line279" />
+         x1="60"
+         y1="50"
+         x2="60"
+         y2="-50"
+         id="line54" />
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="120"
-         y1="-20"
-         x2="20"
-         y2="-20"
-         id="line281" />
+         x1="60"
+         y1="-50"
+         x2="-60"
+         y2="-50"
+         id="line55" />
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="20"
-         y1="-20"
-         x2="20"
-         y2="70"
-         id="line283" />
+         x1="-60"
+         y1="-50"
+         x2="-60"
+         y2="50"
+         id="line56" />
       <svg:text
          id="partNumber_label"
-         x="70"
-         y="-7"
-         style="font-family:arial;font-weight:bold;font-size:12px;text-anchor:middle;">TPS563252DRL</svg:text>
+         x="0"
+         y="-37"
+         style="font-weight:bold;font-size:12px;font-family:arial;text-anchor:middle">TLV62569DBV</svg:text>
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="0"
+         x1="-80"
          y1="0"
-         x2="20"
+         x2="-60"
          y2="0"
-         id="line286" />
+         id="line57" />
       <svg:text
          id="1"
-         x="24"
+         x="-56"
          y="4"
-         transform="rotate(0,24,4)"
-         style="font-family:arial;font-weight:normal;font-size:9px;text-anchor:start;">VIN</svg:text>
+         style="font-weight:normal;font-size:9px;font-family:arial;text-anchor:start">EN</svg:text>
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="140"
-         y1="0"
-         x2="120"
-         y2="0"
-         id="line289" />
+         x1="80"
+         y1="30"
+         x2="60"
+         y2="30"
+         id="line58" />
       <svg:text
          id="2"
-         x="116"
-         y="4"
-         transform="rotate(0,116,4)"
-         style="font-family:arial;font-weight:normal;font-size:9px;text-anchor:end;">SW</svg:text>
+         x="56"
+         y="34"
+         style="font-weight:normal;font-size:9px;font-family:arial;text-anchor:end">GND</svg:text>
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="140"
-         y1="60"
-         x2="120"
-         y2="60"
-         id="line292" />
+         x1="80"
+         y1="-30"
+         x2="60"
+         y2="-30"
+         id="line59" />
       <svg:text
          id="3"
-         x="116"
-         y="64"
-         transform="rotate(0,116,64)"
-         style="font-family:arial;font-weight:normal;font-size:9px;text-anchor:end;">GND</svg:text>
+         x="56"
+         y="-26"
+         style="font-weight:normal;font-size:9px;font-family:arial;text-anchor:end">SW</svg:text>
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="140"
-         y1="20"
-         x2="120"
-         y2="20"
-         id="line295" />
+         x1="-80"
+         y1="-30"
+         x2="-60"
+         y2="-30"
+         id="line60" />
       <svg:text
          id="4"
-         x="116"
-         y="24"
-         transform="rotate(0,116,24)"
-         style="font-family:arial;font-weight:normal;font-size:9px;text-anchor:end;">PG</svg:text>
+         x="-56"
+         y="-26"
+         style="font-weight:normal;font-size:9px;font-family:arial;text-anchor:start">VIN</svg:text>
       <svg:line
          fill="none"
          stroke="#000000"
          stroke-width="2"
          stroke-linecap="round"
          stroke-linejoin="round"
-         x1="0"
-         y1="40"
-         x2="20"
-         y2="40"
-         id="line298" />
+         x1="80"
+         y1="10"
+         x2="60"
+         y2="10"
+         id="line61" />
       <svg:text
          id="5"
-         x="24"
-         y="44"
-         transform="rotate(0,24,44)"
-         style="font-family:arial;font-weight:normal;font-size:9px;text-anchor:start;">EN</svg:text>
-      <svg:line
-         fill="none"
-         stroke="#000000"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         x1="140"
-         y1="40"
-         x2="120"
-         y2="40"
-         id="line301" />
-      <svg:text
-         id="6"
-         x="116"
-         y="44"
-         transform="rotate(0,116,44)"
-         style="font-family:arial;font-weight:normal;font-size:9px;text-anchor:end;">FB</svg:text>
-    </svg:g>
-    <svg:g
-       id="WB_VOLTAGE_PROBE">
-      <circle
-         opacity="0.01"
-         fill="#ffffff"
-         stroke="#000000"
-         stroke-width="0"
-         cx="0"
-         cy="0"
-         r="14" />
-      <svg:rect
-         stroke-width="1"
-         width="20"
-         stroke="#CC0000"
-         x="-10"
-         height="19.5"
-         y="-30"
-         fill="#CC0000"
-         fill-opacity="0.01"
-         id="rect305" />
-      <svg:polyline
-         stroke="#CC0000"
-         points="7,-27 4,-22 3,-26 0,-18 -1,-22 -5,-14  "
-         stroke-linejoin="round"
-         fill="none"
-         stroke-width="2"
-         stroke-linecap="round"
-         id="polyline307" />
-      <svg:line
-         y1="0"
-         x2="0"
-         stroke="#CC0000"
-         x1="0"
-         fill="none"
-         stroke-width="2"
-         y2="-10"
-         id="line309" />
+         x="56"
+         y="14"
+         style="font-weight:normal;font-size:9px;font-family:arial;text-anchor:end">FB</svg:text>
     </svg:g>
     <svg:g
        id="WB_GND">
@@ -965,860 +989,717 @@
          r="14" />
       <svg:line
          fill="none"
-         stroke="black"
+         stroke="#000000"
          stroke-width="2"
          x1="0"
          y1="-10"
          x2="0"
          y2="0"
-         id="line312" />
+         id="line62" />
       <svg:line
          fill="none"
-         stroke="black"
+         stroke="#000000"
          stroke-width="2"
          x1="-13"
          y1="0"
          x2="13"
          y2="0"
-         id="line314" />
+         id="line63" />
       <svg:line
          fill="none"
-         stroke="black"
+         stroke="#000000"
          stroke-width="2"
          x1="-9"
          y1="4"
          x2="9"
          y2="4"
-         id="line316" />
+         id="line64" />
       <svg:line
          fill="none"
-         stroke="black"
+         stroke="#000000"
          stroke-width="2"
          x1="-3"
          y1="8"
          x2="3"
          y2="8"
-         id="line318" />
+         id="line65" />
+    </svg:g>
+    <svg:g
+       id="WB_PRIMITIVE_BATTERY">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-8"
+         y1="0"
+         x2="-30"
+         y2="0"
+         id="line66" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-7"
+         y1="12"
+         x2="-7"
+         y2="-12"
+         id="line67" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="4"
+         y1="12"
+         x2="4"
+         y2="-12"
+         id="line68" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="30"
+         y1="0"
+         x2="11"
+         y2="0"
+         id="line69" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-2"
+         y1="5"
+         x2="-2"
+         y2="-5"
+         id="line70" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-1"
+         y1="5"
+         x2="-1"
+         y2="-5"
+         id="line71" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-14"
+         y1="-9"
+         x2="-14"
+         y2="-15"
+         id="line72" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-11"
+         y1="-12"
+         x2="-17"
+         y2="-12"
+         id="line73" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="13"
+         y1="-10"
+         x2="13"
+         y2="-15"
+         id="line74" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="10"
+         y1="5"
+         x2="10"
+         y2="-5"
+         id="line75" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="9"
+         y1="5"
+         x2="9"
+         y2="-5"
+         id="line76" />
+    </svg:g>
+    <svg:g
+       id="WB_BATTERY">
+      <circle
+         opacity="0.01"
+         fill="#ffffff"
+         stroke="#000000"
+         stroke-width="0"
+         cx="0"
+         cy="0"
+         r="14" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-8"
+         y1="0"
+         x2="-30"
+         y2="0"
+         id="line77" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-7"
+         y1="12"
+         x2="-7"
+         y2="-12"
+         id="line78" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="4"
+         y1="12"
+         x2="4"
+         y2="-12"
+         id="line79" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="30"
+         y1="0"
+         x2="11"
+         y2="0"
+         id="line80" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-2"
+         y1="5"
+         x2="-2"
+         y2="-5"
+         id="line81" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-1"
+         y1="5"
+         x2="-1"
+         y2="-5"
+         id="line82" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-14"
+         y1="-9"
+         x2="-14"
+         y2="-15"
+         id="line83" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="-11"
+         y1="-12"
+         x2="-17"
+         y2="-12"
+         id="line84" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="13"
+         y1="-10"
+         x2="13"
+         y2="-15"
+         id="line85" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="10"
+         y1="5"
+         x2="10"
+         y2="-5"
+         id="line86" />
+      <svg:line
+         fill="none"
+         stroke="#cc0000"
+         stroke-width="2"
+         x1="9"
+         y1="5"
+         x2="9"
+         y2="-5"
+         id="line87" />
     </svg:g>
   </svg:defs>
-  <svg:rect
-     style="fill:#ffffff;fill-rule:evenodd;stroke-width:24.1554;stroke-linecap:square;stroke-linejoin:round"
-     id="rect841"
-     width="1383.838"
-     height="362.92499"
-     x="68"
-     y="65.444"
-     ry="5.0391774" />
-  <svg:use
-     id="Coutx"
-     class="comp"
-     xlink:href="#WB_CAPACITOR"
-     x="1320.0"
-     y="295.0"
-     transform="rotate(-90, 1320.0, 295.0)"
-     cap="100nF"
-     partNo="CGA3E2X7R1H104K080AA"
-     thermalId="0603"
-     esr="29.6mOhm"
-     manufacturer="TDK" />
-  <svg:text
-     for="Coutx"
-     x="1335.0"
-     y="295.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text324">Coutx</svg:text>
-  <svg:text
-     for="Coutx"
-     x="1335.0"
-     y="305.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text326">100nF</svg:text>
-  <svg:text
-     for="Coutx"
-     x="1335.0"
-     y="315.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text328">29.6mOhm</svg:text>
   <svg:use
      id="Cin"
      class="comp"
      xlink:href="#WB_CAPACITOR"
-     x="170.0"
-     y="295.0"
-     transform="rotate(-90, 170.0, 295.0)"
-     cap="10uF"
-     partNo="C0805C106K8PACTU"
-     thermalId="0805"
-     esr="3mOhm"
-     manufacturer="Kemet" />
-  <svg:text
-     for="Cin"
-     x="185.0"
-     y="295.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text331">Cin</svg:text>
-  <svg:text
-     for="Cin"
-     x="185.0"
-     y="305.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text333">10uF</svg:text>
-  <svg:text
-     for="Cin"
-     x="185.0"
-     y="315.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text335">3mOhm</svg:text>
-  <svg:text
-     for="Cin"
-     x="185.0"
-     y="325.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text337">Qty=2</svg:text>
-  <svg:use
-     id="Rpg"
-     class="comp"
-     xlink:href="#WB_RESISTOR"
-     x="870.0"
-     y="110.0"
-     transform="rotate(-180, 870.0, 110.0)"
-     partNo="CRCW040210K0FKED"
-     thermalId="0402"
-     resistance="10kOhm"
-     manufacturer="Vishay-Dale" />
-  <svg:text
-     for="Rpg"
-     x="850.0"
-     y="95.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text340">Rpg</svg:text>
-  <svg:text
-     for="Rpg"
-     x="850.0"
-     y="130.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text342">10kOhm</svg:text>
-  <svg:use
-     id="L1"
-     class="comp"
-     xlink:href="#WB_INDUCTOR"
-     x="1030.0"
-     y="170.0"
-     transform="rotate(-180, 1030.0, 170.0) scale(1,-1) translate(0,-340.0)"
-     partNo="VLCF4028T-2R2N1R9-2"
-     thermalId="VLCF4028"
-     l="2.2uH"
-     dcr="43mOhm"
+     x="195"
+     y="225"
+     transform="rotate(-90,128.29687,226.29687)"
+     cap="4.7uF"
+     partNo="C1608X7S1A475K080AC"
+     thermalId="0603"
+     esr="3.728mOhm"
      manufacturer="TDK" />
   <svg:text
-     for="L1"
-     x="1010.0"
-     y="155.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text345">L1</svg:text>
+     for="Cin"
+     x="142"
+     y="159.59375"
+     style="font-size:13px;font-family:arial;fill:#115566;stroke:#115566;stroke-width:0.5"
+     id="text87">Cin</svg:text>
   <svg:text
-     for="L1"
-     x="1010.0"
-     y="190.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text347">2.2uH</svg:text>
+     for="Cin"
+     x="142"
+     y="169.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text88">4.7uF</svg:text>
   <svg:text
-     for="L1"
-     x="1010.0"
-     y="200.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text349">43mOhm</svg:text>
+     for="Cin"
+     x="142"
+     y="179.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text89">3.728mOhm</svg:text>
   <svg:use
      id="Cout"
      class="comp"
      xlink:href="#WB_CAPACITOR"
-     x="1225.0"
-     y="290.0"
-     transform="rotate(-90, 1225.0, 290.0)"
-     cap="22uF"
-     partNo="GRM21BR61A226ME44L"
-     thermalId="0805"
-     esr="3mOhm"
+     x="630"
+     y="210"
+     transform="rotate(-90,563.29687,211.29687)"
+     cap="10uF"
+     partNo="GRJ155R60J106ME11D"
+     thermalId="0402_070"
+     esr="8mOhm"
      manufacturer="MuRata" />
   <svg:text
      for="Cout"
-     x="1240.0"
-     y="290.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text352">Cout</svg:text>
+     x="577"
+     y="144.59375"
+     style="font-size:13px;font-family:arial;fill:#115566;stroke:#115566;stroke-width:0.5"
+     id="text90">Cout</svg:text>
   <svg:text
      for="Cout"
-     x="1240.0"
-     y="300.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text354">22uF</svg:text>
+     x="577"
+     y="154.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text91">10uF</svg:text>
   <svg:text
      for="Cout"
-     x="1240.0"
-     y="310.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text356">3mOhm</svg:text>
+     x="577"
+     y="164.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text92">8mOhm</svg:text>
+  <svg:text
+     for="Cout"
+     x="577"
+     y="174.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text93">Qty=3</svg:text>
+  <svg:use
+     id="L1"
+     class="comp"
+     xlink:href="#WB_INDUCTOR"
+     x="495"
+     y="110"
+     partNo="IHLP2020CZER2R2M11"
+     thermalId="IHLP-2020CZ"
+     l="2.2uH"
+     dcr="25mOhm"
+     manufacturer="Vishay-Dale"
+     transform="translate(-68,-65.40625)" />
+  <svg:text
+     for="L1"
+     x="407"
+     y="29.59375"
+     style="font-size:13px;font-family:arial;fill:#115566;stroke:#115566;stroke-width:0.5"
+     id="text94">L1</svg:text>
+  <svg:text
+     for="L1"
+     x="407"
+     y="64.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text95">2.2uH</svg:text>
+  <svg:text
+     for="L1"
+     x="407"
+     y="74.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text96">25mOhm</svg:text>
   <svg:use
      id="U1"
      class="comp"
-     xlink:href="#WB_TPS563252DRL"
-     x="690.0"
-     y="170.0" />
+     xlink:href="#WB_TLV62569DBV"
+     x="310"
+     y="140"
+     transform="translate(-68,-65.40625)" />
   <svg:text
      for="U1"
-     x="670.0"
-     y="170.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text359">U1</svg:text>
-  <svg:use
-     id="Cinx"
-     class="comp"
-     xlink:href="#WB_CAPACITOR"
-     x="255.0"
-     y="295.0"
-     transform="rotate(-90, 255.0, 295.0)"
-     cap="100nF"
-     partNo="GRM188R71H104KA93D"
-     thermalId="0603"
-     esr="20mOhm"
-     manufacturer="MuRata" />
-  <svg:text
-     for="Cinx"
-     x="270.0"
-     y="295.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text362">Cinx</svg:text>
-  <svg:text
-     for="Cinx"
-     x="270.0"
-     y="305.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text364">100nF</svg:text>
-  <svg:text
-     for="Cinx"
-     x="270.0"
-     y="315.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text366">20mOhm</svg:text>
-  <svg:use
-     id="Rfbb"
-     class="comp"
-     xlink:href="#WB_RESISTOR"
-     x="1165.0"
-     y="335.0"
-     transform="rotate(-90, 1165.0, 335.0)"
-     partNo="CRCW040210K0FKED"
-     thermalId="0402"
-     resistance="10kOhm"
-     manufacturer="Vishay-Dale" />
-  <svg:text
-     for="Rfbb"
-     x="1180.0"
-     y="335.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text369">Rfbb</svg:text>
-  <svg:text
-     for="Rfbb"
-     x="1180.0"
-     y="345.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text371">10kOhm</svg:text>
+     x="222"
+     y="74.59375"
+     style="font-size:13px;font-family:arial;fill:#115566;stroke:#115566;stroke-width:0.5"
+     id="text97">U1</svg:text>
   <svg:use
      id="Rfbt"
      class="comp"
      xlink:href="#WB_RESISTOR"
-     x="1165.0"
-     y="245.0"
-     transform="rotate(-90, 1165.0, 245.0)"
-     partNo="CRCW040245K3FKED"
+     x="545"
+     y="165"
+     transform="rotate(-90,478.29687,166.29687)"
+     partNo="CRCW0402453KFKED"
      thermalId="0402"
-     resistance="45.3kOhm"
+     resistance="453kOhm"
      manufacturer="Vishay-Dale" />
   <svg:text
      for="Rfbt"
-     x="1180.0"
-     y="245.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text374">Rfbt</svg:text>
+     x="492"
+     y="99.59375"
+     style="font-size:13px;font-family:arial;fill:#115566;stroke:#115566;stroke-width:0.5"
+     id="text98">Rfbt</svg:text>
   <svg:text
      for="Rfbt"
-     x="1180.0"
-     y="255.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text376">45.3kOhm</svg:text>
+     x="492"
+     y="109.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text99">453kOhm</svg:text>
   <svg:use
-     id="Renb"
+     id="Rfbb"
      class="comp"
      xlink:href="#WB_RESISTOR"
-     x="445.0"
-     y="335.0"
-     transform="rotate(-90, 445.0, 335.0)"
-     partNo="TNPW040232K0BEED"
-     thermalId="0402"
-     resistance="32kOhm"
-     manufacturer="Vishay-Dale" />
-  <svg:text
-     for="Renb"
-     x="460.0"
-     y="335.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text379">Renb</svg:text>
-  <svg:text
-     for="Renb"
-     x="460.0"
-     y="345.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text381">32kOhm</svg:text>
-  <svg:use
-     id="Rent"
-     class="comp"
-     xlink:href="#WB_RESISTOR"
-     x="445.0"
-     y="240.0"
-     transform="rotate(-90, 445.0, 240.0)"
+     x="545"
+     y="265"
+     transform="rotate(-90,478.29687,266.29687)"
      partNo="CRCW0402100KFKED"
      thermalId="0402"
      resistance="100kOhm"
      manufacturer="Vishay-Dale" />
   <svg:text
-     for="Rent"
-     x="460.0"
-     y="240.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text384">Rent</svg:text>
+     for="Rfbb"
+     x="492"
+     y="199.59375"
+     style="font-size:13px;font-family:arial;fill:#115566;stroke:#115566;stroke-width:0.5"
+     id="text100">Rfbb</svg:text>
   <svg:text
-     for="Rent"
-     x="460.0"
-     y="250.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text386">100kOhm</svg:text>
+     for="Rfbb"
+     x="492"
+     y="209.59375"
+     style="font-size:10px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.1"
+     id="text101">100kOhm</svg:text>
   <svg:use
-     id="GND2"
+     id="GND8"
      class="other"
      xlink:href="#WB_GND"
-     x="615.0"
-     y="400.0" />
-  <svg:use
-     id="Cff"
-     class="comp"
-     xlink:href="#WB_CAPACITOR"
-     x="1090.0"
-     y="230.0"
-     transform="rotate(-90, 1090.0, 230.0)"
-     cap="56pF"
-     partNo="UMK105CG560JV-F"
-     thermalId="0402"
-     esr="0Ohm"
-     manufacturer="Taiyo Yuden" />
-  <svg:text
-     for="Cff"
-     x="1105.0"
-     y="230.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;"
-     id="text390">Cff</svg:text>
-  <svg:text
-     for="Cff"
-     x="1105.0"
-     y="240.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text392">56pF</svg:text>
-  <svg:text
-     for="Cff"
-     x="1105.0"
-     y="250.0"
-     style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;"
-     id="text394">0Ohm</svg:text>
+     x="315"
+     y="355"
+     transform="translate(-68,-65.40625)" />
   <svg:use
      id="Vin"
      class="other"
      xlink:href="#WB_BATTERY"
-     x="100.0"
-     y="250.0"
-     transform="rotate(-270, 100.0, 250.0)" />
+     x="100"
+     y="190"
+     transform="rotate(90,98.703125,123.29688)" />
   <svg:text
      for="Vin"
-     x="115.0"
-     y="250.0"
-     style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#CC0000;fill:#CC0000;"
-     id="text397">Vin</svg:text>
-  <svg:use
-     id="Iout"
-     class="other"
-     xlink:href="#WB_CURRENT_LOAD"
-     x="1395.0"
-     y="260.0"
-     transform="rotate(-270, 1395.0, 260.0)" />
-  <svg:text
-     for="Iout"
-     x="1410"
-     y="246"
+     x="47"
+     y="124.59375"
      style="font-size:13px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.5"
-     id="text400">Iout</svg:text>
+     id="text102">Vin</svg:text>
+  <svg:use
+     id="Rload"
+     class="other"
+     xlink:href="#WB_LOAD_RESISTOR"
+     x="750"
+     y="260"
+     transform="rotate(-90,683.29687,261.29687)" />
+  <svg:text
+     for="Rload"
+     x="697"
+     y="194.59375"
+     style="font-size:13px;font-family:arial;fill:#cc0000;stroke:#cc0000;stroke-width:0.5"
+     id="text103">Rload</svg:text>
   <svg:line
-     x1="1245.0"
-     y1="110.0"
-     x2="900.0"
-     y2="110.0"
+     x1="382"
+     y1="149.59375"
+     x2="382"
+     y2="84.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line402" />
+     id="line103" />
   <svg:line
-     x1="840.0"
-     y1="190.0"
-     x2="840.0"
-     y2="110.0"
+     x1="382"
+     y1="149.59375"
+     x2="477"
+     y2="149.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line404" />
+     id="line104" />
   <svg:line
-     x1="1245.0"
-     y1="170.0"
-     x2="1245.0"
-     y2="110.0"
+     x1="477"
+     y1="169.59375"
+     x2="477"
+     y2="129.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line406" />
+     id="line105" />
   <svg:line
-     x1="830.0"
-     y1="190.0"
-     x2="840.0"
-     y2="190.0"
+     x1="322"
+     y1="84.59375"
+     x2="382"
+     y2="84.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line408" />
+     id="line106" />
   <svg:line
-     x1="1165.0"
-     y1="305.0"
-     x2="1165.0"
-     y2="275.0"
+     x1="477"
+     y1="69.59375"
+     x2="477"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line410" />
+     id="line107" />
   <svg:line
-     x1="1165.0"
-     y1="215.0"
-     x2="1165.0"
-     y2="170.0"
+     x1="477"
+     y1="264.59375"
+     x2="477"
+     y2="229.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line412" />
+     id="line108" />
   <svg:line
-     x1="1165.0"
-     y1="390.0"
-     x2="1165.0"
-     y2="365.0"
+     x1="127"
+     y1="264.59375"
+     x2="127"
+     y2="189.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line414" />
+     id="line109" />
   <svg:line
-     x1="510.0"
-     y1="285.0"
-     x2="445.0"
-     y2="285.0"
+     x1="162"
+     y1="74.59375"
+     x2="127"
+     y2="74.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line416" />
+     id="line110" />
   <svg:line
-     x1="445.0"
-     y1="305.0"
-     x2="445.0"
-     y2="270.0"
+     x1="247"
+     y1="279.59375"
+     x2="247"
+     y2="264.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line418" />
+     id="line111" />
   <svg:line
-     x1="510.0"
-     y1="210.0"
-     x2="510.0"
-     y2="285.0"
+     x1="322"
+     y1="104.59375"
+     x2="322"
+     y2="264.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line420" />
+     id="line112" />
   <svg:line
-     x1="445.0"
-     y1="390.0"
-     x2="445.0"
-     y2="365.0"
+     x1="562"
+     y1="174.59375"
+     x2="562"
+     y2="264.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line422" />
+     id="line113" />
   <svg:line
-     x1="445.0"
-     y1="210.0"
-     x2="445.0"
-     y2="170.0"
+     x1="127"
+     y1="129.59375"
+     x2="127"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line424" />
+     id="line114" />
   <svg:line
-     x1="510.0"
-     y1="210.0"
-     x2="690.0"
-     y2="210.0"
+     x1="562"
+     y1="114.59375"
+     x2="562"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line426" />
+     id="line115" />
   <svg:line
-     x1="1090.0"
-     y1="290.0"
-     x2="1090.0"
-     y2="260.0"
+     x1="32"
+     y1="44.59375"
+     x2="162"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line428" />
+     id="line116" />
   <svg:line
-     x1="850.0"
-     y1="290.0"
-     x2="1165.0"
-     y2="290.0"
+     x1="457"
+     y1="44.59375"
+     x2="682"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line430" />
+     id="line117" />
   <svg:line
-     x1="850.0"
-     y1="210.0"
-     x2="850.0"
-     y2="290.0"
+     x1="32"
+     y1="264.59375"
+     x2="682"
+     y2="264.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line432" />
+     id="line118" />
   <svg:line
-     x1="1090.0"
-     y1="200.0"
-     x2="1090.0"
-     y2="170.0"
+     x1="322"
+     y1="44.59375"
+     x2="397"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line434" />
+     id="line119" />
   <svg:line
-     x1="830.0"
-     y1="210.0"
-     x2="850.0"
-     y2="210.0"
+     x1="32"
+     y1="94.59375"
+     x2="32"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line436" />
+     id="line120" />
   <svg:line
-     x1="1320.0"
-     y1="325.0"
-     x2="1320.0"
-     y2="390.0"
+     x1="32"
+     y1="264.59375"
+     x2="32"
+     y2="154.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line438" />
+     id="line121" />
   <svg:line
-     x1="255.0"
-     y1="325.0"
-     x2="255.0"
-     y2="390.0"
+     x1="682"
+     y1="164.59375"
+     x2="682"
+     y2="44.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line440" />
+     id="line122" />
   <svg:line
-     x1="255.0"
-     y1="265.0"
-     x2="255.0"
-     y2="170.0"
+     x1="682"
+     y1="264.59375"
+     x2="682"
+     y2="224.59375"
      stroke="#000000"
      stroke-width="2"
      fill="none"
-     id="line442" />
-  <svg:line
-     x1="1320.0"
-     y1="265.0"
-     x2="1320.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line444" />
-  <svg:line
-     x1="1225.0"
-     y1="320.0"
-     x2="1225.0"
-     y2="390.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line446" />
-  <svg:line
-     x1="170.0"
-     y1="325.0"
-     x2="170.0"
-     y2="390.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line448" />
-  <svg:line
-     x1="830.0"
-     y1="230.0"
-     x2="830.0"
-     y2="390.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line450" />
-  <svg:line
-     x1="100.0"
-     y1="170.0"
-     x2="690.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line452" />
-  <svg:line
-     x1="170.0"
-     y1="265.0"
-     x2="170.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line454" />
-  <svg:line
-     x1="830.0"
-     y1="170.0"
-     x2="1000.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line456" />
-  <svg:line
-     x1="100.0"
-     y1="390.0"
-     x2="1395.0"
-     y2="390.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line458" />
-  <svg:line
-     x1="1225.0"
-     y1="260.0"
-     x2="1225.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line460" />
-  <svg:line
-     x1="1060.0"
-     y1="170.0"
-     x2="1395.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line462" />
-  <svg:line
-     x1="100.0"
-     y1="220.0"
-     x2="100.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line464" />
-  <svg:line
-     x1="100.0"
-     y1="390.0"
-     x2="100.0"
-     y2="280.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line466" />
-  <svg:line
-     x1="1395.0"
-     y1="230.0"
-     x2="1395.0"
-     y2="170.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line468" />
-  <svg:line
-     x1="1395.0"
-     y1="390.0"
-     x2="1395.0"
-     y2="290.0"
-     stroke="#000000"
-     stroke-width="2"
-     fill="none"
-     id="line470" />
+     id="line123" />
   <svg:circle
-     cx="1165.0"
-     cy="290.0"
+     cx="477"
+     cy="149.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle472" />
+     id="circle123" />
   <svg:circle
-     cx="445.0"
-     cy="285.0"
+     cx="127"
+     cy="74.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle474" />
+     id="circle124" />
   <svg:circle
-     cx="1090.0"
-     cy="290.0"
+     cx="127"
+     cy="44.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle476" />
+     id="circle125" />
   <svg:circle
-     cx="445.0"
-     cy="170.0"
+     cx="477"
+     cy="44.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle478" />
+     id="circle126" />
   <svg:circle
-     cx="255.0"
-     cy="170.0"
+     cx="562"
+     cy="44.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle480" />
+     id="circle127" />
   <svg:circle
-     cx="170.0"
-     cy="170.0"
+     cx="477"
+     cy="264.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle482" />
+     id="circle128" />
   <svg:circle
-     cx="1165.0"
-     cy="390.0"
+     cx="127"
+     cy="264.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle484" />
+     id="circle129" />
   <svg:circle
-     cx="445.0"
-     cy="390.0"
+     cx="247"
+     cy="264.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle486" />
+     id="circle130" />
   <svg:circle
-     cx="1320.0"
-     cy="390.0"
+     cx="322"
+     cy="264.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle488" />
+     id="circle131" />
   <svg:circle
-     cx="255.0"
-     cy="390.0"
+     cx="562"
+     cy="264.59375"
      r="5"
      stroke="#000000"
      stroke-width="0"
      fill="#000000"
-     id="circle490" />
-  <svg:circle
-     cx="1225.0"
-     cy="390.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle492" />
-  <svg:circle
-     cx="170.0"
-     cy="390.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle494" />
-  <svg:circle
-     cx="830.0"
-     cy="390.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle496" />
-  <svg:circle
-     cx="1245.0"
-     cy="170.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle498" />
-  <svg:circle
-     cx="1165.0"
-     cy="170.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle500" />
-  <svg:circle
-     cx="1090.0"
-     cy="170.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle502" />
-  <svg:circle
-     cx="1320.0"
-     cy="170.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle504" />
-  <svg:circle
-     cx="1225.0"
-     cy="170.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle506" />
-  <svg:circle
-     cx="615.0"
-     cy="390.0"
-     r="5"
-     stroke="#000000"
-     stroke-width="0"
-     fill="#000000"
-     id="circle508" />
+     id="circle132" />
 </svg:svg>

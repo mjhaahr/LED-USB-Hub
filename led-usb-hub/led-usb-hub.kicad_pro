@@ -678,7 +678,7 @@
       },
       {
         "netclass": "Logic",
-        "pattern": "PWR*"
+        "pattern": "*PWR_*"
       },
       {
         "netclass": "LED",
