@@ -2,7 +2,7 @@
 
 ![Full Board Design Render](images/render.png)
  
-Features:
+## Features
 - USB C Port for Upstream
 - 3 USB 2.0 Downstream Ports
     - USB A, Full Speed
@@ -13,7 +13,13 @@ Features:
     - Using a TI 4 Port USB Controller
 - Status LEDs for Power and USB Connection
 
+## PCBWay
+Version 3 of the RGB LED USB Hub was kindly supported by PCBWay who graciously provided the PCBs for this project.
+![PCBWay Logo](images/pcbway.svg)
+
 ## Table Of Contents
+- [Features](#features)
+- [PCBWay](#pcbway)
 - [Bill Of Materials](#bill-of-materials)
 - [Part Selection](#part-selection)
 - [Case Design](#case-design)
