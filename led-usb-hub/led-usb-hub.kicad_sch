@@ -1474,180 +1474,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1948,6 +1774,297 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HSMF-C143:HSMF-C143"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2369/HSMF-C143.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED AMBER/GREEN CLEAR SMD R/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HSMF-C143_0_1"
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HSMF-C143_1_1"
+				(text "C1\n"
+					(at 5.08 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 99 99 1)
+						)
+						(justify left)
+					)
+				)
+				(text "C2"
+					(at 5.08 -4.064 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 99 99 1)
+						)
+						(justify left)
+					)
+				)
+				(text "Amber\n"
+					(at 7.62 1.016 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(italic yes)
+							(color 132 0 132 1)
+						)
+						(justify left)
+					)
+				)
+				(text "Green"
+					(at 7.62 -4.064 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(italic yes)
+							(color 132 0 132 1)
+						)
+						(justify left)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.048)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7592,7 +7709,7 @@
 	)
 	(text "Status LEDs"
 		(exclude_from_sim no)
-		(at 339.09 232.41 0)
+		(at 339.09 229.87 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7848,12 +7965,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0030492a-711c-4216-b041-897390a7ff2a")
-	)
-	(junction
-		(at 393.7 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "076f3d96-d72e-4082-b230-8ecd59b01998")
 	)
 	(junction
 		(at 81.28 82.55)
@@ -8268,12 +8379,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd8d540-5bc5-4a6d-a417-23d455ce4670")
-	)
-	(junction
-		(at 377.19 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cea8c60-ef9b-4737-b4ee-ecd123ca30b1")
 	)
 	(junction
 		(at 99.06 215.9)
@@ -9447,6 +9552,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 240.03) (xy 389.89 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac79a6f-6e3e-4088-b0bc-cb313e6ffeb6")
+	)
+	(wire
+		(pts
 			(xy 73.66 215.9) (xy 73.66 218.44)
 		)
 		(stroke
@@ -9714,16 +9829,6 @@
 			(type default)
 		)
 		(uuid "37e72617-11bf-453f-bad0-a1870b921a5b")
-	)
-	(wire
-		(pts
-			(xy 386.08 243.84) (xy 393.7 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ed514c-aee7-4805-aee1-1b220c71f8be")
 	)
 	(wire
 		(pts
@@ -10137,7 +10242,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 243.84) (xy 378.46 243.84)
+			(xy 369.57 242.57) (xy 374.65 242.57)
 		)
 		(stroke
 			(width 0)
@@ -11417,7 +11522,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 237.49) (xy 378.46 237.49)
+			(xy 369.57 237.49) (xy 374.65 237.49)
 		)
 		(stroke
 			(width 0)
@@ -11664,16 +11769,6 @@
 			(type default)
 		)
 		(uuid "95d363c3-a9d2-4a77-b853-23d838ec76d7")
-	)
-	(wire
-		(pts
-			(xy 386.08 237.49) (xy 393.7 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95fab165-0611-4402-8708-b34ada9022b0")
 	)
 	(wire
 		(pts
@@ -12107,7 +12202,7 @@
 	)
 	(polyline
 		(pts
-			(xy 337.82 227.965) (xy 407.924 227.965)
+			(xy 337.82 225.044) (xy 407.924 225.044)
 		)
 		(stroke
 			(width 0.25)
@@ -12177,7 +12272,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 237.49) (xy 365.76 237.49)
+			(xy 359.41 237.49) (xy 361.95 237.49)
 		)
 		(stroke
 			(width 0)
@@ -12227,7 +12322,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 243.84) (xy 365.76 243.84)
+			(xy 359.41 242.57) (xy 361.95 242.57)
 		)
 		(stroke
 			(width 0)
@@ -12364,16 +12459,6 @@
 			(type default)
 		)
 		(uuid "b604d081-155e-4d7a-b905-b5e792d186fa")
-	)
-	(wire
-		(pts
-			(xy 393.7 237.49) (xy 393.7 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b615efb2-07f0-4811-9304-db7f826473ba")
 	)
 	(polyline
 		(pts
@@ -12764,16 +12849,6 @@
 			(type default)
 		)
 		(uuid "c4fee910-b5d9-42fe-b389-183e1b3655c2")
-	)
-	(wire
-		(pts
-			(xy 393.7 243.84) (xy 393.7 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c50b0345-98af-4670-a6ca-ac6a6469b810")
 	)
 	(wire
 		(pts
@@ -13277,6 +13352,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 237.49) (xy 392.43 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf10f25-54b1-4ffa-9dc8-0794b4e59e21")
+	)
+	(wire
+		(pts
 			(xy 345.44 104.14) (xy 342.9 104.14)
 		)
 		(stroke
@@ -13574,16 +13659,6 @@
 			(type default)
 		)
 		(uuid "eab35338-6a53-4fb8-9679-25eca3936956")
-	)
-	(wire
-		(pts
-			(xy 374.65 182.88) (xy 377.19 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb263e69-6a30-4b7d-9e12-4850173b0bb3")
 	)
 	(wire
 		(pts
@@ -14219,7 +14294,7 @@
 		(uuid "4c045914-c1bb-4867-bceb-d86dad1cb106")
 	)
 	(label "LED_USB'"
-		(at 374.65 243.84 270)
+		(at 370.84 242.57 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14296,7 +14371,7 @@
 		(uuid "98043735-7c30-4918-b9cc-66abcaf60979")
 	)
 	(label "LED_PWR'"
-		(at 374.65 237.49 90)
+		(at 370.84 237.49 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14440,7 +14515,7 @@
 	)
 	(global_label "LED_PWR"
 		(shape input)
-		(at 363.22 237.49 180)
+		(at 359.41 237.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14450,7 +14525,7 @@
 		)
 		(uuid "03d1eac9-cb1e-4a83-94a7-52edde37867e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 351.9081 237.49 0)
+			(at 348.0981 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16112,7 +16187,7 @@
 	)
 	(global_label "LED_USB"
 		(shape input)
-		(at 363.22 243.84 180)
+		(at 359.41 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16122,7 +16197,7 @@
 		)
 		(uuid "fff61c4e-164e-4eec-870c-bdef7ba67f50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.0895 243.84 0)
+			(at 348.2795 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17450,79 +17525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 393.7 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f5b5f4c-317e-4abd-9248-ec1ecabc8fc4")
-		(property "Reference" "#PWR070"
-			(at 393.7 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 393.7 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 393.7 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 393.7 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5cbc2e1-ae4e-4f0d-85db-3821539470a9")
-		)
-		(instances
-			(project "led-usb-hub"
-				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-			(project "REMCC Sensor Board"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 146.05 151.13 0)
 		(mirror x)
@@ -18198,7 +18200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a1eeda7-5843-4848-a331-1dcaff43f9dd")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 346.71 118.872 0)
 			(effects
 				(font
@@ -18255,83 +18257,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 382.27 237.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b720d52-ef20-4871-a0f3-b081eb45f59d")
-		(property "Reference" "D1"
-			(at 382.27 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR"
-			(at 382.27 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 382.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color" "Orange"
-			(at 382.27 239.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "615fbb26-e150-4bf8-b69b-49aa1ea1ab1e")
-		)
-		(pin "2"
-			(uuid "c31a47fd-77f3-407c-84a5-4f156afb6edd")
-		)
-		(instances
-			(project "led-usb-hub"
-				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -18690,6 +18616,77 @@
 			(project "REMCC Sensor Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSMF-C143:HSMF-C143")
+		(at 382.27 240.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21c658ee-3f9f-4473-b70d-b19cc6171946")
+		(property "Reference" "D1"
+			(at 384.556 233.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 382.2065 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HSMF-C143:HSMF-C143"
+			(at 382.27 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2369/HSMF-C143.pdf"
+			(at 382.27 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED AMBER/GREEN CLEAR SMD R/A"
+			(at 382.27 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4bab0a71-c2d8-4a6c-a7e9-0422d827e544")
+		)
+		(pin "1"
+			(uuid "c4eac9dc-6431-466a-aa69-34b0b573b5af")
+		)
+		(pin "2"
+			(uuid "6ebfd254-1c5c-48b5-a582-07297f305f2f")
+		)
+		(instances
+			(project ""
+				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -21180,7 +21177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4541e72e-9ad2-4e00-868c-d3fff9a1f847")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 393.7 108.966 0)
 			(effects
 				(font
@@ -21237,7 +21234,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -23525,7 +23522,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 369.57 237.49 90)
+		(at 365.76 237.49 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23534,15 +23531,15 @@
 		(dnp no)
 		(uuid "69b3e99b-7ff6-402c-bf68-96079a0a9a13")
 		(property "Reference" "R13"
-			(at 369.57 232.41 90)
+			(at 365.76 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2k"
-			(at 369.57 234.95 90)
+		(property "Value" "1.74k"
+			(at 365.76 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23550,7 +23547,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 369.824 238.506 90)
+			(at 366.014 238.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23559,7 +23556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 369.57 237.49 0)
+			(at 365.76 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23568,7 +23565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 369.57 237.49 0)
+			(at 365.76 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24758,7 +24755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81b7b5df-40f9-4a28-9151-f691889475c4")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 386.08 42.418 0)
 			(effects
 				(font
@@ -24815,7 +24812,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -26144,7 +26141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d302ac1-a433-4d25-8f14-b7fc172cab8a")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 102.87 38.0999 90)
 			(effects
 				(font
@@ -26207,7 +26204,7 @@
 		(instances
 			(project ""
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -26839,7 +26836,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 369.57 243.84 90)
+		(at 365.76 242.57 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26848,15 +26845,15 @@
 		(dnp no)
 		(uuid "a9f785a5-6387-4ad7-bdd8-15fc63a0b3d1")
 		(property "Reference" "R14"
-			(at 369.57 247.015 90)
+			(at 365.76 245.745 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 369.57 249.555 90)
+		(property "Value" "665"
+			(at 365.76 248.285 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26864,7 +26861,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 369.824 244.856 90)
+			(at 366.014 243.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26873,7 +26870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 369.57 243.84 0)
+			(at 365.76 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26882,7 +26879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 369.57 243.84 0)
+			(at 365.76 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27334,6 +27331,71 @@
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
 					(reference "J2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3_PI")
+		(at 392.43 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aef3eb65-a2f2-40d9-aa5d-7f85544bd88c")
+		(property "Reference" "#PWR076"
+			(at 392.43 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_MCU"
+			(at 392.43 232.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 392.43 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bccbddba-0b8f-408b-8fda-7731bc2f3a68")
+		)
+		(instances
+			(project "led-usb-hub"
+				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
+					(reference "#PWR076")
+					(unit 1)
 				)
 			)
 		)
@@ -27859,82 +27921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 382.27 243.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b49b3c2e-3d20-4178-99db-04442b25fd1b")
-		(property "Reference" "D2"
-			(at 382.27 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB"
-			(at 382.27 248.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 382.27 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.27 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.27 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color" "Green"
-			(at 382.27 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f6961d5-aeb4-4fe5-86fb-ed787ce261ae")
-		)
-		(pin "2"
-			(uuid "d95aacee-7542-4e46-b8b6-6e52d8d29031")
-		)
-		(instances
-			(project "led-usb-hub"
-				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 264.16 41.91 0)
 		(mirror y)
@@ -28020,7 +28006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b601f8f5-9ac7-42c6-ab49-191cd0603032")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 342.138 33.02 0)
 			(effects
 				(font
@@ -28077,7 +28063,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -28359,7 +28345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c28b61c3-a6b2-4521-be20-333bae51fbe9")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 183.642 46.736 0)
 			(effects
 				(font
@@ -28416,7 +28402,7 @@
 		(instances
 			(project "led-usb-hub"
 				(path "/872229b5-49ea-4e15-b82a-ed1f213c1d75"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)

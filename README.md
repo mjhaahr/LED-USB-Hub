@@ -59,23 +59,18 @@ Features:
         - [Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max803-max810z.pdf)
         - [DigiKey](https://www.DigiKey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX809TEUR-T/1173228)
 - Diodes
-    - Lite-On LTST-S270KFKT - Orange Power LED
+    - Broadcom HSMF-C143 - Dual Color (Amber: Power/Green: USB) Status LED
         - Component: D1
         - Quantity: 1
-        - [Datasheet](https://optoelectronics.liteon.com/upload/download/DS22-2000-209/LTST-S270KFKT.pdf)
-        - [DigiKey](https://www.DigiKey.com/en/products/detail/liteon/LTST-S270KFKT/386891)    
-    - Lite-On LTST-S270KGKT - Green USB Status LED
-        - Component: D2
-        - Quantity: 1
-        - [Datasheet](https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf)
-        - [DigiKey](https://www.DigiKey.com/en/products/detail/liteon/LTST-S270KGKT/386893)    
+        - [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2369/HSMF-C143.pdf)
+        - [DigiKey](https://www.digikey.com/en/products/detail/HSMF-C143/5800153)    
     - TI ESD441- 1-Channel VUSB ESD Diode
-        - Component: D3
+        - Component: D2
         - Quantity: 1
         - [Datasheet](https://www.ti.com/lit/ds/symlink/esd441.pdf)
         - [DigiKey](https://www.DigiKey.com/en/products/detail/texas-instruments/ESD441DPLR/21298753)    
     - TI TPD2EUSB30 - 2-Channel USB ESD/TVS Diode
-        - Component: D4, D5, D6, D7, D8
+        - Component: D3, D4, D5, D6, D7
         - Quantity: 5
         - [Datasheet](https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)
         - [DigiKey](https://www.DigiKey.com/en/products/detail/texas-instruments/TPD2EUSB30DRTR/2193486)
@@ -155,11 +150,11 @@ Features:
         - Component: R10, R11, R12, R46, R47, R48, R40, R45
         - Quantity: 9
         - [DigiKey]()
-    - 2kΩ
+    - 1.74kΩ
         - Component: R13
         - Quantity: 1
         - [DigiKey]()
-    - 2.4kΩ
+    - 665Ω
         - Component: R14
         - Quantity: 1
         - [DigiKey]()
@@ -199,16 +194,16 @@ Features:
 - LED Resistors:
     - Indicators:
         - Target Intensity of 2.5mcd
-        - Orange:
-            - Average 77mcd @ 20mA (curve compensated)
-            - Forward Voltage of 1.3V
-            - Target Current: ~0.65mA
-            - Resistance: 2kΩ
+        - Amber:
+            - Average 66mcd @ 20mA
+            - Forward Voltage of 2V
+            - Target Current: ~0.75mA
+            - Resistance: 1.74kΩ
         - Green:
-            - 90mcd @ 20mA
-            - Forward Voltage of 1.3V
-            - Target Current: ~0.55mA
-            - Resistance: 2.4kΩ
+            - Average 25.5mcd @ 20mA
+            - Forward Voltage of 2V
+            - Target Current: ~1.96mA
+            - Resistance: 665Ω
     - USB:
         - Target Intensity of 200mcd
         - Red:
@@ -217,12 +212,12 @@ Features:
             - Target Current: ~6.5mA
             - Resistance: 200Ω
         - Green:
-            - Average 77mcd @ 20mA
+            - Average 800mcd @ 20mA
             - Forward Voltage of 0.3V
             - Target Current: ~5mA
             - Resistance: 62Ω
         - Blue:
-            - Average 77mcd @ 20mA
+            - Average 350mcd @ 20mA
             - Forward Voltage of 0.3V
             - Target Current: ~11.5mA
             - Resistance: 27Ω
@@ -259,7 +254,7 @@ Features:
     - Switch to 4 Layer Board with correct implementation of USB Hardware Guidelines
 - Version 3:
     - Switch to STM32 (STM32L552)
-    - Shrink
+    - Shrink board
     - Switch to Oscillators from Crystals
     - 3V3 Regulators using a larger package
-    - Add more RGB LEDs
+    - Fully Enclosed 3D Printed Case

@@ -11,4 +11,5 @@
   (lib (name "TLV62569PDDCR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TLV62569PDDCR/TLV62569PDDCR.kicad_sym")(options "")(descr ""))
   (lib (name "EVQ_P7L01P")(type "KiCad")(uri "${KIPRJMOD}/Parts/EVQ_P7L01P/EVQ-P7L01P.kicad_sym")(options "")(descr ""))
   (lib (name "SRP4020FA_2R2M")(type "KiCad")(uri "${KIPRJMOD}/Parts/SRP4020FA_2R2M/2025-06-08_23-23-06.kicad_sym")(options "")(descr ""))
+  (lib (name "HSMF-C143")(type "KiCad")(uri "${KIPRJMOD}/Parts/HSMF-C143/HSMF-C143.kicad_sym")(options "")(descr ""))
 )
