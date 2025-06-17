@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.2-0"
+      "Version": "9.0.2"
     },
-    "CreationDate": "2024-03-07T21:22:06-08:00"
+    "CreationDate": "2025-06-16T09:35:24-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 127.1,
-      "Y": 50.9
+      "X": 58.5,
+      "Y": 38.8
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6262,
@@ -28,7 +28,7 @@
       "PadToPad": 0.15,
       "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
-      "MinLineWidth": 0.2,
+      "MinLineWidth": 0.15,
       "TrackToRegion": 0.15,
       "RegionToRegion": 0.15
     },
@@ -37,9 +37,9 @@
       "PadToPad": 0.15,
       "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
-      "MinLineWidth": 0.5,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "MinLineWidth": 0.15,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
     }
   ],
   "FilesAttributes": [
@@ -50,12 +50,12 @@
     },
     {
       "Path": "led-usb-hub-In1_Cu (GND).gbr",
-      "FileFunction": "Copper,L2,Inr",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "led-usb-hub-In2_Cu (GND).gbr",
-      "FileFunction": "Copper,L3,Inr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
