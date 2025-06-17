@@ -11,4 +11,6 @@
   (lib (name "EVQ_P7L01P")(type "KiCad")(uri "${KIPRJMOD}/Parts/EVQ_P7L01P")(options "")(descr ""))
   (lib (name "SRP4020FA_2R2M")(type "KiCad")(uri "${KIPRJMOD}/Parts/SRP4020FA_2R2M/footprints.pretty")(options "")(descr ""))
   (lib (name "HSMF-C143")(type "KiCad")(uri "${KIPRJMOD}/Parts/HSMF-C143")(options "")(descr ""))
+  (lib (name "ECS_2033_080_BN")(type "KiCad")(uri "${KIPRJMOD}/Parts/ECS_2033_080_BN")(options "")(descr ""))
+  (lib (name "ECS_2033_060_BN")(type "KiCad")(uri "${KIPRJMOD}/Parts/ECS_2033_060_BN")(options "")(descr ""))
 )

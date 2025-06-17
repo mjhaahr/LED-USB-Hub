@@ -54,11 +54,11 @@ Version 3 of the RGB LED USB Hub was kindly supported by PCBWay who graciously p
         - Quantity: 2
         - [Datasheet](https://www.ti.com/lit/ds/symlink/tlv62569.pdf)
         - [DigiKey](https://www.DigiKey.com/en/products/detail/texas-instruments/TLV62569PDDCR/8106072)
-    - TI TPS2042BD - USB Power Switch (500 mA)
+    - TI TPS2042BDR - USB Power Switch (500 mA)
         - Component: U5, U6
         - Quantity: 2
         - [Datasheet](https://www.ti.com/lit/ds/symlink/tps2042b.pdf)
-        - [DigiKey](https://www.DigiKey.com/en/products/detail/texas-instruments/TPS2042BD/1670762)
+        - [DigiKey](https://www.digikey.com/en/products/detail/texas-instruments/TPS2042BDR/656532)
     - Analog Devices/Maxim Integrated MAX809 - 3V Power Supervisor
         - Component: U7
         - Quantity: 1
@@ -98,98 +98,98 @@ Version 3 of the RGB LED USB Hub was kindly supported by PCBWay who graciously p
         - [Datasheet](https://4donline.ihs.com/images/VipMasterIC/IC/PANA/PANAS45028/PANAS45028-1.pdf?hkey=52A5661711E402568146F3353EA87419)
         - [DigiKey](https://www.DigiKey.com/en/products/detail/panasonic-electronic-components/EVQ-P7L01P/4429453)
 - Oscillators 
-    - Kyocera AVX KC2520Z8.00000C1KX00 - STM32 8 MHz HSE
+    - ECS ECS-2033-080-BN - STM32 8 MHz HSE
         - Component: Y1
         - Quantity: 1
-        - [Datasheet](https://ele.kyocera.com/assets/products/crystal-device/clock_z_e.pdf)
-        - [DigiKey](https://www.DigiKey.com/en/products/detail/kyocera-avx/KC2520Z8-00000C1KX00/9490897)
-    - Kyocera AVX KC2520Z6.00000C1GX00 - USB Controller 6 MHz
+        - [Datasheet](https://ecsxtal.com/store/pdf/ecs-2025-2033.pdf)
+        - [DigiKey](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2033-080-BN/1693364)
+    - ECS ECS-2033-060-BN - USB Controller 6 MHz
         - Component: Y2
         - Quantity: 1
-        - [Datasheet](https://ele.kyocera.com/assets/products/crystal-device/clock_z_e.pdf)
-        - [DigiKey](https://www.DigiKey.com/en/products/detail/kyocera-avx/KC2520Z6-00000C1GX00/22612409)
+        - [Datasheet](https://ecsxtal.com/store/pdf/ecs-2025-2033.pdf)
+        - [DigiKey](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2033-060-BN/1693362)
 - Capacitors
     - *All Components are 0603 MLCC Capacitors unless otherwise noted*
     - 100nF
         - Component: C1, C2, C3, C4, C5, C9, C11, C12, C34, C35, C37, C39, C41
         - Quantity: 13
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822)
     - 10µF
         - Component: C6, C25, C27, C28, C29, C31, C32, C33
         - Quantity: 8
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603MRX5R6BB106/5195224)
     - 1µF
         - Component: C7, C10, C24
         - Quantity: 3
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R8BB105/2833610)
     - 10nF
         - Component: C8, C13
         - Quantity: 2
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R8BB103/2103098)
     - 22pF
         - Component: C14, C15, C16, C17, C18, C19, C20, C21, C22, C23
         - Quantity: 10
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603JRNPO8BN220/5883592)
     - 4.7µF
         - Component: C26, C30
         - Quantity: 2
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R7BB475/5195193)
     - 100µF - Tantalum
         - Component: C36, C38, C40
         - Quantity: 3
-        - [DigiKey](https://www.DigiKey.com/en/products/detail/kyocera-avx/TAJB107M010RNJ/1469629)
+        - [DigiKey](https://www.digikey.com/en/products/detail/kyocera-avx/TAJB107K010RNJ/9748493)
 - Resistors:
     - *All Components are 0603 Thick Film Resistors unless otherwise noted*
     - 200Ω
         - Component: R1, R4, R7
         - Quantity: 3
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-13200RL/13694128)
     - 62Ω
         - Component: R2, R5, R8
         - Quantity: 3
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0762RL/727335)
     - 27Ω
         - Component: R3, R6, R9, R15, R16, R18, R19, R22, R23, R26, R27, R30, R31
         - Quantity: 13
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RT0603BRD0727RL/1072412)
     - 10kΩ
         - Component: R10, R11, R12, R46, R47, R48, R40, R45
         - Quantity: 9
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880)
     - 1.74kΩ
         - Component: R13
         - Quantity: 1
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-071K74L/726872)
     - 665Ω
         - Component: R14
         - Quantity: 1
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07665RL/727349)
     - 1.5kΩ
         - Component: R17
         - Quantity: 1
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-071K5L/726864)
     - 15kΩ
         - Component: R20, R21, R24, R25, R28, R29, R32, R33
         - Quantity: 8
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0715KL/726953)
     - 5.1kΩ
         - Component: R34, R35
         - Quantity: 2
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268)
     - 453kΩ
         - Component: R41, R43
         - Quantity: 2
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07453KL/727247)
     - 100kΩ
         - Component: R42, R44
         - Quantity: 2
-        - [DigiKey]()
+        - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889)
 - Inductor
     - Bourns SRP4020FA-2R2M - 2.2µH Inductor
         - Component: L1, L2
         - Quantity: 2
         - [Datasheet](https://www.bourns.com/docs/Product-Datasheets/SRP4020FA.pdf)
-        - [DigiKey](https://www.DigiKey.com/en/products/detail/bourns-inc/SRP4020FA-2R2M/935101)
+        - [DigiKey](https://www.DigiKey.com/en/products/detail/bourns-inc/SRP4020FA-2R2M/9351010)
         
 ## Part Selection
 - Power Supply selected using TI Webench Power Designer:
