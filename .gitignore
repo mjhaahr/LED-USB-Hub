@@ -42,6 +42,7 @@ fp-info-cache
 build/
 build-*/
 docs/genrst/
+binaries/
 
 # Test failure outputs
 tests/results/*
@@ -217,3 +218,8 @@ cython_debug/
 .idea/
 
 USB_Hub_CircuitPython/
+
+# STM32IDE
+*.project
+.*project
+.settings

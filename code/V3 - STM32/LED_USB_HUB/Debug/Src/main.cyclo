@@ -1,0 +1,11 @@
+../Src/main.c:78:5:main	1
+../Src/main.c:128:6:SystemClock_Config	4
+../Src/main.c:177:13:MX_ICACHE_Init	3
+../Src/main.c:209:13:MX_TIM1_Init	9
+../Src/main.c:299:13:MX_TIM2_Init	8
+../Src/main.c:366:13:MX_TIM3_Init	8
+../Src/main.c:433:13:MX_USART1_UART_Init	5
+../Src/main.c:481:13:MX_USB_PCD_Init	2
+../Src/main.c:514:13:MX_GPIO_Init	1
+../Src/main.c:592:6:HAL_TIM_PeriodElapsedCallback	2
+../Src/main.c:610:6:Error_Handler	1
