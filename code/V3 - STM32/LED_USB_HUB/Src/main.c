@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "RGB_USB_HUB.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -107,7 +108,7 @@ int main(void)
   MX_USB_PCD_Init();
   MX_ICACHE_Init();
   /* USER CODE BEGIN 2 */
-
+  HUB_Init(&htim1, &htim2, &htim3, &hpcd_USB_FS);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -525,7 +526,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, LED_USB_Pin|LED_PWR_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, LED_USB_Pin|LED_PWR_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pins : PC13 PC14 PC15 */
   GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15;
@@ -599,7 +600,10 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     HAL_IncTick();
   }
   /* USER CODE BEGIN Callback 1 */
-
+  else if (htim->Instance == TIM7) {
+	  // Piggyback on TIM7 1ms updates to trigger the task calls
+	  HUB_Task();
+  }
   /* USER CODE END Callback 1 */
 }
 

@@ -43,6 +43,8 @@ build/
 build-*/
 docs/genrst/
 binaries/
+**/Debug
+**/Release
 
 # Test failure outputs
 tests/results/*
