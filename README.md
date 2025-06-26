@@ -2,6 +2,8 @@
 
 <!-- ![Assembled USB Hub](images/working-usb-hub.png) -->
 
+![Assembled PCB](images/assembled_board.jpg)
+
 ![Full Board Design Render](images/render.png)
  
 ## Features
@@ -17,6 +19,11 @@
 
 ## PCBWay
 Version 3 of the RGB LED USB Hub was kindly supported by PCBWay who graciously provided the PCBs for this project.
+
+PCBWay offers very affordable and high quality PCB manufacturing and assembly as well as CNC machining and 3D printing for hobbyists, low volume prototyping, and even commercial use. The provide fast turnaround times, an easy to use service, and highly accurate and detailed boards all at a low cost. 
+
+![Unassembled Boards](images/blank_boards.png)
+
 ![PCBWay Logo](images/pcbway.svg)
 
 ## Table Of Contents
@@ -260,6 +267,7 @@ Version 3 of the RGB LED USB Hub was kindly supported by PCBWay who graciously p
     - Proper standalone RP2040 implementation
     - Switch to TUSB2046 4-Port USB Controller
     - Switch to 4 Layer Board with correct implementation of USB Hardware Guidelines
+![Assembled Version 2 USB Hub](images/working-usb-hub.png)
 - Version 3:
     - Switch to STM32 (STM32L552)
     - Shrink board
