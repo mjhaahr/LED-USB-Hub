@@ -38,9 +38,9 @@ typedef struct {
 
 // LED Container
 typedef struct {
-	__IO uint32_t redCCR;		// CCRx Register For the Red Channel
-	__IO uint32_t greenCCR;		// CCRx Register For the Green Channel
-	__IO uint32_t blueCCR;		// CCRx Register For the Blue Channel
+	__IO uint32_t* redCCR;		// CCRx Register For the Red Channel
+	__IO uint32_t* greenCCR;    // CCRx Register For the Green Channel
+	__IO uint32_t* blueCCR;		// CCRx Register For the Blue Channel
 } HUB_LED_s;
 
 // RGB USB Hub Module Context
@@ -192,9 +192,9 @@ static void HUB_UpdateLEDs(void) {
  * @param HUB_Color_s color - The color to set
  */
 static void HUB_UpdateLED(HUB_LED_s* led, HUB_Color_s color) {
-	led->redCCR   = color.red;
-	led->greenCCR = color.green;
-	led->blueCCR  = color.blue;
+	*led->redCCR   = color.red;
+	*led->greenCCR = color.green;
+	*led->blueCCR  = color.blue;
 }
 
 /**
