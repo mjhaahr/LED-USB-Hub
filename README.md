@@ -18,11 +18,11 @@
 - Status LEDs for Power and USB Connection
 
 ## PCBWay
-Version 3 of the RGB LED USB Hub was kindly supported by PCBWay who graciously provided the PCBs for this project.
-
-PCBWay offers very affordable and high quality PCB manufacturing and assembly as well as CNC machining and 3D printing for hobbyists, low volume prototyping, and even commercial use. The provide fast turnaround times, an easy to use service, and highly accurate and detailed boards all at a low cost. 
+Version 3 of the RGB LED USB Hub was kindly supported by PCBWay, who graciously provided the PCBs for this project.
 
 ![Unassembled Boards](images/blank_boards.png)
+
+PCBWay offers very affordable and high-quality PCB manufacturing and assembly, as well as CNC machining and 3D printing, for hobbyists, low-volume prototyping, and even commercial use. They provide fast turnaround times, an easy-to-use service, and highly accurate and detailed boards all at a low cost. Their Standard PCBs satisfy most needs for reliable circuit boards: offering precise boards, layer counts up to 14, a wide variety of soldermask and silkscreen colors - even full color printing, and different materials like aluminum. But they also offer Advanced PCBs for even greater capabilities and performance or Flexible/Rigid-Flex PCBs when the designs need to bend. 
 
 ![PCBWay Logo](images/pcbway.svg)
 
