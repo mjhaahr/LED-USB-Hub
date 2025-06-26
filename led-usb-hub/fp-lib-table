@@ -13,4 +13,5 @@
   (lib (name "HSMF-C143")(type "KiCad")(uri "${KIPRJMOD}/Parts/HSMF-C143")(options "")(descr ""))
   (lib (name "ECS_2033_080_BN")(type "KiCad")(uri "${KIPRJMOD}/Parts/ECS_2033_080_BN")(options "")(descr ""))
   (lib (name "ECS_2033_060_BN")(type "KiCad")(uri "${KIPRJMOD}/Parts/ECS_2033_060_BN")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPS2075DB/footprints.pretty")(options "")(descr ""))
 )

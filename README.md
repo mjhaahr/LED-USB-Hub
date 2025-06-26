@@ -274,3 +274,5 @@ PCBWay offers very affordable and high-quality PCB manufacturing and assembly, a
     - Switch to Oscillators from Crystals
     - 3V3 Regulators using a larger package
     - Fully Enclosed 3D Printed Case
+- Version 4:
+    - Switch USB Power Switches to single TPS2075 to handle reset logic

@@ -743,6 +743,14 @@
       {
         "netclass": "Logic",
         "pattern": "BOOT*"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "BPMODE"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*PG_DLY"
       }
     ]
   },

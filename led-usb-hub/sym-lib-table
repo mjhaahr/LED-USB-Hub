@@ -14,4 +14,5 @@
   (lib (name "HSMF-C143")(type "KiCad")(uri "${KIPRJMOD}/Parts/HSMF-C143/HSMF-C143.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-2033-080-BN")(type "KiCad")(uri "${KIPRJMOD}/Parts/ECS_2033_080_BN/ECS-2033-080-BN.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-2033-060-BN")(type "KiCad")(uri "${KIPRJMOD}/Parts/ECS_2033_060_BN/ECS-2033-060-BN.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2075DB")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPS2075DB/TPS2075DB.kicad_sym")(options "")(descr ""))
 )
